@@ -1,1 +1,1370 @@
-[]
+[
+    {
+        "id": "2395f6adbeb5589e",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "04e74bfb6596ce71",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fa784fa1435d5307",
+        "type": "ui_group",
+        "name": "Chart",
+        "tab": "04e74bfb6596ce71",
+        "order": 4,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "52b1af9da22ea88d",
+        "type": "ui_group",
+        "name": "Table",
+        "tab": "04e74bfb6596ce71",
+        "order": 3,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f3927f275c56e254",
+        "type": "ui_group",
+        "name": "Map",
+        "tab": "04e74bfb6596ce71",
+        "order": 5,
+        "disp": false,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "774ee64a3e4f9afd",
+        "type": "ui_group",
+        "name": "Speed",
+        "tab": "04e74bfb6596ce71",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d4280360375e908f",
+        "type": "ui_group",
+        "name": "Vibrate",
+        "tab": "04e74bfb6596ce71",
+        "order": 2,
+        "disp": false,
+        "width": 11,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c7722013df684059",
+        "type": "ui_tab",
+        "name": "Reports",
+        "icon": "fa-file-text-o",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "031a4b4761184c01",
+        "type": "ui_group",
+        "name": "Reports",
+        "tab": "c7722013df684059",
+        "order": 2,
+        "disp": false,
+        "width": 21,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6293bb60cd5176bd",
+        "type": "ui_group",
+        "name": "Date",
+        "tab": "c7722013df684059",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9d8916742217f067",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#00af92",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#363e4e",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#00af92",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#00af92",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#00fbd2",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#00af92",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 6,
+                "py": 6
+            }
+        }
+    },
+    {
+        "id": "2f7b91658fa4b836",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "e8d8356d6cbe7c7f",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "031a4b4761184c01",
+        "order": 2,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "e482cf6bb99ae3fd",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "774ee64a3e4f9afd",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dbcdb510a6a647f6",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "774ee64a3e4f9afd",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4bbcd15ba03f7a8d",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f13c8da6c0a18124",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f286358d83c2fcda",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 2,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "c0b82201e3c321f2",
+        "type": "inject",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 500,
+        "wires": [
+            [
+                "cceee3556467f723"
+            ]
+        ]
+    },
+    {
+        "id": "cceee3556467f723",
+        "type": "http request",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://magellan.ais.co.th/asgardpullmessagesapis/api/listen/thing?Key=7F2C352CFD200D8929D6EAAB96AC3BF9",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Authorization",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
+            }
+        ],
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "8a94a7e0c0e511ca",
+                "766f3332cee93ef8",
+                "c2c8b72f44c91f03",
+                "3721c53a7f781a2c",
+                "2a0beba6d09f1b84",
+                "42617033f5e92d2a",
+                "8a55c164cea5cfcc"
+            ]
+        ]
+    },
+    {
+        "id": "8a94a7e0c0e511ca",
+        "type": "debug",
+        "z": "2395f6adbeb5589e",
+        "name": "payload.Sensor",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.Sensor",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "766f3332cee93ef8",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func chart",
+        "func": "let sensor = msg.payload.Sensor;\n\nlet roll = sensor[\"Roll(X)\"];\nlet pitch = sensor[\"Pitch(Y)\"];\nlet yaw = sensor[\"Yaw(Z)\"];\nlet location = sensor[\"Location\"];\n\nmsg.topic = \"Yaw(Z)\"\nmsg.payload = yaw;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "c2fdbefbfc9f93d7"
+            ]
+        ]
+    },
+    {
+        "id": "c2fdbefbfc9f93d7",
+        "type": "ui_chart",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "group": "fa784fa1435d5307",
+        "order": 1,
+        "width": 10,
+        "height": 6,
+        "label": "Inclination sensors",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "-30",
+        "ymax": "30",
+        "removeOlder": "20",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#3982ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "css-chart",
+        "x": 770,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2c8b72f44c91f03",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Location",
+        "func": "let centerLat = 13.7563;\nlet centerLon = 100.5018;\n\nlet lat = centerLat + (Math.random() - 0.5) * 0.02;\nlet lon = centerLon + (Math.random() - 0.5) * 0.02;\n\n// ดึงเส้นทางจาก context หรือเริ่มใหม่\nlet track = context.get('track') || [];\n\n// เพิ่มตำแหน่งใหม่เข้าไปในเส้นทาง\ntrack.push([lon, lat]);\ncontext.set('track', track);\n\n// Marker ล่าสุด\nlet newMarker = {\n    name: \"GPS\",\n    lat: lat,\n    lon: lon,\n    icon: \"circle\",\n    layer: \"points\"\n};\n\n// เส้นเชื่อมจุดทั้งหมดที่เคยไป\nlet newLine = {\n    name: \"Track Line\",\n    line: track,\n    layer: \"track\",\n    color: \"#c44948\",\n    width: 3,\n    opacity: 0.8\n};\n\n// ส่งออกไปแสดงผล\nmsg.payload = [newMarker, newLine];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 700,
+        "wires": [
+            [
+                "502bc8cf4254df76"
+            ]
+        ]
+    },
+    {
+        "id": "512e1b45269e49f2",
+        "type": "ui_worldmap",
+        "z": "2395f6adbeb5589e",
+        "group": "f3927f275c56e254",
+        "order": 1,
+        "width": 8,
+        "height": 7,
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "true",
+        "path": "/worldmap",
+        "overlist": "",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 860,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "502bc8cf4254df76",
+        "type": "worldmap-tracks",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "depth": "30",
+        "layer": "combined",
+        "smooth": true,
+        "x": 710,
+        "y": 700,
+        "wires": [
+            [
+                "512e1b45269e49f2"
+            ]
+        ]
+    },
+    {
+        "id": "42617033f5e92d2a",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "d4280360375e908f",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "name": "Vibrate",
+        "label": "<span class=\"label-small\">Vibrate</span>",
+        "format": "<span class=\"value\">{{msg.payload.Sensor[\"Roll(X)\"]}}</span>",
+        "layout": "col-center",
+        "className": "custom-vibrate",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#6bd3ff",
+        "x": 540,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3721c53a7f781a2c",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func table",
+        "func": "let sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nlet tableData = flow.get(\"saveData\") || [];\n\ntableData.unshift({\n    \"timestamp\": new Date(time).toLocaleString(\"th-TH\", {\n            hour12: false\n        }),\n    \"Yaw(Z)\" : sensor[\"Yaw(Z)\"],\n    \"Location\" : sensor[\"Location\"]\n});\n\nif (tableData.length > 10) tableData.pop();\n\nflow.set(\"saveData\", tableData);\n\n\nreturn [\n    { payload: [] },           \n    { payload: tableData }     \n];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 840,
+        "wires": [
+            [
+                "d387d31dc5a24c56"
+            ],
+            [
+                "e70bfd9508d50177"
+            ]
+        ]
+    },
+    {
+        "id": "e70bfd9508d50177",
+        "type": "ui_table",
+        "z": "2395f6adbeb5589e",
+        "group": "52b1af9da22ea88d",
+        "name": "",
+        "order": 1,
+        "width": 10,
+        "height": 9,
+        "columns": [
+            {
+                "field": "timestamp",
+                "title": "Date / Time",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Yaw(Z)",
+                "title": "Tilt",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Location",
+                "title": "Location",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 710,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "d387d31dc5a24c56",
+        "type": "ui_table",
+        "z": "2395f6adbeb5589e",
+        "d": true,
+        "group": "52b1af9da22ea88d",
+        "name": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 710,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "2a0beba6d09f1b84",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func chart",
+        "func": "msg.payload = Math.random() * 20\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 380,
+        "wires": [
+            [
+                "4e247153add37b1e"
+            ]
+        ]
+    },
+    {
+        "id": "4e247153add37b1e",
+        "type": "ui_chart",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "group": "d4280360375e908f",
+        "order": 2,
+        "width": 8,
+        "height": 4,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "20",
+        "removeOlder": "20",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#c04d4e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "css-chart",
+        "x": 710,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5dbf458e000ae539",
+        "type": "ui_button",
+        "z": "2395f6adbeb5589e",
+        "d": true,
+        "name": "refresh",
+        "group": "fa784fa1435d5307",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "Refresh",
+        "color": "",
+        "bgcolor": "",
+        "className": "refresh-box",
+        "icon": "fa-refresh",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 540,
+        "y": 640,
+        "wires": [
+            [
+                "c2fdbefbfc9f93d7"
+            ]
+        ]
+    },
+    {
+        "id": "80a055e1155e6570",
+        "type": "ui_form",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "label": "Filter",
+        "group": "6293bb60cd5176bd",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "options": [
+            {
+                "label": "Start Date",
+                "value": "start_date",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "End Date",
+                "value": "end_date",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "start_date": "",
+            "end_date": ""
+        },
+        "payload": "",
+        "submit": "Load Data",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 550,
+        "y": 1100,
+        "wires": [
+            [
+                "19b45fb0c66ebb40"
+            ]
+        ]
+    },
+    {
+        "id": "356545e82ebdcdd5",
+        "type": "mongodb3 in",
+        "z": "2395f6adbeb5589e",
+        "service": "_ext_",
+        "configNode": "2f7b91658fa4b836",
+        "name": "Mongodb",
+        "collection": "mongodb",
+        "operation": "find.toArray",
+        "x": 540,
+        "y": 1020,
+        "wires": [
+            [
+                "b9255b97cafc8484"
+            ]
+        ]
+    },
+    {
+        "id": "d977e0ceb1b876eb",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Data func",
+        "func": "msg.payload = {}; \nmsg.collection = \"mongodb\"; \nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1020,
+        "wires": [
+            [
+                "356545e82ebdcdd5"
+            ]
+        ]
+    },
+    {
+        "id": "b9255b97cafc8484",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Array func",
+        "func": "function parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet obj = msg.payload;\nlet dataArray = Object.values(obj);\n\ndataArray = dataArray.filter(entry => {\n    let date = parseThaiDateTime(entry.timestamp);\n    return date !== null;\n});\n\ndataArray.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n    return dateB.getTime() - dateA.getTime(); \n});\n\nflow.set(\"allData\", dataArray);\n\nmsg.payload = dataArray;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1020,
+        "wires": [
+            [
+                "046f2e638559406a"
+            ]
+        ]
+    },
+    {
+        "id": "f3014217c0b44d67",
+        "type": "ui_table",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "Table Reports",
+        "order": 1,
+        "width": 21,
+        "height": 14,
+        "columns": [
+            {
+                "field": "timestamp",
+                "title": "Date / Time",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Yaw(Z)",
+                "title": "Tilt",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Location",
+                "title": "Location",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1100,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "19b45fb0c66ebb40",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Filter",
+        "func": "let startDate = new Date(msg.payload.start_date);\nlet endDate = new Date(msg.payload.end_date);\nendDate.setHours(23, 59, 59, 999); \n\nlet allData = flow.get(\"allData\") || [];\n\nfunction parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet filtered = allData.filter(entry => {\n    if (!entry.timestamp) return false;\n    let entryDate = parseThaiDateTime(entry.timestamp);\n    if (!entryDate) return false;\n\n    return entryDate >= startDate && entryDate <= endDate;\n});\n\nfiltered.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n\n    if (!dateA || !dateB) return 0;\n\n    return dateA.getTime() - dateB.getTime(); // เรียงจากเก่า → ใหม่\n});\n\nmsg.payload = filtered;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1100,
+        "wires": [
+            [
+                "046f2e638559406a"
+            ]
+        ]
+    },
+    {
+        "id": "05bbbe9c04888db4",
+        "type": "mongodb3 in",
+        "z": "2395f6adbeb5589e",
+        "service": "_ext_",
+        "configNode": "2f7b91658fa4b836",
+        "name": "PUT-Mongodb",
+        "collection": "mongodb",
+        "operation": "insert",
+        "x": 300,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "710ccec27749f960",
+        "type": "ui_button",
+        "z": "2395f6adbeb5589e",
+        "name": "refresh",
+        "group": "031a4b4761184c01",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "Refresh",
+        "color": "",
+        "bgcolor": "",
+        "className": "refresh-box",
+        "icon": "fa-refresh",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 1080,
+        "wires": [
+            [
+                "d977e0ceb1b876eb"
+            ]
+        ]
+    },
+    {
+        "id": "985d14740c33b8b0",
+        "type": "inject",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1020,
+        "wires": [
+            [
+                "d977e0ceb1b876eb"
+            ]
+        ]
+    },
+    {
+        "id": "96bec991166f6a66",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func Database",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 400,
+        "wires": [
+            [
+                "05bbbe9c04888db4"
+            ]
+        ]
+    },
+    {
+        "id": "a8d90e62cdb2e94d",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "d": true,
+        "group": "fa784fa1435d5307",
+        "name": "Css Chart",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .nr-dashboard-chart {\n        border-radius: 16px !important;\n        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n        /* background: linear-gradient(135deg, #ffffff 0%, #f1f1f1 100%) !important; */\n        /* padding: 10px;\n        margin: 10px; */\n        border: 1px solid #ddd;\n        transition: all 0.3s ease;\n    }\n\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 240,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "741acc4dd15d9a81",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "name": "CSS GOBAL",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n\n@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mozilla+Headline:wght@200..700&family=Noto+Sans+Thai+Looped:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');\n\nbody, .nr-dashboard-theme{\n  font-family: 'Jost', sans-serif !important;\n}\n\n\n    /*Main background*/\n    /* body {\n            background: -webkit-linear-gradient(\n            55deg,\n            #2e3b5e 0%,\n            #296a81 50%,\n            #2b8a90 100%\n        );\n    } */\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar{\n        background-color: #FFFFFF !important;\n        margin: 0px\n        color: #092621 !important;\n    }\n\n    body.nr-dashboard-theme md-content md-card {\n        /* background-color: transparent !important; */\n        color: #092621 !important;\n    }\n    \n    body.nr-dashboard-theme md-toolbar .md-toolbar-tools {\n        color: #00af92;\n        font-weight: bold;\n    }\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: #FFFFFF !important;\n        border-radius: 10px !important;\n        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n        margin: 10px !important;\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border-radius: 10px !important;\n    }\n\n    /* ชื่อ Group */\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: #00af92 !important;\n    }\n\n    /* ปุ่ม */\n    /* .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: #00af92 !important;\n    }\n    \n    .md-button {\n        border-radius: 10px !important;\n    } */\n\n    .nr-dashboard-cardcontainer {\n        margin: 5px !important;\n    }\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 90,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "83232ae903f9c10f",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "d": true,
+        "name": "Location",
+        "func": "let sensor = msg.payload.Sensor;\nlet location = sensor[\"Location\"]; \n\n\nlet [lat, lon] = location.split(',').map(parseFloat);\n\n\nlet track = context.get('track') || [];\n\n\ntrack.push([lon, lat]); \n\ncontext.set('track', track);\n\n\nlet newMarker = {\n    name: \"Magellan GPS\",\n    lat: lat,\n    lon: lon,\n    icon: \"circle\",\n    layer: \"magellan_points\"  \n};\n\n\nlet newLine = {\n    name: \"Track Line\",\n    line: track,\n    layer: \"magellan_track\",\n    color: \"red\",\n    width: 2,\n    opacity: 0.7\n};\n\n\nmsg.payload = [newMarker, newLine];\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e6de543868748a0",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "52b1af9da22ea88d",
+        "name": "css-table",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n      .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    /* ข้อมูลในตาราง */\n    .tabulator .tabulator-row {\n        height: 40px !important;\n        border-bottom: 1px solid #ccc !important;\n        text-align: left !important;\n    }\n\n    /* ลูกษร */\n    .tabulator-arrow {\n    display: none !important;\n}\n    \n</style>\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 240,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd9a7e3565919983",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "d4280360375e908f",
+        "name": "vibrate-box",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .custom-vibrate {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        height: 100%;\n        text-align: center;\n    }\n\n    .custom-vibrate .label-small {\n        font-size: 12px !important;\n        color: #092621;\n        margin-bottom: 4px;\n    }\n\n    .custom-vibrate .value {\n        font-size: 50px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 90,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a548628b70c2937",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "name": "refresh-box",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.refresh-box button.md-button {\n    border-radius: 50% !important;\n    width: 40px !important;\n    height: 40px !important;\n    margin: 5px;\n    background-color: #00af92 !important; \n}\n\n.refresh-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 670,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca43211b30962f57",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "name": "css-chart",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.css-chart .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n} \n</style>\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 520,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1c7c7aa8264eb20",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "css-tableReports",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n      .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    /* ข้อมูลในตาราง */\n    .tabulator .tabulator-row {\n        height: 40px !important;\n        border-bottom: 1px solid #ccc !important;\n        text-align: left !important;\n    }\n\n    /* ลูกษร\n    .tabulator-arrow {\n    display: none !important;\n} */\n    \n</style>\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 410,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "813d992951178b2c",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "download-box",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.download-box button.md-button {\n    border-radius: 50% !important;\n    width: 40px !important;\n    height: 40px !important;\n    margin: 5px;\n    background-color: #00af92 !important; \n}\n\n.download-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 600,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "046f2e638559406a",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func dowload",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1020,
+        "wires": [
+            [
+                "f3014217c0b44d67",
+                "09d3f0f8f32928e0"
+            ]
+        ]
+    },
+    {
+        "id": "09d3f0f8f32928e0",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Convert to CSV ",
+        "func": "\nlet data = msg.payload;\n\nlet headers = Object.keys(data[0]).filter(key => key !== \"_id\");\n\nlet csv = headers.join(\",\") + \"\\n\";\n\n data.forEach(row => {\n     let line = headers.map(h => {\n         let v = row[h];\n         if (typeof v === \"string\" && (v.includes(\",\") || v.includes(\"\\\"\"))) {\n             v = `\"${v.replace(/\"/g, '\"\"')}\"`;\n         }\n         return v;\n     }).join(\",\");\n     csv += line + \"\\n\";\n });\n\nmsg.payload = csv;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 1120,
+        "wires": [
+            [
+                "1b24d2196071f49e"
+            ]
+        ]
+    },
+    {
+        "id": "03da970188578956",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "refresh-box",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.refresh-box button.md-button {\n    width: 40px !important;\n    height: 39px !important;\n    background-color: #00af92 !important; \n    margin-top: 5px;\n}\n\n.refresh-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 770,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51e61dabb5a56bfa",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "download-box",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n  #downloadCsv {\n    font-family: 'Jost' !important;\n    border-radius: 2px !important;\n    width: 140px !important;\n    height: 39px !important;\n    border: none;\n    color: white !important;\n    background-color: #00af92 !important;\n    box-shadow: 0px 2px 3px rgba(1, 0, 0, 0.2) ;\n    transition: box-shadow 0.3s ease;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-top: 3px;\n  }\n\n  #downloadCsv .fa {\n    font-size: 15px;\n    color: white !important;\n  }\n\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 840,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b24d2196071f49e",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "Download CSV Button",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "format": "\n<button id=\"downloadCsv\"> \n  <i class=\"fa fa-download\" style=\"margin-right: 10px;\" ></i>\n  Download\n</button>\n\n<script>\n(function(scope) {\n  document.getElementById(\"downloadCsv\").addEventListener(\"click\", function() {\n    let csv = scope.msg.payload;\n    if (!csv) {\n      alert(\"No CSV data to download\");\n      return;\n    }\n    let blob = new Blob([csv], { type: \"text/csv;charset=utf-8;\" });\n    let url = URL.createObjectURL(blob);\n\n    let a = document.createElement(\"a\");\n    a.href = url;\n    a.download = \"data.csv\";\n    document.body.appendChild(a);\n    a.click();\n    document.body.removeChild(a);\n    URL.revokeObjectURL(url);\n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "download-box",
+        "x": 1240,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "41912d2603e6b1d9",
+        "type": "ui_gauge",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "group": "774ee64a3e4f9afd",
+        "order": 1,
+        "width": 7,
+        "height": 3,
+        "gtype": "gage",
+        "title": "",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#157864",
+            "#f3863d",
+            "#c14d4f"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 730,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8a55c164cea5cfcc",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func speed",
+        "func": "let currentValue = flow.get(\"sliderValue\") || 0;\n\n// ตรวจสอบว่า msg.topic มาจากปุ่มไหน\nif (msg.topic === \"plus\") {\n    currentValue += 1;\n} else if (msg.topic === \"minus\") {\n    currentValue -= 1;\n}\n\n// จำกัดค่าไว้ระหว่าง 0 - 10\nif (currentValue > 10) currentValue = 10;\nif (currentValue < 0) currentValue = 0;\n\nflow.set(\"sliderValue\", currentValue);\n\n// ส่งค่าออกไปยัง Slider\nreturn { payload: currentValue };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 300,
+        "wires": [
+            [
+                "41912d2603e6b1d9"
+            ]
+        ]
+    },
+    {
+        "id": "2d72b94cb69c70cc",
+        "type": "ui_button",
+        "z": "2395f6adbeb5589e",
+        "name": "plus",
+        "group": "774ee64a3e4f9afd",
+        "order": 5,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "plus",
+        "color": "",
+        "bgcolor": "",
+        "className": "refresh-box",
+        "icon": "fa-plus",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "plus",
+        "topicType": "str",
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "8a55c164cea5cfcc"
+            ]
+        ]
+    },
+    {
+        "id": "cafc3ce99c804e15",
+        "type": "ui_button",
+        "z": "2395f6adbeb5589e",
+        "name": "minus",
+        "group": "774ee64a3e4f9afd",
+        "order": 4,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "minus",
+        "color": "",
+        "bgcolor": "",
+        "className": "refresh-box",
+        "icon": "fa-minus",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "minus",
+        "topicType": "str",
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "8a55c164cea5cfcc"
+            ]
+        ]
+    },
+    {
+        "id": "c145bed14f1f0680",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "774ee64a3e4f9afd",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Car Speed",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 260,
+        "wires": []
+    }
+]

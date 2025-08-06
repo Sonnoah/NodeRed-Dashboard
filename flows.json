@@ -339,7 +339,7 @@
         "id": "8a94a7e0c0e511ca",
         "type": "debug",
         "z": "2395f6adbeb5589e",
-        "name": "payload.Sensor",
+        "name": "payload",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -348,7 +348,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 560,
+        "x": 540,
         "y": 500,
         "wires": []
     },

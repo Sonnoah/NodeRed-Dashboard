@@ -221,16 +221,6 @@
         "className": ""
     },
     {
-        "id": "eab39f0560268d08",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "031a4b4761184c01",
-        "order": 2,
-        "width": 17,
-        "height": 1
-    },
-    {
         "id": "c14d06ef432f3019",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
@@ -279,6 +269,35 @@
         "order": 2,
         "width": 9,
         "height": 1
+    },
+    {
+        "id": "a972742b4d65ac21",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "031a4b4761184c01",
+        "order": 2,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "cba8999ae4809ff1",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "2b296a14d39f7198",
+        "type": "ui_group",
+        "name": "Controler",
+        "tab": "04e74bfb6596ce71",
+        "order": 3,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "c0b82201e3c321f2",
@@ -702,175 +721,6 @@
         ]
     },
     {
-        "id": "80a055e1155e6570",
-        "type": "ui_form",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "label": "Filter",
-        "group": "6293bb60cd5176bd",
-        "order": 1,
-        "width": 7,
-        "height": 1,
-        "options": [
-            {
-                "label": "Start Date",
-                "value": "start_date",
-                "type": "date",
-                "required": true,
-                "rows": null
-            },
-            {
-                "label": "End Date",
-                "value": "end_date",
-                "type": "date",
-                "required": true,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "start_date": "",
-            "end_date": ""
-        },
-        "payload": "",
-        "submit": "Load Data",
-        "cancel": "Cancel",
-        "topic": "topic",
-        "topicType": "msg",
-        "splitLayout": "",
-        "className": "",
-        "x": 550,
-        "y": 1160,
-        "wires": [
-            [
-                "19b45fb0c66ebb40"
-            ]
-        ]
-    },
-    {
-        "id": "356545e82ebdcdd5",
-        "type": "mongodb3 in",
-        "z": "2395f6adbeb5589e",
-        "service": "_ext_",
-        "configNode": "2f7b91658fa4b836",
-        "name": "Mongodb",
-        "collection": "mongodb",
-        "operation": "find.toArray",
-        "x": 540,
-        "y": 1080,
-        "wires": [
-            [
-                "b9255b97cafc8484"
-            ]
-        ]
-    },
-    {
-        "id": "d977e0ceb1b876eb",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Data func",
-        "func": "msg.payload = {}; \nmsg.collection = \"mongodb\"; \nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 360,
-        "y": 1080,
-        "wires": [
-            [
-                "356545e82ebdcdd5"
-            ]
-        ]
-    },
-    {
-        "id": "b9255b97cafc8484",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Array func",
-        "func": "function parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet obj = msg.payload;\nlet dataArray = Object.values(obj);\n\ndataArray = dataArray.filter(entry => {\n    let date = parseThaiDateTime(entry.timestamp);\n    return date !== null;\n});\n\ndataArray.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n    return dateB.getTime() - dateA.getTime(); \n});\n\nflow.set(\"allData\", dataArray);\n\nmsg.payload = dataArray;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 710,
-        "y": 1080,
-        "wires": [
-            [
-                "046f2e638559406a"
-            ]
-        ]
-    },
-    {
-        "id": "f3014217c0b44d67",
-        "type": "ui_table",
-        "z": "2395f6adbeb5589e",
-        "group": "031a4b4761184c01",
-        "name": "Table Reports",
-        "order": 1,
-        "width": 21,
-        "height": 14,
-        "columns": [
-            {
-                "field": "timestamp",
-                "title": "Date / Time",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "Yaw(Z)",
-                "title": "Tilt",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "Location",
-                "title": "Location",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 1200,
-        "y": 1080,
-        "wires": []
-    },
-    {
-        "id": "19b45fb0c66ebb40",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Filter",
-        "func": "let startDate = new Date(msg.payload.start_date);\nlet endDate = new Date(msg.payload.end_date);\nendDate.setHours(23, 59, 59, 999); \n\nlet allData = flow.get(\"allData\") || [];\n\nfunction parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet filtered = allData.filter(entry => {\n    if (!entry.timestamp) return false;\n    let entryDate = parseThaiDateTime(entry.timestamp);\n    if (!entryDate) return false;\n\n    return entryDate >= startDate && entryDate <= endDate;\n});\n\nfiltered.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n\n    if (!dateA || !dateB) return 0;\n\n    return dateA.getTime() - dateB.getTime(); // เรียงจากเก่า → ใหม่\n});\n\nmsg.payload = filtered;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 1160,
-        "wires": [
-            [
-                "046f2e638559406a"
-            ]
-        ]
-    },
-    {
         "id": "05bbbe9c04888db4",
         "type": "mongodb3 in",
         "z": "2395f6adbeb5589e",
@@ -883,63 +733,6 @@
         "y": 900,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "710ccec27749f960",
-        "type": "ui_button",
-        "z": "2395f6adbeb5589e",
-        "name": "refresh",
-        "group": "031a4b4761184c01",
-        "order": 3,
-        "width": 1,
-        "height": 1,
-        "passthru": false,
-        "label": "",
-        "tooltip": "Refresh",
-        "color": "",
-        "bgcolor": "",
-        "className": "refresh-box",
-        "icon": "fa-refresh",
-        "payload": "[]",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 140,
-        "y": 1140,
-        "wires": [
-            [
-                "d977e0ceb1b876eb"
-            ]
-        ]
-    },
-    {
-        "id": "985d14740c33b8b0",
-        "type": "inject",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "1",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 1080,
-        "wires": [
-            [
-                "d977e0ceb1b876eb"
-            ]
         ]
     },
     {
@@ -1151,47 +944,6 @@
         ]
     },
     {
-        "id": "046f2e638559406a",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Func dowload",
-        "func": "return msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 920,
-        "y": 1080,
-        "wires": [
-            [
-                "09d3f0f8f32928e0",
-                "f3014217c0b44d67"
-            ]
-        ]
-    },
-    {
-        "id": "09d3f0f8f32928e0",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Convert to CSV ",
-        "func": "\nlet data = msg.payload;\n\nlet headers = Object.keys(data[0]).filter(key => key !== \"_id\");\n\nlet csv = headers.join(\",\") + \"\\n\";\n\n data.forEach(row => {\n     let line = headers.map(h => {\n         let v = row[h];\n         if (typeof v === \"string\" && (v.includes(\",\") || v.includes(\"\\\"\"))) {\n             v = `\"${v.replace(/\"/g, '\"\"')}\"`;\n         }\n         return v;\n     }).join(\",\");\n     csv += line + \"\\n\";\n });\n\nmsg.payload = csv;\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1000,
-        "y": 1160,
-        "wires": [
-            [
-                "1b24d2196071f49e"
-            ]
-        ]
-    },
-    {
         "id": "03da970188578956",
         "type": "ui_template",
         "z": "2395f6adbeb5589e",
@@ -1229,27 +981,6 @@
         "className": "",
         "x": 840,
         "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b24d2196071f49e",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "031a4b4761184c01",
-        "name": "Download CSV Button",
-        "order": 4,
-        "width": 3,
-        "height": 1,
-        "format": "\n<button id=\"downloadCsv\"> \n  <i class=\"fa fa-download\" style=\"margin-right: 10px;\" ></i>\n  Download\n</button>\n\n<script>\n(function(scope) {\n  document.getElementById(\"downloadCsv\").addEventListener(\"click\", function() {\n    let csv = scope.msg.payload;\n    if (!csv) {\n      alert(\"No CSV data to download\");\n      return;\n    }\n    let blob = new Blob([csv], { type: \"text/csv;charset=utf-8;\" });\n    let url = URL.createObjectURL(blob);\n\n    let a = document.createElement(\"a\");\n    a.href = url;\n    a.download = \"data.csv\";\n    document.body.appendChild(a);\n    a.click();\n    document.body.removeChild(a);\n    URL.revokeObjectURL(url);\n  });\n})(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "download-box",
-        "x": 1220,
-        "y": 1160,
         "wires": [
             []
         ]
@@ -1429,6 +1160,297 @@
         "y": 960,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "d8946ec45b9a9d41",
+        "type": "ui_form",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "label": "Filter",
+        "group": "6293bb60cd5176bd",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "options": [
+            {
+                "label": "Start Date",
+                "value": "start_date",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "End Date",
+                "value": "end_date",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "start_date": "",
+            "end_date": ""
+        },
+        "payload": "",
+        "submit": "Load Data",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 530,
+        "y": 1140,
+        "wires": [
+            [
+                "5620f7bbd22ca008"
+            ]
+        ]
+    },
+    {
+        "id": "a083ef7c9408f11c",
+        "type": "mongodb3 in",
+        "z": "2395f6adbeb5589e",
+        "service": "_ext_",
+        "configNode": "cba8999ae4809ff1",
+        "name": "Mongodb",
+        "collection": "mongodb",
+        "operation": "find.toArray",
+        "x": 520,
+        "y": 1080,
+        "wires": [
+            [
+                "68f88548a6877452"
+            ]
+        ]
+    },
+    {
+        "id": "dab9ab345ca1aa4a",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Data func",
+        "func": "msg.payload = {}; \nmsg.collection = \"mongodb\"; \nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1080,
+        "wires": [
+            [
+                "a083ef7c9408f11c"
+            ]
+        ]
+    },
+    {
+        "id": "68f88548a6877452",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Array func",
+        "func": "function parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet obj = msg.payload;\nlet dataArray = Object.values(obj);\n\ndataArray = dataArray.filter(entry => {\n    let date = parseThaiDateTime(entry.timestamp);\n    return date !== null;\n});\n\ndataArray.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n    return dateB.getTime() - dateA.getTime(); \n});\n\nflow.set(\"allData\", dataArray);\n\nmsg.payload = dataArray;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1080,
+        "wires": [
+            [
+                "dca72730feaacec4"
+            ]
+        ]
+    },
+    {
+        "id": "3e70a53f659c1ce5",
+        "type": "ui_table",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "Table Reports",
+        "order": 1,
+        "width": 21,
+        "height": 14,
+        "columns": [
+            {
+                "field": "timestamp",
+                "title": "Date / Time",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Yaw(Z)",
+                "title": "Tilt",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Location",
+                "title": "Location",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1060,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "5620f7bbd22ca008",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Filter",
+        "func": "let startDate = new Date(msg.payload.start_date);\nlet endDate = new Date(msg.payload.end_date);\nendDate.setHours(23, 59, 59, 999);\n\nflow.set(\"last_start_date\", msg.payload.start_date);\nflow.set(\"last_end_date\", msg.payload.end_date);\n\nlet allData = flow.get(\"allData\") || [];\n\nfunction parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet filtered = allData.filter(entry => {\n    if (!entry.timestamp) return false;\n    let entryDate = parseThaiDateTime(entry.timestamp);\n    if (!entryDate) return false;\n\n    return entryDate >= startDate && entryDate <= endDate;\n});\n\nfiltered.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n    if (!dateA || !dateB) return 0;\n    return dateA.getTime() - dateB.getTime(); \n});\n\n\nmsg.payload = filtered;\n\nlet lockDateMsg = {\n    payload: {\n        start_date: flow.get(\"last_start_date\"),\n        end_date: flow.get(\"last_end_date\")\n    }\n};\n\nreturn [msg, lockDateMsg];\n\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1140,
+        "wires": [
+            [
+                "dca72730feaacec4"
+            ],
+            [
+                "d8946ec45b9a9d41"
+            ]
+        ]
+    },
+    {
+        "id": "7626d1e79e08bd24",
+        "type": "ui_button",
+        "z": "2395f6adbeb5589e",
+        "name": "refresh",
+        "group": "031a4b4761184c01",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "Refresh",
+        "color": "",
+        "bgcolor": "",
+        "className": "refresh-box",
+        "icon": "fa-refresh",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1140,
+        "wires": [
+            [
+                "dab9ab345ca1aa4a"
+            ]
+        ]
+    },
+    {
+        "id": "698a6c89306c175b",
+        "type": "inject",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 1080,
+        "wires": [
+            [
+                "dab9ab345ca1aa4a"
+            ]
+        ]
+    },
+    {
+        "id": "686076f017824462",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Convert to CSV ",
+        "func": "\nlet data = msg.payload;\n\nlet headers = Object.keys(data[0]).filter(key => key !== \"_id\");\n\nlet csv = headers.join(\",\") + \"\\n\";\n\n data.forEach(row => {\n     let line = headers.map(h => {\n         let v = row[h];\n         if (typeof v === \"string\" && (v.includes(\",\") || v.includes(\"\\\"\"))) {\n             v = `\"${v.replace(/\"/g, '\"\"')}\"`;\n         }\n         return v;\n     }).join(\",\");\n     csv += line + \"\\n\";\n });\n\nmsg.payload = csv;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1120,
+        "wires": [
+            [
+                "28b5ae5adef6cd96"
+            ]
+        ]
+    },
+    {
+        "id": "28b5ae5adef6cd96",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "Download CSV Button",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "format": "\n<button id=\"downloadCsv\"> \n  <i class=\"fa fa-download\" style=\"margin-right: 10px;\" ></i>\n  Download\n</button>\n\n<script>\n(function(scope) {\n  document.getElementById(\"downloadCsv\").addEventListener(\"click\", function() {\n    let csv = scope.msg.payload;\n    if (!csv) {\n      alert(\"No CSV data to download\");\n      return;\n    }\n    let blob = new Blob([csv], { type: \"text/csv;charset=utf-8;\" });\n    let url = URL.createObjectURL(blob);\n\n    let a = document.createElement(\"a\");\n    a.href = url;\n    a.download = \"data.csv\";\n    document.body.appendChild(a);\n    a.click();\n    document.body.removeChild(a);\n    URL.revokeObjectURL(url);\n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "download-box",
+        "x": 1260,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dca72730feaacec4",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "func data filter",
+        "func": "return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 1080,
+        "wires": [
+            [
+                "3e70a53f659c1ce5",
+                "686076f017824462"
+            ]
         ]
     }
 ]

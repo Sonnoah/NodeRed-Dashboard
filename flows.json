@@ -19,11 +19,11 @@
     {
         "id": "fa784fa1435d5307",
         "type": "ui_group",
-        "name": "Chart",
+        "name": "Tilt-Chart",
         "tab": "04e74bfb6596ce71",
         "order": 5,
-        "disp": false,
-        "width": 10,
+        "disp": true,
+        "width": 11,
         "collapse": false,
         "className": ""
     },
@@ -33,8 +33,8 @@
         "name": "Table",
         "tab": "04e74bfb6596ce71",
         "order": 4,
-        "disp": false,
-        "width": 10,
+        "disp": true,
+        "width": 9,
         "collapse": false,
         "className": ""
     },
@@ -44,7 +44,7 @@
         "name": "Map",
         "tab": "04e74bfb6596ce71",
         "order": 6,
-        "disp": false,
+        "disp": true,
         "width": 8,
         "collapse": false,
         "className": ""
@@ -55,8 +55,8 @@
         "name": "Speed",
         "tab": "04e74bfb6596ce71",
         "order": 1,
-        "disp": false,
-        "width": 7,
+        "disp": true,
+        "width": 9,
         "collapse": false,
         "className": ""
     },
@@ -66,8 +66,8 @@
         "name": "Vibrate",
         "tab": "04e74bfb6596ce71",
         "order": 2,
-        "disp": false,
-        "width": 11,
+        "disp": true,
+        "width": 10,
         "collapse": false,
         "className": ""
     },
@@ -210,68 +210,35 @@
         "parallelism": -1
     },
     {
-        "id": "c4ffae70201c3ed4",
+        "id": "cba8999ae4809ff1",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "4f0d2e239691a5a8",
         "type": "ui_group",
-        "name": "Controler",
+        "name": "Control",
         "tab": "04e74bfb6596ce71",
-        "order": 3,
-        "disp": false,
-        "width": 10,
+        "order": 6,
+        "disp": true,
+        "width": 6,
         "collapse": false,
         "className": ""
     },
     {
-        "id": "c14d06ef432f3019",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "774ee64a3e4f9afd",
-        "order": 2,
-        "width": 1,
-        "height": 1
+        "id": "f2fe1a776d0b9fe8",
+        "type": "ui_group",
+        "name": "Group 7",
+        "tab": "04e74bfb6596ce71",
+        "order": 7,
+        "disp": true,
+        "width": 6
     },
     {
-        "id": "189375d768018011",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "774ee64a3e4f9afd",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2e4eb1692e0a2fd7",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "d4280360375e908f",
-        "order": 1,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "1f087bdc6b3007b6",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "d4280360375e908f",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "2f83912d0555e6ce",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "fa784fa1435d5307",
-        "order": 2,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "a972742b4d65ac21",
+        "id": "280baa8de199208d",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -281,23 +248,114 @@
         "height": 1
     },
     {
-        "id": "cba8999ae4809ff1",
-        "type": "mongodb3",
-        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
-        "name": "",
-        "options": "",
-        "parallelism": -1
+        "id": "c4cd99bc9ba104f1",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "774ee64a3e4f9afd",
+        "order": 2,
+        "width": 3,
+        "height": 1
     },
     {
-        "id": "2b296a14d39f7198",
-        "type": "ui_group",
-        "name": "Controler",
-        "tab": "04e74bfb6596ce71",
-        "order": 3,
-        "disp": false,
-        "width": 10,
-        "collapse": false,
-        "className": ""
+        "id": "0558761b99939a4a",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "774ee64a3e4f9afd",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "1cb4be72f516418b",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "774ee64a3e4f9afd",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "6b5c020ee4012dd1",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9e1222d6a5ac0efb",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "3a1cb6ffbfc1cc8d",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "85a24304f0d65f9c",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8b0cfd09eccf05a0",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "4ed16001199ba44c",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "b4294f656ecce60b",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "aa47771b11f83afc",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 7,
+        "width": 3,
+        "height": 1
     },
     {
         "id": "c0b82201e3c321f2",
@@ -361,7 +419,8 @@
                 "3721c53a7f781a2c",
                 "2a0beba6d09f1b84",
                 "8a55c164cea5cfcc",
-                "96bec991166f6a66"
+                "96bec991166f6a66",
+                "a9ca1420f55fe390"
             ]
         ]
     },
@@ -395,10 +454,10 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 560,
+        "y": 580,
         "wires": [
             [
-                "c2fdbefbfc9f93d7"
+                "f44a63ca88953723"
             ]
         ]
     },
@@ -409,9 +468,9 @@
         "name": "",
         "group": "fa784fa1435d5307",
         "order": 1,
-        "width": 10,
+        "width": 8,
         "height": 6,
-        "label": "Inclination sensors",
+        "label": "",
         "chartType": "line",
         "legend": "true",
         "xformat": "HH:mm:ss",
@@ -440,8 +499,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "css-chart",
-        "x": 910,
-        "y": 560,
+        "x": 1010,
+        "y": 580,
         "wires": [
             []
         ]
@@ -473,7 +532,7 @@
         "group": "f3927f275c56e254",
         "order": 1,
         "width": 8,
-        "height": 7,
+        "height": 6,
         "name": "",
         "lat": "",
         "lon": "",
@@ -525,17 +584,17 @@
         "group": "d4280360375e908f",
         "order": 3,
         "width": 3,
-        "height": 2,
-        "name": "Vibrate",
-        "label": "<span class=\"label-small\">Vibrate</span>",
+        "height": 1,
+        "name": "Text-Current-Vibrate",
+        "label": "<span class=\"label-small\">Current Vibrate</span>",
         "format": "<span class=\"value\">{{msg.payload.toFixed(2)}}</span>",
         "layout": "col-center",
-        "className": "custom-vibrate",
+        "className": "css-current-text",
         "style": true,
         "font": "",
         "fontSize": "20",
         "color": "#6bd3ff",
-        "x": 880,
+        "x": 920,
         "y": 440,
         "wires": []
     },
@@ -552,7 +611,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "d387d31dc5a24c56"
@@ -569,8 +628,8 @@
         "group": "52b1af9da22ea88d",
         "name": "",
         "order": 1,
-        "width": 10,
-        "height": 10,
+        "width": 9,
+        "height": 4,
         "columns": [
             {
                 "field": "timestamp",
@@ -606,7 +665,7 @@
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 820,
+        "y": 840,
         "wires": []
     },
     {
@@ -616,14 +675,14 @@
         "d": true,
         "group": "52b1af9da22ea88d",
         "name": "",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "columns": [],
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 740,
+        "y": 760,
         "wires": []
     },
     {
@@ -631,7 +690,7 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Func chart",
-        "func": "msg.payload = Math.random() * 20\nreturn msg;",
+        "func": "msg.payload = Math.random() * 50\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -643,7 +702,7 @@
         "wires": [
             [
                 "42617033f5e92d2a",
-                "4e247153add37b1e"
+                "f33a16394158808a"
             ]
         ]
     },
@@ -651,20 +710,20 @@
         "id": "4e247153add37b1e",
         "type": "ui_chart",
         "z": "2395f6adbeb5589e",
-        "name": "",
+        "name": "Chart-Vibrate",
         "group": "d4280360375e908f",
-        "order": 2,
-        "width": 8,
-        "height": 4,
+        "order": 1,
+        "width": 7,
+        "height": 5,
         "label": "",
         "chartType": "line",
         "legend": "true",
         "xformat": "HH:mm:ss",
-        "interpolate": "bezier",
+        "interpolate": "cubic",
         "nodata": "",
         "dot": true,
         "ymin": "0",
-        "ymax": "20",
+        "ymax": "50",
         "removeOlder": "20",
         "removeOlderPoints": "",
         "removeOlderUnit": "1",
@@ -672,7 +731,7 @@
         "useOneColor": false,
         "useUTC": false,
         "colors": [
-            "#c04d4e",
+            "#ff7f0e",
             "#aec7e8",
             "#ff7f0e",
             "#2ca02c",
@@ -684,40 +743,11 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "className": "css-chart",
-        "x": 870,
+        "className": "css-chart-vibrate",
+        "x": 1090,
         "y": 380,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "5dbf458e000ae539",
-        "type": "ui_button",
-        "z": "2395f6adbeb5589e",
-        "d": true,
-        "name": "refresh",
-        "group": "fa784fa1435d5307",
-        "order": 3,
-        "width": 1,
-        "height": 1,
-        "passthru": false,
-        "label": "",
-        "tooltip": "Refresh",
-        "color": "",
-        "bgcolor": "",
-        "className": "refresh-box",
-        "icon": "fa-refresh",
-        "payload": "[]",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 680,
-        "y": 620,
-        "wires": [
-            [
-                "c2fdbefbfc9f93d7"
-            ]
         ]
     },
     {
@@ -730,7 +760,7 @@
         "collection": "mongodb",
         "operation": "insert",
         "x": 900,
-        "y": 900,
+        "y": 920,
         "wires": [
             []
         ]
@@ -748,33 +778,11 @@
         "finalize": "",
         "libs": [],
         "x": 700,
-        "y": 900,
+        "y": 920,
         "wires": [
             [
                 "05bbbe9c04888db4"
             ]
-        ]
-    },
-    {
-        "id": "a8d90e62cdb2e94d",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "d": true,
-        "group": "fa784fa1435d5307",
-        "name": "Css Chart",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    .nr-dashboard-chart {\n        border-radius: 16px !important;\n        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n        /* background: linear-gradient(135deg, #ffffff 0%, #f1f1f1 100%) !important; */\n        /* padding: 10px;\n        margin: 10px; */\n        border: 1px solid #ddd;\n        transition: all 0.3s ease;\n    }\n\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 240,
-        "y": 40,
-        "wires": [
-            []
         ]
     },
     {
@@ -783,10 +791,10 @@
         "z": "2395f6adbeb5589e",
         "group": "fa784fa1435d5307",
         "name": "CSS GOBAL",
-        "order": 6,
+        "order": 10,
         "width": 0,
         "height": 0,
-        "format": "<style>\n\n@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mozilla+Headline:wght@200..700&family=Noto+Sans+Thai+Looped:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');\n\nbody, .nr-dashboard-theme{\n  font-family: 'Jost', sans-serif !important;\n}\n\n\n    /*Main background*/\n    /* body {\n            background: -webkit-linear-gradient(\n            55deg,\n            #2e3b5e 0%,\n            #296a81 50%,\n            #2b8a90 100%\n        );\n    } */\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar{\n        background-color: #FFFFFF !important;\n        margin: 0px\n        color: #092621 !important;\n    }\n\n    body.nr-dashboard-theme md-content md-card {\n        /* background-color: transparent !important; */\n        color: #092621 !important;\n    }\n    \n    body.nr-dashboard-theme md-toolbar .md-toolbar-tools {\n        color: #00af92;\n        font-weight: bold;\n    }\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: #FFFFFF !important;\n        border-radius: 10px !important;\n        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n        margin: 10px !important;\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border-radius: 10px !important;\n    }\n\n    /* ชื่อ Group */\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: #00af92 !important;\n    }\n\n    /* ปุ่ม */\n    /* .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: #00af92 !important;\n    }\n    \n    .md-button {\n        border-radius: 10px !important;\n    } */\n\n    .nr-dashboard-cardcontainer {\n        margin: 5px !important;\n    }\n</style>\n",
+        "format": "<style>\n\n@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mozilla+Headline:wght@200..700&family=Noto+Sans+Thai+Looped:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');\n\nbody, .nr-dashboard-theme{\n  font-family: 'Jost', sans-serif !important;\n}\n\n    /*Main background*/\n    /* body {\n            background: -webkit-linear-gradient(\n            55deg,\n            #2e3b5e 0%,\n            #296a81 50%,\n            #2b8a90 100%\n        );\n    } */\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar{\n        background-color: #FFFFFF !important;\n        margin: 0px\n        color: #092621 !important;\n    }\n\n    body.nr-dashboard-theme md-content md-card {\n        /* background-color: transparent !important; */\n        color: #092621 !important;\n    }\n    \n    body.nr-dashboard-theme md-toolbar .md-toolbar-tools {\n        color: #00af92;\n        font-weight: bold;\n    }\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: #FFFFFF !important;\n        border-radius: 10px !important;\n        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n        /* margin: 10px !important; */\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border-radius: 10px !important;\n    }\n\n    /* ชื่อ Group */\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: #00af92 !important;\n    }\n\n    /* ปุ่ม */\n    /* .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: #00af92 !important;\n    }\n    \n    .md-button {\n        border-radius: 10px !important;\n    } */\n\n    .nr-dashboard-cardcontainer {\n        margin: 5px !important;\n    }\n\n    /* ชื่อ group */\n    .nr-dashboard-cardtitle {\n        font-size: 15px !important;\n        text-transform: uppercase;\n        margin: 0 !important;\n        padding: 10px 10px 0px 15px  !important;     \n    }\n\n    p.nr-dashboard-chart-title {\n        display: none !important;\n    }\n\n</style>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -811,7 +819,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
+        "x": 240,
         "y": 40,
         "wires": [
             []
@@ -823,7 +831,7 @@
         "z": "2395f6adbeb5589e",
         "group": "52b1af9da22ea88d",
         "name": "css-table",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n      .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    /* ข้อมูลในตาราง */\n    .tabulator .tabulator-row {\n        height: 40px !important;\n        border-bottom: 1px solid #ccc !important;\n        text-align: left !important;\n    }\n\n    /* ลูกษร */\n    .tabulator-arrow {\n    display: none !important;\n}\n    \n</style>\n\n",
@@ -832,28 +840,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 240,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cd9a7e3565919983",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "d4280360375e908f",
-        "name": "vibrate-box",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    .custom-vibrate {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        height: 100%;\n        text-align: center;\n    }\n\n    .custom-vibrate .label-small {\n        font-size: 12px !important;\n        color: #092621;\n        margin-bottom: 4px;\n    }\n\n    .custom-vibrate .value {\n        font-size: 50px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 90,
+        "x": 80,
         "y": 80,
         "wires": [
             []
@@ -865,7 +852,7 @@
         "z": "2395f6adbeb5589e",
         "group": "fa784fa1435d5307",
         "name": "refresh-box",
-        "order": 7,
+        "order": 11,
         "width": 0,
         "height": 0,
         "format": "<style>\n.refresh-box button.md-button {\n    border-radius: 50% !important;\n    width: 40px !important;\n    height: 40px !important;\n    margin: 5px;\n    background-color: #00af92 !important; \n}\n\n.refresh-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n</style>\n",
@@ -874,7 +861,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 670,
+        "x": 390,
         "y": 40,
         "wires": [
             []
@@ -885,18 +872,18 @@
         "type": "ui_template",
         "z": "2395f6adbeb5589e",
         "group": "fa784fa1435d5307",
-        "name": "css-chart",
-        "order": 5,
+        "name": "css-chart-vibrate",
+        "order": 8,
         "width": 0,
         "height": 0,
-        "format": "<style>\n.css-chart .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n} \n</style>\n\n\n",
+        "format": "<style>\n.css-chart-vibrate .nr-dashboard-chart-title {\n  text-align: left !important;\n  padding-left: 20px;\n  font-size: 20px !important;\n  color: black;\n}\n\n.css-chart-vibrate .nr-dashboard-chart {\n  margin-bottom: 30px !important; \n}\n</style>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 520,
-        "y": 40,
+        "x": 280,
+        "y": 140,
         "wires": [
             []
         ]
@@ -916,7 +903,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 410,
+        "x": 250,
         "y": 80,
         "wires": [
             []
@@ -937,7 +924,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 600,
+        "x": 440,
         "y": 80,
         "wires": [
             []
@@ -958,7 +945,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 770,
+        "x": 610,
         "y": 80,
         "wires": [
             []
@@ -979,7 +966,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 840,
+        "x": 560,
         "y": 40,
         "wires": [
             []
@@ -992,8 +979,8 @@
         "name": "",
         "group": "774ee64a3e4f9afd",
         "order": 1,
-        "width": 7,
-        "height": 3,
+        "width": 6,
+        "height": 4,
         "gtype": "gage",
         "title": "",
         "label": "units",
@@ -1029,86 +1016,10 @@
         "y": 300,
         "wires": [
             [
+                "1b57291f351725e7",
                 "41912d2603e6b1d9"
             ]
         ]
-    },
-    {
-        "id": "2d72b94cb69c70cc",
-        "type": "ui_button",
-        "z": "2395f6adbeb5589e",
-        "name": "plus",
-        "group": "774ee64a3e4f9afd",
-        "order": 5,
-        "width": 1,
-        "height": 1,
-        "passthru": false,
-        "label": "",
-        "tooltip": "plus",
-        "color": "",
-        "bgcolor": "",
-        "className": "refresh-box",
-        "icon": "fa-plus",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "plus",
-        "topicType": "str",
-        "x": 730,
-        "y": 220,
-        "wires": [
-            [
-                "8a55c164cea5cfcc"
-            ]
-        ]
-    },
-    {
-        "id": "cafc3ce99c804e15",
-        "type": "ui_button",
-        "z": "2395f6adbeb5589e",
-        "name": "minus",
-        "group": "774ee64a3e4f9afd",
-        "order": 4,
-        "width": 1,
-        "height": 1,
-        "passthru": false,
-        "label": "",
-        "tooltip": "minus",
-        "color": "",
-        "bgcolor": "",
-        "className": "refresh-box",
-        "icon": "fa-minus",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "minus",
-        "topicType": "str",
-        "x": 610,
-        "y": 220,
-        "wires": [
-            [
-                "8a55c164cea5cfcc"
-            ]
-        ]
-    },
-    {
-        "id": "c145bed14f1f0680",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "774ee64a3e4f9afd",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "name": "",
-        "label": "Car Speed",
-        "format": "",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 930,
-        "y": 260,
-        "wires": []
     },
     {
         "id": "933452d610af9d99",
@@ -1117,9 +1028,9 @@
         "name": "",
         "label": "Save data to database",
         "tooltip": "",
-        "group": "c4ffae70201c3ed4",
-        "order": 1,
-        "width": 10,
+        "group": "52b1af9da22ea88d",
+        "order": 2,
+        "width": 9,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -1137,7 +1048,7 @@
         "animate": false,
         "className": "",
         "x": 720,
-        "y": 960,
+        "y": 980,
         "wires": [
             [
                 "ecfefe40cfd2c208"
@@ -1157,7 +1068,7 @@
         "finalize": "",
         "libs": [],
         "x": 930,
-        "y": 960,
+        "y": 980,
         "wires": [
             []
         ]
@@ -1450,6 +1361,197 @@
             [
                 "3e70a53f659c1ce5",
                 "686076f017824462"
+            ]
+        ]
+    },
+    {
+        "id": "065935efd975e05e",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "774ee64a3e4f9afd",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "Text-Current Speed ",
+        "label": "<span class=\"label-small\">Current Speed</span>",
+        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}}</span>",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 950,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "1b57291f351725e7",
+        "type": "ui_numeric",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "label": "Car Speed ​Control",
+        "tooltip": "",
+        "group": "774ee64a3e4f9afd",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 950,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "caaf8b8dd7afb276",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "774ee64a3e4f9afd",
+        "name": "css-current-text",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .css-current-text .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n    }\n\n    .css-current-text {\n        display: flex;\n        flex-direction: column;\n        align-items: flex-start !important; \n        justify-content: flex-start !important;\n        text-align: left !important;\n\n    }\n\n    .css-current-text .label-small {\n        font-size: 13px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-current-text .value {\n        font-size: 13px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9ca1420f55fe390",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func chart",
+        "func": "msg.payload = Math.random() * 20\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 180,
+        "wires": [
+            [
+                "065935efd975e05e"
+            ]
+        ]
+    },
+    {
+        "id": "c76a62b4e44def84",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "name": "css-chart",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.css-chart .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n} \n</style>\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 720,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f33a16394158808a",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "ui_control ",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 380,
+        "wires": [
+            [
+                "4e247153add37b1e"
+            ]
+        ]
+    },
+    {
+        "id": "10d07cfead75daf4",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "Roll",
+        "label": "<span class=\"label-small\">Roll</span>",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 870,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "ba0dfa59323016c3",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "Tilt Left-Right",
+        "label": "<span class=\"label-small\">Tilt Left-Right</span>",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1010,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "f44a63ca88953723",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "ui_control ",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 580,
+        "wires": [
+            [
+                "c2fdbefbfc9f93d7"
             ]
         ]
     }

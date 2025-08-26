@@ -23,13 +23,14 @@
         "tab": "04e74bfb6596ce71",
         "order": 5,
         "disp": true,
-        "width": 11,
+        "width": 10,
         "collapse": false,
         "className": ""
     },
     {
         "id": "52b1af9da22ea88d",
         "type": "ui_group",
+        "d": true,
         "name": "Table",
         "tab": "04e74bfb6596ce71",
         "order": 4,
@@ -54,7 +55,7 @@
         "type": "ui_group",
         "name": "Speed",
         "tab": "04e74bfb6596ce71",
-        "order": 1,
+        "order": 2,
         "disp": true,
         "width": 9,
         "collapse": false,
@@ -65,9 +66,9 @@
         "type": "ui_group",
         "name": "Vibrate",
         "tab": "04e74bfb6596ce71",
-        "order": 2,
+        "order": 3,
         "disp": true,
-        "width": 10,
+        "width": 9,
         "collapse": false,
         "className": ""
     },
@@ -98,7 +99,7 @@
         "tab": "c7722013df684059",
         "order": 1,
         "disp": false,
-        "width": 7,
+        "width": 5,
         "collapse": false,
         "className": ""
     },
@@ -218,27 +219,18 @@
         "parallelism": -1
     },
     {
-        "id": "4f0d2e239691a5a8",
+        "id": "a5662fc4e9abb539",
         "type": "ui_group",
-        "name": "Control",
+        "name": "Detail",
         "tab": "04e74bfb6596ce71",
-        "order": 6,
+        "order": 1,
         "disp": true,
         "width": 6,
         "collapse": false,
         "className": ""
     },
     {
-        "id": "f2fe1a776d0b9fe8",
-        "type": "ui_group",
-        "name": "Group 7",
-        "tab": "04e74bfb6596ce71",
-        "order": 7,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "280baa8de199208d",
+        "id": "bb20127a2cbac89d",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -248,7 +240,7 @@
         "height": 1
     },
     {
-        "id": "c4cd99bc9ba104f1",
+        "id": "14be74aaf7675948",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -258,7 +250,7 @@
         "height": 1
     },
     {
-        "id": "0558761b99939a4a",
+        "id": "6580c3afcf39574e",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -268,7 +260,7 @@
         "height": 1
     },
     {
-        "id": "1cb4be72f516418b",
+        "id": "54e385142f1fa0b0",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -278,7 +270,7 @@
         "height": 1
     },
     {
-        "id": "6b5c020ee4012dd1",
+        "id": "8af047e024eb5d08",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -288,7 +280,7 @@
         "height": 1
     },
     {
-        "id": "9e1222d6a5ac0efb",
+        "id": "164fdbf5e89952e7",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -298,7 +290,7 @@
         "height": 1
     },
     {
-        "id": "3a1cb6ffbfc1cc8d",
+        "id": "08d15409fc608764",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -308,7 +300,7 @@
         "height": 1
     },
     {
-        "id": "85a24304f0d65f9c",
+        "id": "884d3876b5e39348",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -318,7 +310,7 @@
         "height": 1
     },
     {
-        "id": "8b0cfd09eccf05a0",
+        "id": "800b0cb8c30880a7",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -328,7 +320,7 @@
         "height": 1
     },
     {
-        "id": "4ed16001199ba44c",
+        "id": "693769d124e5828b",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -338,7 +330,7 @@
         "height": 1
     },
     {
-        "id": "b4294f656ecce60b",
+        "id": "eef392e46583b4d3",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -348,7 +340,7 @@
         "height": 1
     },
     {
-        "id": "aa47771b11f83afc",
+        "id": "bdfe8d71938eef4e",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -356,73 +348,6 @@
         "order": 7,
         "width": 3,
         "height": 1
-    },
-    {
-        "id": "c0b82201e3c321f2",
-        "type": "inject",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 500,
-        "wires": [
-            [
-                "cceee3556467f723"
-            ]
-        ]
-    },
-    {
-        "id": "cceee3556467f723",
-        "type": "http request",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "body",
-        "url": "https://magellan.ais.co.th/asgardpullmessagesapis/api/listen/thing?Key=7F2C352CFD200D8929D6EAAB96AC3BF9",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [
-            {
-                "keyType": "Authorization",
-                "keyValue": "",
-                "valueType": "other",
-                "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
-            }
-        ],
-        "x": 370,
-        "y": 500,
-        "wires": [
-            [
-                "8a94a7e0c0e511ca",
-                "766f3332cee93ef8",
-                "c2c8b72f44c91f03",
-                "3721c53a7f781a2c",
-                "2a0beba6d09f1b84",
-                "8a55c164cea5cfcc",
-                "96bec991166f6a66",
-                "a9ca1420f55fe390"
-            ]
-        ]
     },
     {
         "id": "8a94a7e0c0e511ca",
@@ -433,12 +358,12 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload.Sensor",
+        "complete": "payload",
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
         "x": 680,
-        "y": 500,
+        "y": 560,
         "wires": []
     },
     {
@@ -454,10 +379,12 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 580,
+        "y": 640,
         "wires": [
             [
-                "f44a63ca88953723"
+                "f44a63ca88953723",
+                "10d07cfead75daf4",
+                "ba0dfa59323016c3"
             ]
         ]
     },
@@ -468,7 +395,7 @@
         "name": "",
         "group": "fa784fa1435d5307",
         "order": 1,
-        "width": 8,
+        "width": 7,
         "height": 6,
         "label": "",
         "chartType": "line",
@@ -479,7 +406,7 @@
         "dot": true,
         "ymin": "-30",
         "ymax": "30",
-        "removeOlder": "20",
+        "removeOlder": "30",
         "removeOlderPoints": "",
         "removeOlderUnit": "1",
         "cutout": 0,
@@ -500,7 +427,7 @@
         "useDifferentColor": false,
         "className": "css-chart",
         "x": 1010,
-        "y": 580,
+        "y": 680,
         "wires": [
             []
         ]
@@ -510,7 +437,7 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Location",
-        "func": "let centerLat = 13.7563;\nlet centerLon = 100.5018;\n\nlet lat = centerLat + (Math.random() - 0.5) * 0.02;\nlet lon = centerLon + (Math.random() - 0.5) * 0.02;\n\n// ดึงเส้นทางจาก context หรือเริ่มใหม่\nlet track = context.get('track') || [];\n\n// เพิ่มตำแหน่งใหม่เข้าไปในเส้นทาง\ntrack.push([lon, lat]);\ncontext.set('track', track);\n\n// Marker ล่าสุด\nlet newMarker = {\n    name: \"GPS\",\n    lat: lat,\n    lon: lon,\n    icon: \"circle\",\n    layer: \"points\"\n};\n\n// เส้นเชื่อมจุดทั้งหมดที่เคยไป\nlet newLine = {\n    name: \"Track Line\",\n    line: track,\n    layer: \"track\",\n    color: \"#c44948\",\n    width: 3,\n    opacity: 0.8\n};\n\n// ส่งออกไปแสดงผล\nmsg.payload = [newMarker, newLine];\nreturn msg;\n",
+        "func": "let centerLat = 13.7563;\nlet centerLon = 100.5018;\n\nlet lat = centerLat + (Math.random() - 0.5) * 0.02;\nlet lon = centerLon + (Math.random() - 0.5) * 0.02;\n\n// ดึงเส้นทางจาก context หรือเริ่มใหม่\nlet track = context.get('track') || [];\n\n// เพิ่มตำแหน่งใหม่เข้าไปในเส้นทาง\ntrack.push([lon, lat]);\ncontext.set('track', track);\n\n\nlet newMarker = {\n    name: \"GPS\",\n    lat: lat,\n    lon: lon,\n    icon: \"circle\",\n    layer: \"points\"\n};\n\n// เส้นเชื่อมจุดทั้งหมดที่เคยไป\nlet newLine = {\n    name: \"Track Line\",\n    line: track,\n    layer: \"track\",\n    color: \"#c44948\",\n    width: 3,\n    opacity: 0.8\n};\n\n\nmsg.payload = [newMarker, newLine];\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -518,7 +445,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 680,
+        "y": 740,
         "wires": [
             [
                 "502bc8cf4254df76"
@@ -558,7 +485,7 @@
         "mapopt": "",
         "mapwms": false,
         "x": 1000,
-        "y": 680,
+        "y": 740,
         "wires": []
     },
     {
@@ -570,7 +497,7 @@
         "layer": "combined",
         "smooth": true,
         "x": 850,
-        "y": 680,
+        "y": 740,
         "wires": [
             [
                 "512e1b45269e49f2"
@@ -595,7 +522,7 @@
         "fontSize": "20",
         "color": "#6bd3ff",
         "x": 920,
-        "y": 440,
+        "y": 500,
         "wires": []
     },
     {
@@ -611,7 +538,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 800,
+        "y": 860,
         "wires": [
             [
                 "d387d31dc5a24c56"
@@ -665,7 +592,7 @@
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 840,
+        "y": 900,
         "wires": []
     },
     {
@@ -682,7 +609,7 @@
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 760,
+        "y": 820,
         "wires": []
     },
     {
@@ -698,7 +625,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 380,
+        "y": 440,
         "wires": [
             [
                 "42617033f5e92d2a",
@@ -713,7 +640,7 @@
         "name": "Chart-Vibrate",
         "group": "d4280360375e908f",
         "order": 1,
-        "width": 7,
+        "width": 6,
         "height": 5,
         "label": "",
         "chartType": "line",
@@ -745,44 +672,9 @@
         "useDifferentColor": false,
         "className": "css-chart-vibrate",
         "x": 1090,
-        "y": 380,
+        "y": 440,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "05bbbe9c04888db4",
-        "type": "mongodb3 in",
-        "z": "2395f6adbeb5589e",
-        "service": "_ext_",
-        "configNode": "2f7b91658fa4b836",
-        "name": "PUT-Mongodb",
-        "collection": "mongodb",
-        "operation": "insert",
-        "x": 900,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "96bec991166f6a66",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Func Database",
-        "func": "let saveToDB = flow.get(\"saveToDB\");\n\nlet sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nif (saveToDB === true) {\n    return {\n        payload: {\n            \"timestamp\": new Date(time).toLocaleString(\"th-TH\", {\n                hour12: false\n            }),\n            \"Yaw(Z)\": sensor[\"Yaw(Z)\"],\n            \"Location\": sensor[\"Location\"]\n        }\n    };\n} else {\n    return null;\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 700,
-        "y": 920,
-        "wires": [
-            [
-                "05bbbe9c04888db4"
-            ]
         ]
     },
     {
@@ -997,7 +889,7 @@
         "diff": false,
         "className": "",
         "x": 910,
-        "y": 300,
+        "y": 360,
         "wires": []
     },
     {
@@ -1013,7 +905,7 @@
         "finalize": "",
         "libs": [],
         "x": 710,
-        "y": 300,
+        "y": 360,
         "wires": [
             [
                 "1b57291f351725e7",
@@ -1048,7 +940,7 @@
         "animate": false,
         "className": "",
         "x": 720,
-        "y": 980,
+        "y": 1040,
         "wires": [
             [
                 "ecfefe40cfd2c208"
@@ -1068,9 +960,200 @@
         "finalize": "",
         "libs": [],
         "x": 930,
-        "y": 980,
+        "y": 1040,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "065935efd975e05e",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "774ee64a3e4f9afd",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "Text-Current Speed ",
+        "label": "<span class=\"label-small\">Current Speed</span>",
+        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} Kmph</span>",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 950,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1b57291f351725e7",
+        "type": "ui_numeric",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "label": "Car Speed ​Control",
+        "tooltip": "",
+        "group": "774ee64a3e4f9afd",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 950,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "caaf8b8dd7afb276",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "774ee64a3e4f9afd",
+        "name": "css-current-text",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .css-current-text .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n    }\n\n    .css-current-text {\n        display: flex;\n        flex-direction: column;\n        align-items: flex-start !important; \n        justify-content: flex-start !important;\n        text-align: left !important;\n\n    }\n\n    .css-current-text .label-small {\n        font-size: 13px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-current-text .value {\n        font-size: 13px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9ca1420f55fe390",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func chart",
+        "func": "msg.payload = Math.random() * 20\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 260,
+        "wires": [
+            [
+                "065935efd975e05e"
+            ]
+        ]
+    },
+    {
+        "id": "c76a62b4e44def84",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "name": "css-chart",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.css-chart .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n} \n</style>\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 720,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f33a16394158808a",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "ui_control ",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 440,
+        "wires": [
+            [
+                "4e247153add37b1e"
+            ]
+        ]
+    },
+    {
+        "id": "10d07cfead75daf4",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "Roll",
+        "label": "<span class=\"label-small\">Roll</span>",
+        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} mm</span>",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 870,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "ba0dfa59323016c3",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "fa784fa1435d5307",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "Tilt Left-Right",
+        "label": "<span class=\"label-small\">Tilt Left-Right</span>",
+        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} deg\\t</span>",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "f44a63ca88953723",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "ui_control ",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 680,
+        "wires": [
+            [
+                "c2fdbefbfc9f93d7"
+            ]
         ]
     },
     {
@@ -1081,8 +1164,8 @@
         "label": "Filter",
         "group": "6293bb60cd5176bd",
         "order": 1,
-        "width": 7,
-        "height": 1,
+        "width": 0,
+        "height": 0,
         "options": [
             {
                 "label": "Start Date",
@@ -1111,7 +1194,7 @@
         "splitLayout": false,
         "className": "",
         "x": 530,
-        "y": 1140,
+        "y": 1400,
         "wires": [
             [
                 "5620f7bbd22ca008"
@@ -1128,7 +1211,7 @@
         "collection": "mongodb",
         "operation": "find.toArray",
         "x": 520,
-        "y": 1080,
+        "y": 1340,
         "wires": [
             [
                 "68f88548a6877452"
@@ -1148,7 +1231,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1080,
+        "y": 1340,
         "wires": [
             [
                 "a083ef7c9408f11c"
@@ -1168,7 +1251,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1080,
+        "y": 1340,
         "wires": [
             [
                 "dca72730feaacec4"
@@ -1218,8 +1301,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 1060,
-        "y": 1080,
+        "x": 1080,
+        "y": 1340,
         "wires": []
     },
     {
@@ -1235,7 +1318,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1140,
+        "y": 1400,
         "wires": [
             [
                 "dca72730feaacec4"
@@ -1266,7 +1349,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 120,
-        "y": 1140,
+        "y": 1400,
         "wires": [
             [
                 "dab9ab345ca1aa4a"
@@ -1295,7 +1378,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 130,
-        "y": 1080,
+        "y": 1340,
         "wires": [
             [
                 "dab9ab345ca1aa4a"
@@ -1315,7 +1398,7 @@
         "finalize": "",
         "libs": [],
         "x": 1060,
-        "y": 1120,
+        "y": 1400,
         "wires": [
             [
                 "28b5ae5adef6cd96"
@@ -1338,7 +1421,7 @@
         "templateScope": "local",
         "className": "download-box",
         "x": 1260,
-        "y": 1120,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -1356,7 +1439,7 @@
         "finalize": "",
         "libs": [],
         "x": 880,
-        "y": 1080,
+        "y": 1340,
         "wires": [
             [
                 "3e70a53f659c1ce5",
@@ -1365,82 +1448,201 @@
         ]
     },
     {
-        "id": "065935efd975e05e",
+        "id": "96bec991166f6a66",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Func Database",
+        "func": "let saveToDB = flow.get(\"saveToDB\");\n\nlet sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nif (saveToDB === true) {\n    return {\n        payload: {\n            \"timestamp\": new Date(time).toLocaleString(\"th-TH\", {\n                hour12: false\n            }),\n            \"Yaw(Z)\": sensor[\"Yaw(Z)\"],\n            \"Location\": sensor[\"Location\"]\n        }\n    };\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 980,
+        "wires": [
+            [
+                "05bbbe9c04888db4"
+            ]
+        ]
+    },
+    {
+        "id": "05bbbe9c04888db4",
+        "type": "mongodb3 in",
+        "z": "2395f6adbeb5589e",
+        "service": "_ext_",
+        "configNode": "2f7b91658fa4b836",
+        "name": "PUT-Mongodb",
+        "collection": "mongodb",
+        "operation": "insert",
+        "x": 920,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cceee3556467f723",
+        "type": "http request",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://magellan.ais.co.th/asgardpullmessagesapis/api/listen/thing?Key=7F2C352CFD200D8929D6EAAB96AC3BF9",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Authorization",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
+            }
+        ],
+        "x": 370,
+        "y": 560,
+        "wires": [
+            [
+                "96bec991166f6a66",
+                "8a94a7e0c0e511ca",
+                "766f3332cee93ef8",
+                "c2c8b72f44c91f03",
+                "3721c53a7f781a2c",
+                "2a0beba6d09f1b84",
+                "8a55c164cea5cfcc",
+                "a9ca1420f55fe390",
+                "4ec4c0b2faf669c9"
+            ]
+        ]
+    },
+    {
+        "id": "c0b82201e3c321f2",
+        "type": "inject",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 560,
+        "wires": [
+            [
+                "cceee3556467f723"
+            ]
+        ]
+    },
+    {
+        "id": "263bc3e0a6836f02",
         "type": "ui_text",
         "z": "2395f6adbeb5589e",
-        "group": "774ee64a3e4f9afd",
-        "order": 3,
+        "group": "a5662fc4e9abb539",
+        "order": 1,
         "width": 3,
         "height": 1,
-        "name": "Text-Current Speed ",
-        "label": "<span class=\"label-small\">Current Speed</span>",
-        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}}</span>",
+        "name": "Date",
+        "label": "<span class=\"label-small\">Date</span>",
+        "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "css-current-text",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 950,
-        "y": 180,
+        "x": 910,
+        "y": 80,
         "wires": []
     },
     {
-        "id": "1b57291f351725e7",
-        "type": "ui_numeric",
+        "id": "2e031f6b401d6727",
+        "type": "ui_text",
         "z": "2395f6adbeb5589e",
-        "name": "",
-        "label": "Car Speed ​Control",
-        "tooltip": "",
-        "group": "774ee64a3e4f9afd",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "wrap": false,
-        "passthru": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "step": 1,
-        "className": "",
-        "x": 950,
-        "y": 240,
-        "wires": [
-            []
-        ]
+        "group": "a5662fc4e9abb539",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "Time",
+        "label": "<span class=\"label-small\">Time</span>",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 120,
+        "wires": []
     },
     {
-        "id": "caaf8b8dd7afb276",
-        "type": "ui_template",
+        "id": "8153b03ce7f8551a",
+        "type": "ui_text",
         "z": "2395f6adbeb5589e",
-        "group": "774ee64a3e4f9afd",
-        "name": "css-current-text",
-        "order": 7,
+        "group": "a5662fc4e9abb539",
+        "order": 3,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .css-current-text .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n    }\n\n    .css-current-text {\n        display: flex;\n        flex-direction: column;\n        align-items: flex-start !important; \n        justify-content: flex-start !important;\n        text-align: left !important;\n\n    }\n\n    .css-current-text .label-small {\n        font-size: 13px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-current-text .value {\n        font-size: 13px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 100,
-        "y": 140,
-        "wires": [
-            []
-        ]
+        "name": "Total Distance",
+        "label": "<span class=\"label-small\">Total Distance</span>",
+        "format": "{{msg.payload.Serson[\"Location\"]}}",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 940,
+        "y": 200,
+        "wires": []
     },
     {
-        "id": "a9ca1420f55fe390",
+        "id": "3fec69fe31818562",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "a5662fc4e9abb539",
+        "order": 4,
+        "width": 6,
+        "height": 3,
+        "name": "Satellite",
+        "label": "<span class=\"label-small\">Satellite</span>",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "css-current-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 920,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "4ec4c0b2faf669c9",
         "type": "function",
         "z": "2395f6adbeb5589e",
-        "name": "Func chart",
-        "func": "msg.payload = Math.random() * 20\nreturn msg;",
-        "outputs": 1,
+        "name": "Func Detail",
+        "func": "let body = msg.payload;\nlet ts = body.timestamp || body.time || Date.now();\nlet d = new Date(ts);\n\nconst optDate = {\n    timeZone: \"Asia/Bangkok\",\n    year: \"numeric\",\n    month: \"2-digit\",\n    day: \"2-digit\"\n};\n\n\nconst optTime = {\n    timeZone: \"Asia/Bangkok\",\n    hour12: false,\n    hour: \"2-digit\",\n    minute: \"2-digit\",\n    second: \"2-digit\"\n};\n\nconst dateStr = d.toLocaleDateString(\"th-TH\", optDate);\nconst timeStr = d.toLocaleTimeString(\"th-TH\", optTime);\n\n\nconst satellites = body.satellites || body.satellite || \"-\";\nconst totalDist = body.totalDistance || body.total_distance || \"0\";\n\n\nreturn [\n    { payload: dateStr },\n    { payload: timeStr },\n    { payload: satellites },\n    { payload: totalDist }\n];\n",
+        "outputs": 4,
         "timeout": 0,
-        "noerr": 0,
+        "noerr": 2,
         "initialize": "",
         "finalize": "",
         "libs": [],
@@ -1448,110 +1650,16 @@
         "y": 180,
         "wires": [
             [
-                "065935efd975e05e"
-            ]
-        ]
-    },
-    {
-        "id": "c76a62b4e44def84",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "fa784fa1435d5307",
-        "name": "css-chart",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n.css-chart .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n} \n</style>\n\n\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 720,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f33a16394158808a",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "ui_control ",
-        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 900,
-        "y": 380,
-        "wires": [
+                "263bc3e0a6836f02"
+            ],
             [
-                "4e247153add37b1e"
-            ]
-        ]
-    },
-    {
-        "id": "10d07cfead75daf4",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "fa784fa1435d5307",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "name": "Roll",
-        "label": "<span class=\"label-small\">Roll</span>",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "css-current-text",
-        "style": true,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 870,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "ba0dfa59323016c3",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "fa784fa1435d5307",
-        "order": 4,
-        "width": 3,
-        "height": 1,
-        "name": "Tilt Left-Right",
-        "label": "<span class=\"label-small\">Tilt Left-Right</span>",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "css-current-text",
-        "style": true,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 1010,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "f44a63ca88953723",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "ui_control ",
-        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 580,
-        "wires": [
+                "2e031f6b401d6727"
+            ],
             [
-                "c2fdbefbfc9f93d7"
+                "3fec69fe31818562"
+            ],
+            [
+                "8153b03ce7f8551a"
             ]
         ]
     }

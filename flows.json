@@ -8,14 +8,6 @@
         "env": []
     },
     {
-        "id": "335896414ea1353c",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "04e74bfb6596ce71",
         "type": "ui_tab",
         "name": "Dashboard",
@@ -29,9 +21,9 @@
         "type": "ui_group",
         "name": "Roll Chart",
         "tab": "04e74bfb6596ce71",
-        "order": 5,
+        "order": 6,
         "disp": true,
-        "width": 9,
+        "width": 11,
         "collapse": false,
         "className": ""
     },
@@ -41,7 +33,7 @@
         "d": true,
         "name": "Table",
         "tab": "04e74bfb6596ce71",
-        "order": 4,
+        "order": 5,
         "disp": true,
         "width": 9,
         "collapse": false,
@@ -52,20 +44,21 @@
         "type": "ui_group",
         "name": "Map",
         "tab": "04e74bfb6596ce71",
-        "order": 7,
+        "order": 2,
         "disp": true,
-        "width": 8,
+        "width": 11,
         "collapse": false,
         "className": ""
     },
     {
         "id": "774ee64a3e4f9afd",
         "type": "ui_group",
+        "d": true,
         "name": "Speed",
         "tab": "04e74bfb6596ce71",
-        "order": 2,
+        "order": 3,
         "disp": true,
-        "width": 9,
+        "width": 10,
         "collapse": false,
         "className": ""
     },
@@ -74,9 +67,9 @@
         "type": "ui_group",
         "name": "Vibrate",
         "tab": "04e74bfb6596ce71",
-        "order": 3,
+        "order": 4,
         "disp": true,
-        "width": 9,
+        "width": 11,
         "collapse": false,
         "className": ""
     },
@@ -96,7 +89,7 @@
         "tab": "c7722013df684059",
         "order": 2,
         "disp": false,
-        "width": 21,
+        "width": 22,
         "collapse": false,
         "className": ""
     },
@@ -107,7 +100,7 @@
         "tab": "c7722013df684059",
         "order": 1,
         "disp": false,
-        "width": 5,
+        "width": 6,
         "collapse": false,
         "className": ""
     },
@@ -199,12 +192,12 @@
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
+                "sx": 40,
+                "sy": 40,
+                "gx": 12,
+                "gy": 12,
                 "cx": 6,
-                "cy": 6,
+                "cy": 18,
                 "px": 6,
                 "py": 6
             }
@@ -233,7 +226,7 @@
         "tab": "04e74bfb6596ce71",
         "order": 1,
         "disp": true,
-        "width": 8,
+        "width": 10,
         "collapse": false,
         "className": ""
     },
@@ -242,54 +235,24 @@
         "type": "ui_group",
         "name": "Tilt Left-Right Chart",
         "tab": "04e74bfb6596ce71",
-        "order": 6,
+        "order": 7,
         "disp": true,
-        "width": 9,
+        "width": 11,
         "collapse": false,
         "className": ""
     },
     {
-        "id": "8023f685f8536d53",
+        "id": "63bab9bc2a9691fc",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "031a4b4761184c01",
         "order": 2,
-        "width": 17,
+        "width": 16,
         "height": 1
     },
     {
-        "id": "48a8fbeb.e660d4",
-        "type": "ui_group",
-        "z": "2395f6adbeb5589e",
-        "name": "Second",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": "5"
-    },
-    {
-        "id": "226cb3a1.d25c9c",
-        "type": "ui_group",
-        "z": "2395f6adbeb5589e",
-        "name": "Click",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": "5"
-    },
-    {
-        "id": "749eeab5e45e6e97",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "a5662fc4e9abb539",
-        "order": 7,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "4fe4c5066bb84e7e",
+        "id": "31c1086d77b4edd9",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -299,37 +262,57 @@
         "height": 1
     },
     {
-        "id": "7a9a8b0a021c0162",
+        "id": "66db0560b60a9bb9",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "a5662fc4e9abb539",
+        "order": 9,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "928cbcb973dee6f1",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
         "order": 2,
-        "width": 3,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "e685ec68619aa6d2",
+        "id": "410f7157b6320bd8",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
-        "order": 4,
-        "width": 3,
+        "order": 3,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "9281d575c9866d57",
+        "id": "feea199723902757",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
         "order": 5,
-        "width": 3,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "6a8fa24c7d3acfe9",
+        "id": "71d19a82c01f3b15",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "774ee64a3e4f9afd",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f573b49dd1d1839c",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -339,7 +322,7 @@
         "height": 1
     },
     {
-        "id": "242db7602643afa4",
+        "id": "9cd4cf554b1acffc",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -349,7 +332,7 @@
         "height": 1
     },
     {
-        "id": "f64dd1b5de5cf361",
+        "id": "c0a9a5dbf8ebb91d",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -359,7 +342,7 @@
         "height": 1
     },
     {
-        "id": "d6e8658275f6f021",
+        "id": "011f9cb17b078d4c",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -369,7 +352,7 @@
         "height": 1
     },
     {
-        "id": "ec4f039b13d6f829",
+        "id": "e1e0538980881264",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -379,7 +362,7 @@
         "height": 1
     },
     {
-        "id": "52f2111783d4f469",
+        "id": "25075d25e9f20aa9",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -389,7 +372,7 @@
         "height": 1
     },
     {
-        "id": "72ad7abc660fc9ce",
+        "id": "b934d2fefe3596e0",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -399,7 +382,7 @@
         "height": 1
     },
     {
-        "id": "79d1c7701339fc4f",
+        "id": "64e49afdc1bf8c14",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -409,17 +392,7 @@
         "height": 1
     },
     {
-        "id": "cc5e2c9fe60d1826",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "fa784fa1435d5307",
-        "order": 7,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "8a8a89dd24d175f9",
+        "id": "37d08444dce785f3",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -429,7 +402,7 @@
         "height": 1
     },
     {
-        "id": "6d7d39bf97e4f306",
+        "id": "e859de31efe107f6",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -439,7 +412,7 @@
         "height": 1
     },
     {
-        "id": "51892365db2b6c2d",
+        "id": "4dde27fd2120568d",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -449,22 +422,12 @@
         "height": 1
     },
     {
-        "id": "4c43b797528c2e96",
+        "id": "1ea9d3deb5816855",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "4ab2bea43a8779d2",
         "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "40015e9935c84348",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "4ab2bea43a8779d2",
-        "order": 7,
         "width": 3,
         "height": 1
     },
@@ -517,8 +480,8 @@
         "name": "",
         "group": "fa784fa1435d5307",
         "order": 1,
-        "width": 6,
-        "height": 6,
+        "width": 8,
+        "height": 5,
         "label": "",
         "chartType": "line",
         "legend": "true",
@@ -559,7 +522,7 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Location",
-        "func": "let centerLat = 13.7563;\nlet centerLon = 100.5018;\n\nlet lat = centerLat + (Math.random() - 0.5) * 0.02;\nlet lon = centerLon + (Math.random() - 0.5) * 0.02;\n\n// ดึงเส้นทางจาก context หรือเริ่มใหม่\nlet track = context.get('track') || [];\n\n// เพิ่มตำแหน่งใหม่เข้าไปในเส้นทาง\ntrack.push([lon, lat]);\ncontext.set('track', track);\n\n\nlet newMarker = {\n    name: \"GPS\",\n    lat: lat,\n    lon: lon,\n    icon: \"circle\",\n    layer: \"points\"\n};\n\n// เส้นเชื่อมจุดทั้งหมดที่เคยไป\nlet newLine = {\n    name: \"Track Line\",\n    line: track,\n    layer: \"track\",\n    color: \"#c44948\",\n    width: 3,\n    opacity: 0.8\n};\n\n\nmsg.payload = [newMarker, newLine];\nreturn msg;\n",
+        "func": "let sensor = msg.payload.Sensor || {};\nlet location = sensor[\"Location\"];   \n\nlet [lat, lon] = location.split(\",\").map(parseFloat);\n\nmsg.payload = {\n  name: \"Location\",\n  lat,\n  lon,\n  icon: \"fa-map-marker\",         \n  layer: \"Location_points\",\n  popup: `Lat: ${lat.toFixed(6)}, Lon: ${lon.toFixed(6)}`\n};\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -567,62 +530,11 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 820,
+        "y": 840,
         "wires": [
             [
-                "502bc8cf4254df76"
-            ]
-        ]
-    },
-    {
-        "id": "512e1b45269e49f2",
-        "type": "ui_worldmap",
-        "z": "2395f6adbeb5589e",
-        "group": "f3927f275c56e254",
-        "order": 1,
-        "width": 8,
-        "height": 6,
-        "name": "",
-        "lat": "",
-        "lon": "",
-        "zoom": "",
-        "layer": "Custom",
-        "cluster": "",
-        "maxage": "",
-        "usermenu": "hide",
-        "layers": "hide",
-        "panit": "false",
-        "panlock": "false",
-        "zoomlock": "false",
-        "hiderightclick": "true",
-        "coords": "none",
-        "showgrid": "false",
-        "showruler": "false",
-        "allowFileDrop": "true",
-        "path": "/worldmap",
-        "overlist": "",
-        "maplist": "OSMC",
-        "mapname": "",
-        "mapurl": "",
-        "mapopt": "",
-        "mapwms": false,
-        "x": 1000,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "502bc8cf4254df76",
-        "type": "worldmap-tracks",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "depth": "10",
-        "layer": "combined",
-        "smooth": true,
-        "x": 850,
-        "y": 820,
-        "wires": [
-            [
-                "512e1b45269e49f2"
+                "d40efd55af2630a0",
+                "cf0cd28328db2831"
             ]
         ]
     },
@@ -635,16 +547,16 @@
         "width": 3,
         "height": 1,
         "name": "Text-Current-Vibrate",
-        "label": "<span class=\"label-small\">Current Vibrate</span>",
+        "label": "<span class=\"label-small\">Vibrate</span>",
         "format": "<span class=\"value\">{{msg.payload.toFixed(2)}}</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": "20",
         "color": "#6bd3ff",
         "x": 920,
-        "y": 560,
+        "y": 540,
         "wires": []
     },
     {
@@ -660,7 +572,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 920,
+        "y": 960,
         "wires": [
             [
                 "d387d31dc5a24c56"
@@ -714,7 +626,7 @@
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 960,
+        "y": 980,
         "wires": []
     },
     {
@@ -724,14 +636,14 @@
         "d": true,
         "group": "52b1af9da22ea88d",
         "name": "",
-        "order": 3,
+        "order": 2,
         "width": 0,
         "height": 0,
         "columns": [],
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 880,
+        "y": 940,
         "wires": []
     },
     {
@@ -762,7 +674,7 @@
         "name": "Chart-Vibrate",
         "group": "d4280360375e908f",
         "order": 1,
-        "width": 6,
+        "width": 8,
         "height": 5,
         "label": "",
         "chartType": "line",
@@ -805,10 +717,10 @@
         "z": "2395f6adbeb5589e",
         "group": "fa784fa1435d5307",
         "name": "CSS GOBAL",
-        "order": 10,
+        "order": 7,
         "width": 0,
         "height": 0,
-        "format": "<style>\n\n@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mozilla+Headline:wght@200..700&family=Noto+Sans+Thai+Looped:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');\n\nbody, .nr-dashboard-theme{\n  font-family: 'Jost', sans-serif !important;\n}\n\n    /*Main background*/\n    /* body {\n            background: -webkit-linear-gradient(\n            55deg,\n            #2e3b5e 0%,\n            #296a81 50%,\n            #2b8a90 100%\n        );\n    } */\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar{\n        background-color: #FFFFFF !important;\n        margin: 0px\n        color: #092621 !important;\n    }\n\n    body.nr-dashboard-theme md-content md-card {\n        /* background-color: transparent !important; */\n        color: #092621 !important;\n    }\n    \n    body.nr-dashboard-theme md-toolbar .md-toolbar-tools {\n        color: #00af92;\n        font-weight: bold;\n    }\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: #FFFFFF !important;\n        border-radius: 10px !important;\n        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n        /* margin: 10px !important; */\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border-radius: 10px !important;\n    }\n\n    /* ชื่อ Group */\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: #00af92 !important;\n    }\n\n    /* ปุ่ม */\n    /* .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: #00af92 !important;\n    }\n    \n    .md-button {\n        border-radius: 10px !important;\n    } */\n\n    .nr-dashboard-cardcontainer {\n        margin: 5px !important;\n    }\n\n    /* ชื่อ group */\n    .nr-dashboard-cardtitle {\n        font-size: 15px !important;\n        text-transform: uppercase;\n        margin: 0 !important;\n        padding: 10px 10px 0px 20px  !important;     \n    }\n\n    p.nr-dashboard-chart-title {\n        display: none !important;\n    }\n\n</style>\n",
+        "format": "<style>\n\n@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mozilla+Headline:wght@200..700&family=Noto+Sans+Thai+Looped:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');\n\nbody, .nr-dashboard-theme{\n  font-family: 'Jost', sans-serif !important;\n}\n\n    /*Main background*/\n    /* body {\n            background: -webkit-linear-gradient(\n            55deg,\n            #2e3b5e 0%,\n            #296a81 50%,\n            #2b8a90 100%\n        );\n    } */\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar{\n        background-color: #FFFFFF !important;\n        margin: 0px\n        color: #092621 !important;\n    }\n\n    body.nr-dashboard-theme md-content md-card {\n        /* background-color: transparent !important; */\n        color: #092621 !important;\n    }\n    \n    body.nr-dashboard-theme md-toolbar .md-toolbar-tools {\n        color: #00af92;\n        font-weight: bold;\n    }\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: #FFFFFF !important;\n        border-radius: 10px !important;\n        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);\n        /* margin: 10px !important; */\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border-radius: 10px !important;\n    }\n\n    /* ปุ่ม */\n    /* .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: #00af92 !important;\n    }\n    \n    .md-button {\n        border-radius: 10px !important;\n    } */\n\n    .nr-dashboard-cardcontainer {\n        margin: 6px !important;\n    }\n\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: #00af92 !important;\n    }\n\n    /* ชื่อ group */\n    .nr-dashboard-cardtitle {\n        font-size: 15px !important;\n        text-transform: uppercase;\n        margin: 0 !important;\n        padding: 15px 10px 0px 20px  !important;     \n    }\n\n    p.nr-dashboard-chart-title {\n        display: none !important;\n    }\n\n</style>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -821,31 +733,12 @@
         ]
     },
     {
-        "id": "83232ae903f9c10f",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "d": true,
-        "name": "Location",
-        "func": "let sensor = msg.payload.Sensor;\nlet location = sensor[\"Location\"]; \n\n\nlet [lat, lon] = location.split(',').map(parseFloat);\n\n\nlet track = context.get('track') || [];\n\n\ntrack.push([lon, lat]); \n\ncontext.set('track', track);\n\n\nlet newMarker = {\n    name: \"Magellan GPS\",\n    lat: lat,\n    lon: lon,\n    icon: \"circle\",\n    layer: \"magellan_points\"  \n};\n\n\nlet newLine = {\n    name: \"Track Line\",\n    line: track,\n    layer: \"magellan_track\",\n    color: \"red\",\n    width: 2,\n    opacity: 0.7\n};\n\n\nmsg.payload = [newMarker, newLine];\n\nreturn msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 240,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "3e6de543868748a0",
         "type": "ui_template",
         "z": "2395f6adbeb5589e",
         "group": "52b1af9da22ea88d",
         "name": "css-table",
-        "order": 4,
+        "order": 3,
         "width": 0,
         "height": 0,
         "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n      .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    /* ข้อมูลในตาราง */\n    .tabulator .tabulator-row {\n        height: 40px !important;\n        border-bottom: 1px solid #ccc !important;\n        text-align: left !important;\n    }\n\n    /* ลูกษร */\n    .tabulator-arrow {\n    display: none !important;\n}\n    \n</style>\n\n",
@@ -861,54 +754,12 @@
         ]
     },
     {
-        "id": "0a548628b70c2937",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "fa784fa1435d5307",
-        "name": "refresh-box",
-        "order": 11,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n.refresh-box button.md-button {\n    border-radius: 50% !important;\n    width: 40px !important;\n    height: 40px !important;\n    margin: 5px;\n    background-color: #00af92 !important; \n}\n\n.refresh-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n</style>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 390,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ca43211b30962f57",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "fa784fa1435d5307",
-        "name": "css-chart-vibrate",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n.css-chart-vibrate .nr-dashboard-chart-title {\n  text-align: left !important;\n  padding-left: 20px;\n  font-size: 20px !important;\n  color: black;\n}\n\n.css-chart-vibrate .nr-dashboard-chart {\n  margin-bottom: 30px !important; \n}\n</style>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 280,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "c1c7c7aa8264eb20",
         "type": "ui_template",
         "z": "2395f6adbeb5589e",
         "group": "031a4b4761184c01",
         "name": "css-tableReports",
-        "order": 5,
+        "order": 7,
         "width": 0,
         "height": 0,
         "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n      .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    /* ข้อมูลในตาราง */\n    .tabulator .tabulator-row {\n        height: 40px !important;\n        border-bottom: 1px solid #ccc !important;\n        text-align: left !important;\n    }\n\n    /* ลูกษร\n    .tabulator-arrow {\n    display: none !important;\n} */\n    \n</style>\n\n",
@@ -924,27 +775,6 @@
         ]
     },
     {
-        "id": "813d992951178b2c",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "031a4b4761184c01",
-        "name": "download-box",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n.download-box button.md-button {\n    border-radius: 50% !important;\n    width: 40px !important;\n    height: 40px !important;\n    margin: 5px;\n    background-color: #00af92 !important; \n}\n\n.download-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n</style>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 440,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "03da970188578956",
         "type": "ui_template",
         "z": "2395f6adbeb5589e",
@@ -953,14 +783,14 @@
         "order": 6,
         "width": 0,
         "height": 0,
-        "format": "<style>\n.refresh-box button.md-button {\n    width: 40px !important;\n    height: 39px !important;\n    background-color: #00af92 !important; \n    margin-top: 5px;\n}\n\n.refresh-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n</style>\n",
+        "format": "<style>\n.refresh-box button.md-button {\n\n    background-color: #00af92 !important; \n    margin-top: 5px;\n}\n\n.refresh-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n\n.refresh-box button.md-button:hover {\n  filter:brightness(1.2); \n  transform: scale(1.02); \n}\n\n</style>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 610,
-        "y": 80,
+        "x": 250,
+        "y": 40,
         "wires": [
             []
         ]
@@ -971,16 +801,16 @@
         "z": "2395f6adbeb5589e",
         "group": "031a4b4761184c01",
         "name": "download-box",
-        "order": 7,
+        "order": 5,
         "width": 0,
         "height": 0,
-        "format": "<style>\n  #downloadCsv {\n    font-family: 'Jost' !important;\n    border-radius: 2px !important;\n    width: 140px !important;\n    height: 39px !important;\n    border: none;\n    color: white !important;\n    background-color: #00af92 !important;\n    box-shadow: 0px 2px 3px rgba(1, 0, 0, 0.2) ;\n    transition: box-shadow 0.3s ease;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-top: 3px;\n  }\n\n  #downloadCsv .fa {\n    font-size: 15px;\n    color: white !important;\n  }\n\n</style>",
+        "format": "<style>\n  #downloadCsv {\n    font-family: 'Jost' !important;\n    border-radius: 2px !important;\n    height: 65px !important;\n    border: none;\n    color: white !important;\n    background-color: #00af92 !important;\n    box-shadow: 0px 2px 3px rgba(1, 0, 0, 0.2) ;\n    transition: box-shadow 0.3s ease;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-top: 3px;\n  }\n\n  #downloadCsv .fa {\n    font-size: 15px;\n    color: white !important;\n  }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 560,
+        "x": 420,
         "y": 40,
         "wires": [
             []
@@ -1011,7 +841,7 @@
         "diff": false,
         "className": "",
         "x": 910,
-        "y": 420,
+        "y": 440,
         "wires": []
     },
     {
@@ -1027,7 +857,7 @@
         "finalize": "",
         "libs": [],
         "x": 710,
-        "y": 420,
+        "y": 440,
         "wires": [
             [
                 "1b57291f351725e7",
@@ -1042,9 +872,9 @@
         "name": "",
         "label": "Save data to database",
         "tooltip": "",
-        "group": "52b1af9da22ea88d",
-        "order": 2,
-        "width": 9,
+        "group": "a5662fc4e9abb539",
+        "order": 10,
+        "width": 10,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -1061,8 +891,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 720,
-        "y": 1100,
+        "x": 200,
+        "y": 1140,
         "wires": [
             [
                 "ecfefe40cfd2c208"
@@ -1074,17 +904,19 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Func Switch",
-        "func": "flow.set(\"saveToDB\", msg.payload); \nreturn null;",
+        "func": "flow.set(\"saveToDB\", msg.payload);\nif (msg.payload === true) {\n  return {};          \n}\nreturn { reset: true }; \n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 930,
-        "y": 1100,
+        "x": 170,
+        "y": 1200,
         "wires": [
-            []
+            [
+                "63ac52e6813141f7"
+            ]
         ]
     },
     {
@@ -1092,20 +924,20 @@
         "type": "ui_text",
         "z": "2395f6adbeb5589e",
         "group": "774ee64a3e4f9afd",
-        "order": 3,
+        "order": 4,
         "width": 3,
         "height": 1,
         "name": "Text-Current Speed ",
         "label": "<span class=\"label-small\">Current Speed</span>",
         "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} Kmph</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
         "x": 950,
-        "y": 320,
+        "y": 340,
         "wires": []
     },
     {
@@ -1116,7 +948,7 @@
         "label": "Car Speed ​Control",
         "tooltip": "",
         "group": "774ee64a3e4f9afd",
-        "order": 6,
+        "order": 7,
         "width": 0,
         "height": 0,
         "wrap": false,
@@ -1129,7 +961,7 @@
         "step": 1,
         "className": "",
         "x": 950,
-        "y": 380,
+        "y": 400,
         "wires": [
             []
         ]
@@ -1138,12 +970,12 @@
         "id": "caaf8b8dd7afb276",
         "type": "ui_template",
         "z": "2395f6adbeb5589e",
-        "group": "774ee64a3e4f9afd",
-        "name": "css-current-text",
-        "order": 7,
+        "group": "a5662fc4e9abb539",
+        "name": "css-detailt-text",
+        "order": 11,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .css-current-text .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n    }\n\n    .css-current-text {\n        display: flex;\n        flex-direction: column;\n        align-items: flex-start !important; \n        justify-content: flex-start !important;\n        text-align: left !important;\n\n    }\n\n    .css-current-text .label-small {\n        font-size: 14px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-current-text .value {\n        font-size: 15px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
+        "format": "<style>\n\n    .css-detail-text {\n        display: flex;\n        flex-direction: column;\n        align-items: flex-start !important; \n        justify-content: flex-start !important;\n        text-align: left !important;\n    }\n\n    .css-detailBuzzer-text {\n        display: flex;\n        flex-direction: column;\n        align-items: center !important; \n        justify-content: center !important;\n        text-align: center !important;\n    }\n\n    .css-detail-text .label-small {\n        font-size: 14px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-detail-text .value {\n        font-size: 15px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1168,32 +1000,11 @@
         "finalize": "",
         "libs": [],
         "x": 710,
-        "y": 320,
+        "y": 340,
         "wires": [
             [
                 "065935efd975e05e"
             ]
-        ]
-    },
-    {
-        "id": "c76a62b4e44def84",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "fa784fa1435d5307",
-        "name": "css-chart",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n.css-chart .nr-dashboard-chart-title {\n    text-align: left !important;\n    padding-left: 20px;\n    font-size: 20px !important;\n    /* color: #00af92; */\n    color: black;;\n} \n</style>\n\n\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 720,
-        "y": 40,
-        "wires": [
-            []
         ]
     },
     {
@@ -1228,7 +1039,7 @@
         "label": "<span class=\"label-small\">Roll</span>",
         "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} mm</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": 16,
@@ -1249,7 +1060,7 @@
         "label": "<span class=\"label-small\">Tilt Left-Right</span>",
         "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} deg\\t</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": 16,
@@ -1315,8 +1126,8 @@
         "topicType": "msg",
         "splitLayout": false,
         "className": "",
-        "x": 530,
-        "y": 1460,
+        "x": 910,
+        "y": 1260,
         "wires": [
             [
                 "5620f7bbd22ca008"
@@ -1330,10 +1141,10 @@
         "service": "_ext_",
         "configNode": "cba8999ae4809ff1",
         "name": "Mongodb",
-        "collection": "mongodb",
+        "collection": "Tilt-Data",
         "operation": "find.toArray",
-        "x": 520,
-        "y": 1400,
+        "x": 900,
+        "y": 1200,
         "wires": [
             [
                 "68f88548a6877452"
@@ -1345,15 +1156,15 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Data func",
-        "func": "msg.payload = {}; \nmsg.collection = \"mongodb\"; \nreturn msg;\n",
+        "func": "msg.payload = {}; \nmsg.collection = \"Tilt-Data\"; \nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 1400,
+        "x": 720,
+        "y": 1200,
         "wires": [
             [
                 "a083ef7c9408f11c"
@@ -1372,8 +1183,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 1400,
+        "x": 1070,
+        "y": 1200,
         "wires": [
             [
                 "dca72730feaacec4"
@@ -1387,12 +1198,12 @@
         "group": "031a4b4761184c01",
         "name": "Table Reports",
         "order": 1,
-        "width": 21,
-        "height": 14,
+        "width": 22,
+        "height": 13,
         "columns": [
             {
-                "field": "timestamp",
-                "title": "Date / Time",
+                "field": "Date",
+                "title": "Date",
                 "width": "",
                 "align": "left",
                 "formatter": "plaintext",
@@ -1401,8 +1212,28 @@
                 }
             },
             {
-                "field": "Yaw(Z)",
-                "title": "Tilt",
+                "field": "Time",
+                "title": "Time",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Roll",
+                "title": "Roll",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "TiltLeftRight",
+                "title": "TiltLeftRight",
                 "width": "",
                 "align": "left",
                 "formatter": "plaintext",
@@ -1423,8 +1254,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 1080,
-        "y": 1400,
+        "x": 1460,
+        "y": 1200,
         "wires": []
     },
     {
@@ -1439,8 +1270,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 1460,
+        "x": 1070,
+        "y": 1260,
         "wires": [
             [
                 "dca72730feaacec4"
@@ -1461,7 +1292,7 @@
         "height": 1,
         "passthru": false,
         "label": "",
-        "tooltip": "Refresh",
+        "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "refresh-box",
@@ -1470,82 +1301,12 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 120,
-        "y": 1460,
+        "x": 560,
+        "y": 1280,
         "wires": [
             [
                 "dab9ab345ca1aa4a"
             ]
-        ]
-    },
-    {
-        "id": "698a6c89306c175b",
-        "type": "inject",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "1",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 130,
-        "y": 1400,
-        "wires": [
-            [
-                "dab9ab345ca1aa4a"
-            ]
-        ]
-    },
-    {
-        "id": "686076f017824462",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Convert to CSV ",
-        "func": "\nlet data = msg.payload;\n\nlet headers = Object.keys(data[0]).filter(key => key !== \"_id\");\n\nlet csv = headers.join(\",\") + \"\\n\";\n\n data.forEach(row => {\n     let line = headers.map(h => {\n         let v = row[h];\n         if (typeof v === \"string\" && (v.includes(\",\") || v.includes(\"\\\"\"))) {\n             v = `\"${v.replace(/\"/g, '\"\"')}\"`;\n         }\n         return v;\n     }).join(\",\");\n     csv += line + \"\\n\";\n });\n\nmsg.payload = csv;\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1060,
-        "y": 1460,
-        "wires": [
-            [
-                "28b5ae5adef6cd96"
-            ]
-        ]
-    },
-    {
-        "id": "28b5ae5adef6cd96",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "031a4b4761184c01",
-        "name": "Download CSV Button",
-        "order": 4,
-        "width": 3,
-        "height": 1,
-        "format": "\n<button id=\"downloadCsv\"> \n  <i class=\"fa fa-download\" style=\"margin-right: 10px;\" ></i>\n  Download\n</button>\n\n<script>\n(function(scope) {\n  document.getElementById(\"downloadCsv\").addEventListener(\"click\", function() {\n    let csv = scope.msg.payload;\n    if (!csv) {\n      alert(\"No CSV data to download\");\n      return;\n    }\n    let blob = new Blob([csv], { type: \"text/csv;charset=utf-8;\" });\n    let url = URL.createObjectURL(blob);\n\n    let a = document.createElement(\"a\");\n    a.href = url;\n    a.download = \"data.csv\";\n    document.body.appendChild(a);\n    a.click();\n    document.body.removeChild(a);\n    URL.revokeObjectURL(url);\n  });\n})(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "download-box",
-        "x": 1260,
-        "y": 1460,
-        "wires": [
-            []
         ]
     },
     {
@@ -1560,12 +1321,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 1400,
+        "x": 1260,
+        "y": 1200,
         "wires": [
             [
                 "3e70a53f659c1ce5",
-                "686076f017824462"
+                "f864df037fe70643"
             ]
         ]
     },
@@ -1574,7 +1335,7 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Func Database",
-        "func": "let saveToDB = flow.get(\"saveToDB\");\n\nlet sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nif (saveToDB === true) {\n    return {\n        payload: {\n            \"timestamp\": new Date(time).toLocaleString(\"th-TH\", {\n                hour12: false\n            }),\n            \"Yaw(Z)\": sensor[\"Yaw(Z)\"],\n            \"Location\": sensor[\"Location\"]\n        }\n    };\n} else {\n    return null;\n}\n",
+        "func": "let saveToDB = flow.get(\"saveToDB\");\n\nlet sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nif (saveToDB === true) {\n    let date = `${sensor[\"Day\"]}/${sensor[\"Month\"]}/${sensor[\"Year\"]}`;\n\n    return {\n        payload: {\n            \"timestamp\": new Date(time).toLocaleString(\"th-TH\", { hour12: false }),\n            \"Date\": date,               \n            \"Time\": sensor[\"HourTH\"],\n            \"Roll\": sensor[\"Roll\"],\n            \"TiltLeftRight\": sensor[\"TiltLeftRight\"],\n            \"Location\": sensor[\"Location\"],\n        }\n    };\n} else {\n    return null;\n}\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1582,7 +1343,7 @@
         "finalize": "",
         "libs": [],
         "x": 700,
-        "y": 1040,
+        "y": 1020,
         "wires": [
             [
                 "05bbbe9c04888db4"
@@ -1596,10 +1357,10 @@
         "service": "_ext_",
         "configNode": "2f7b91658fa4b836",
         "name": "PUT-Mongodb",
-        "collection": "mongodb",
+        "collection": "Tilt-Data",
         "operation": "insert",
         "x": 920,
-        "y": 1040,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -1682,15 +1443,15 @@
         "height": 1,
         "name": "Date",
         "label": "<span class=\"label-small\">Date</span>",
-        "format": "{{msg.payload}}",
+        "format": "<span class=\"value\">{{msg.payload}}</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
         "x": 910,
-        "y": 220,
+        "y": 200,
         "wires": []
     },
     {
@@ -1703,15 +1464,15 @@
         "height": 1,
         "name": "Time",
         "label": "<span class=\"label-small\">Time</span>",
-        "format": "{{msg.payload}}",
+        "format": "<span class=\"value\">{{msg.payload}}</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
         "x": 910,
-        "y": 260,
+        "y": 240,
         "wires": []
     },
     {
@@ -1719,20 +1480,20 @@
         "type": "ui_text",
         "z": "2395f6adbeb5589e",
         "group": "a5662fc4e9abb539",
-        "order": 3,
+        "order": 5,
         "width": 4,
         "height": 1,
         "name": "Total Distance",
         "label": "<span class=\"label-small\">Total Distance</span>",
-        "format": "{{msg.payload.Serson[\"Location\"]}}",
+        "format": "<span class=\"value\">{{msg.payload}} m</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
         "x": 940,
-        "y": 140,
+        "y": 120,
         "wires": []
     },
     {
@@ -1740,20 +1501,20 @@
         "type": "ui_text",
         "z": "2395f6adbeb5589e",
         "group": "a5662fc4e9abb539",
-        "order": 5,
+        "order": 4,
         "width": 4,
         "height": 1,
         "name": "Satellite",
         "label": "<span class=\"label-small\">Satellite</span>",
-        "format": "{{msg.payload}}",
+        "format": "<span class=\"value\">{{msg.payload}}</span>",
         "layout": "col-center",
-        "className": "css-current-text",
+        "className": "css-detail-text",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
         "x": 920,
-        "y": 180,
+        "y": 160,
         "wires": []
     },
     {
@@ -1761,8 +1522,8 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Func Detail",
-        "func": "let sensor = (msg.payload && msg.payload.Sensor) || {};\n\nlet buzzer         = sensor[\"Buzzer\"];\nlet totalDistance  = sensor[\"TotalDistance\"];\nlet satellite      = sensor[\"Satellite\"];\n\n\nlet ts = sensor.timestamp ?? msg.payload?.timestamp ?? Date.now();\nif (typeof ts === \"number\" && ts < 10_000_000_000) ts = ts * 1000;\n\nconst tz = \"Asia/Bangkok\";\nconst now = new Date(ts);\n\nconst dateTH = now.toLocaleDateString(\"th-TH\", {\n  timeZone: tz,\n  year: \"numeric\",\n  month: \"numeric\",\n  day: \"numeric\",\n});\n\n\nconst timeTH = now.toLocaleTimeString(\"th-TH\", {\n  timeZone: tz,\n  hour12: false,\n  hour: \"2-digit\",\n  minute: \"2-digit\",\n  second: \"2-digit\",\n});\n\n\nreturn [\n  { payload: buzzer },\n  { payload: totalDistance },\n  { payload: satellite },\n  { payload: dateTH },\n  { payload: timeTH },\n];\n",
-        "outputs": 5,
+        "func": "let sensor = (msg.payload && msg.payload.Sensor) || {};\n\nlet buzzer        = sensor[\"Buzzer\"];\nlet totalDistance = sensor[\"TotalDistance\"];\nlet satellite     = sensor[\"Satellites\"];\nlet speed         = sensor[\"Speed\"];\n\n\nlet ts = sensor.timestamp ?? msg.payload?.timestamp ?? Date.now();\nif (typeof ts === \"number\" && ts < 10_000_000_000) ts = ts * 1000;\n\nconst tz = \"Asia/Bangkok\";\nconst now = new Date(ts);\n\nconst dateTH = now.toLocaleDateString(\"en-GB\", {\n  timeZone: tz,\n  year: \"numeric\",\n  month: \"numeric\",\n  day: \"numeric\",\n});\n\n\nconst timeTH = now.toLocaleTimeString(\"en-GB\", {\n  timeZone: tz,\n  hour12: false,\n  hour: \"2-digit\",\n  minute: \"2-digit\",\n  second: \"2-digit\",\n});\n\n\nreturn [\n  { payload: buzzer },\n  { payload: totalDistance },\n  { payload: satellite },\n  { payload: dateTH },\n  { payload: timeTH },\n  { payload: speed },\n];\n",
+        "outputs": 6,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
@@ -1786,6 +1547,9 @@
             ],
             [
                 "2e031f6b401d6727"
+            ],
+            [
+                "7f015f501de241cc"
             ]
         ]
     },
@@ -1816,8 +1580,8 @@
         "name": "",
         "group": "4ab2bea43a8779d2",
         "order": 1,
-        "width": 6,
-        "height": 6,
+        "width": 8,
+        "height": 5,
         "label": "",
         "chartType": "line",
         "legend": "true",
@@ -1854,51 +1618,22 @@
         ]
     },
     {
-        "id": "e5df6fd3a4e762d2",
-        "type": "ui_button",
-        "z": "2395f6adbeb5589e",
-        "d": true,
-        "name": "refresh",
-        "group": "031a4b4761184c01",
-        "order": 3,
-        "width": 1,
-        "height": 1,
-        "passthru": false,
-        "label": "",
-        "tooltip": "Refresh",
-        "color": "",
-        "bgcolor": "",
-        "className": "refresh-box",
-        "icon": "fa-refresh",
-        "payload": "[]",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 1100,
-        "y": 140,
-        "wires": [
-            [
-                "8153b03ce7f8551a"
-            ]
-        ]
-    },
-    {
         "id": "0e5e12c05fc9eaf5",
         "type": "ui_template",
         "z": "2395f6adbeb5589e",
         "group": "a5662fc4e9abb539",
         "name": "icon-buzzer",
         "order": 6,
-        "width": 4,
-        "height": 3,
-        "format": "<div class=\"buzzer-wrap\" layout=\"row\" layout-align=\"center center\">\n  <i class=\"fa\"\n     ng-class=\"(+msg.payload===1) ? 'fa-volume-up on' : 'fa-volume-off off'\"></i>\n</div>\n\n<style>\n    .buzzer-wrap {\n      display: flex;\n      flex-direction: column;\n      align-items: flex-start !important; \n      justify-content: flex-start !important;\n      text-align: left !important;\n  }\n  .buzzer-wrap i.fa {\n    /* transition: transform .2s ease, color .2s ease; */\n  }\n  .buzzer-wrap i.on  { font-size: 3rem; color: red;}\n  .buzzer-wrap i.off { font-size: 1.6rem; color: #9e9e9e; }\n</style>\n",
+        "width": 2,
+        "height": 2,
+        "format": "<div class=\"buzzer-wrap\" layout=\"row\" layout-align=\"center center\">\n  <i class=\"fa\"\n     ng-class=\"(+msg.payload===1) ? 'fa-volume-up on' : 'fa-volume-off off'\"></i>\n</div>\n\n<style>\n    .buzzer-wrap {\n      display: flex;\n      flex-direction: column;\n      align-items: center !important; \n      justify-content: flex-start !important;\n      text-align: center !important;\n  }\n  .buzzer-wrap i.fa {\n    transition: transform .2s ease, color .2s ease;\n  }\n  .buzzer-wrap i.on  { font-size: 40px; color: red;}\n  .buzzer-wrap i.off { font-size: 37px; color: #9e9e9e; }\n</style>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
         "x": 930,
-        "y": 60,
+        "y": 40,
         "wires": [
             []
         ]
@@ -1908,20 +1643,206 @@
         "type": "ui_text",
         "z": "2395f6adbeb5589e",
         "group": "a5662fc4e9abb539",
-        "order": 4,
-        "width": 4,
+        "order": 3,
+        "width": 2,
         "height": 1,
         "name": "Buzzer",
         "label": "<span class=\"label-small\">Buzzer</span>",
         "format": "",
         "layout": "col-center",
-        "className": "css-current-text",
-        "style": false,
+        "className": "css-detailBuzzer-text",
+        "style": true,
         "font": "",
         "fontSize": "",
         "color": "#000000",
         "x": 920,
-        "y": 100,
+        "y": 80,
         "wires": []
+    },
+    {
+        "id": "0b3ecef9f1534b84",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "a5662fc4e9abb539",
+        "name": "css-detailBuzzer-text",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .css-detailBuzzer-text {\n        display: flex;\n        flex-direction: column;\n        align-items: center !important; \n        justify-content: flex-start !important;\n        text-align: center !important;\n\n    }\n\n    .css-detailBuzzer-text .label-small {\n        font-size: 14px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-detailBuzzer-text .value {\n        font-size: 15px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f015f501de241cc",
+        "type": "ui_text",
+        "z": "2395f6adbeb5589e",
+        "group": "a5662fc4e9abb539",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "name": "Speed",
+        "label": "<span class=\"label-small\">Speed</span>",
+        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} km/h</span>",
+        "layout": "col-center",
+        "className": "css-detail-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d40efd55af2630a0",
+        "type": "worldmap-tracks",
+        "z": "2395f6adbeb5589e",
+        "name": "",
+        "depth": "2000",
+        "layer": "combined",
+        "smooth": true,
+        "x": 870,
+        "y": 820,
+        "wires": [
+            [
+                "cf0cd28328db2831"
+            ]
+        ]
+    },
+    {
+        "id": "cf0cd28328db2831",
+        "type": "ui_worldmap",
+        "z": "2395f6adbeb5589e",
+        "group": "f3927f275c56e254",
+        "order": 1,
+        "width": 11,
+        "height": 5,
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "true",
+        "path": "/worldmap",
+        "overlist": "",
+        "maplist": "OSMC,EsriS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 880,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "f864df037fe70643",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Convert to Excel",
+        "func": "const headers = [\"Date\",\"Time\",\"Roll\",\"TiltLeftRight\",\"Location\"];\n\nlet data = msg.payload;\nif(!Array.isArray(data)){\n  msg.rows = [];\n  msg.headers = headers;\n  return msg;\n}\nmsg.rows = data.map(r => {\n  const o = {};\n  headers.forEach(h => o[h] = (r && r[h] !== undefined && r[h] !== null) ? r[h] : \"\");\n  return o;\n});\nmsg.headers = headers;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 1260,
+        "wires": [
+            [
+                "1def7324d4e17105"
+            ]
+        ]
+    },
+    {
+        "id": "1def7324d4e17105",
+        "type": "ui_template",
+        "z": "2395f6adbeb5589e",
+        "group": "031a4b4761184c01",
+        "name": "Download Button",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "format": "<button id=\"downloadXlsx\">\n  <i class=\"fa fa-download\" style=\"margin-right:10px;\"></i>\n  DOWNLOAD\n</button>\n\n<script src=\"https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js\"></script>\n\n<script>\n  (function(scope){\n  let lastMsg = null;\n  scope.$watch('msg', function(m){ lastMsg = m; });\n\n  document.getElementById('downloadXlsx').addEventListener('click', async function(){\n    try {\n      if(!lastMsg || !Array.isArray(lastMsg.rows) || lastMsg.rows.length === 0){\n        alert('No Data To Download');\n        return;\n      }\n\n      const rows = lastMsg.rows;\n      const headers = (lastMsg.headers && Array.isArray(lastMsg.headers) && lastMsg.headers.length)\n        ? lastMsg.headers\n        : Object.keys(rows[0]);\n\n      const wb = new ExcelJS.Workbook();\n      const ws = wb.addWorksheet('Tilt-Data');\n\n      // ความกว้าง\n      const columnWidths = {\n        Date: 18,\n        Time: 18,\n        Roll: 12,\n        TiltLeftRight: 18,\n        Location: 25\n      };\n\n      \n      const dataFontByHeader = {\n        Date:          { name: 'TH Sarabun New', size: 16 },\n        Time:          { name: 'TH Sarabun New', size: 16 },\n        Roll:          { name: 'TH Sarabun New', size: 16 },\n        TiltLeftRight: { name: 'TH Sarabun New', size: 16 },\n        Location:      { name: 'TH Sarabun New', size: 16 }\n      };\n\n      // columns + Header \n      ws.columns = headers.map(h => ({\n        header: h,\n        key: h,\n        width: columnWidths[h] || 16\n      }));\n\n      ws.getRow(1).font = { name: 'TH Sarabun New', size: 18, bold: true };\n      ws.getRow(1).alignment = { horizontal: 'center', vertical: 'middle' };\n      ws.getRow(1).height = 20;\n      ws.views = [{ state: 'frozen', ySplit: 1 }];\n\n      rows.forEach(r => ws.addRow(r));\n\n      // รูปแบบตัวเลข\n      const rollIdx = headers.indexOf('Roll') + 1;\n      const tiltIdx = headers.indexOf('TiltLeftRight') + 1;\n      if (rollIdx > 0) ws.getColumn(rollIdx).numFmt = '0.00';\n      if (tiltIdx > 0) ws.getColumn(tiltIdx).numFmt = '0.0';\n\n      headers.forEach((h, i) => {\n        const col = ws.getColumn(i + 1);\n\n        col.eachCell({ includeEmpty: true }, (cell, rowNumber) => {\n          if (rowNumber === 1) return; \n          cell.alignment = {\n            horizontal: (h === 'Date' || h === 'Time') ? 'left' : 'right',\n            vertical: 'middle'\n          };\n\n          cell.font = dataFontByHeader[h] || { name: 'TH Sarabun New', size: 16 };\n        });\n      });\n\n      // ดาวน์โหลดไฟล์\n      const buffer = await wb.xlsx.writeBuffer();\n      const blob = new Blob([buffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });\n\n      const a = document.createElement('a');\n      a.href = URL.createObjectURL(blob);\n      a.download = 'Tilt-data.xlsx';\n      document.body.appendChild(a);\n      a.click();\n      document.body.removeChild(a);\n    } catch (err) {\n      console.error(err);\n      alert('An error occurred while creating the Excel file.');\n    }\n  });\n})(scope);\n</script>\n\n<style>\n  #downloadXlsx {\n    font-family: 'Jost' !important;\n    border-radius: 2px !important;\n    height: 65px !important;\n    border: none;\n    color: white !important;\n    background-color: #00af92 !important;\n    box-shadow: 0px 2px 3px rgba(1, 0, 0, 0.2);\n    transition: box-shadow 0.3s ease, transform 0.2s ease, filter 0.2s ease;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-top: 1px;\n  }\n\n  #downloadXlsx .fa {\n    font-size: 15px;\n    color: white !important;\n  }\n\n  #downloadXlsx:hover {\n    filter: brightness(1.2);\n    transform: scale(1.02);\n  }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "download-box",
+        "x": 1670,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63ac52e6813141f7",
+        "type": "trigger",
+        "z": "2395f6adbeb5589e",
+        "name": "Trigger",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "date",
+        "duration": "0.1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 2,
+        "x": 360,
+        "y": 1200,
+        "wires": [
+            [
+                "2e53ca0ac0b77101"
+            ],
+            [
+                "2e53ca0ac0b77101"
+            ]
+        ]
+    },
+    {
+        "id": "2e53ca0ac0b77101",
+        "type": "function",
+        "z": "2395f6adbeb5589e",
+        "name": "Fune Rearm",
+        "func": "const on = flow.get(\"saveToDB\") === true;\n\nnode.send([msg, null]);\n\nif (on) {\n  return [null, {}];\n}\nreturn [null, null];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 1200,
+        "wires": [
+            [
+                "dab9ab345ca1aa4a"
+            ],
+            [
+                "63ac52e6813141f7"
+            ]
+        ]
     }
 ]

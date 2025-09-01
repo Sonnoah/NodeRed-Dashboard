@@ -65,6 +65,7 @@
     {
         "id": "d4280360375e908f",
         "type": "ui_group",
+        "d": true,
         "name": "Vibrate",
         "tab": "04e74bfb6596ce71",
         "order": 4,
@@ -226,7 +227,7 @@
         "tab": "04e74bfb6596ce71",
         "order": 1,
         "disp": true,
-        "width": 10,
+        "width": 11,
         "collapse": false,
         "className": ""
     },
@@ -252,7 +253,7 @@
         "height": 1
     },
     {
-        "id": "31c1086d77b4edd9",
+        "id": "499f2c4369f51d69",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
@@ -262,174 +263,186 @@
         "height": 1
     },
     {
-        "id": "66db0560b60a9bb9",
+        "id": "214a9a3fcff5d54b",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "a5662fc4e9abb539",
         "order": 9,
-        "width": 10,
+        "width": 11,
         "height": 1
     },
     {
-        "id": "928cbcb973dee6f1",
+        "id": "1e3b7adbb473a7e0",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
         "order": 2,
-        "width": 4,
+        "width": 3,
         "height": 1
     },
     {
-        "id": "410f7157b6320bd8",
+        "id": "fbfdb48422d437c6",
         "type": "ui_spacer",
         "z": "2395f6adbeb5589e",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "84ca97bd670c8db2",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "774ee64a3e4f9afd",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c71a1dcf88b23eaa",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2dc2b0febaed7324",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "862c1b66d05f662f",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9d7ee5ad50c7324e",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "d4280360375e908f",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "1afbaa4e725b9463",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2448c52b19f52bc7",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "cc64dae1314376f1",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8502e606adc1fb08",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "fa784fa1435d5307",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "26242723c5562dd2",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "4ab2bea43a8779d2",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "134c27d9bb33ea81",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "4ab2bea43a8779d2",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "85b68584a227f231",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "4ab2bea43a8779d2",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c316ca0cb77226f9",
+        "type": "ui_spacer",
+        "z": "2395f6adbeb5589e",
+        "name": "spacer",
+        "group": "4ab2bea43a8779d2",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8361122255915ecd",
+        "type": "ui_group",
+        "name": "Sessions",
+        "tab": "c7722013df684059",
         "order": 3,
-        "width": 4,
-        "height": 1
+        "disp": true,
+        "width": 22,
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "feea199723902757",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "774ee64a3e4f9afd",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "71d19a82c01f3b15",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "774ee64a3e4f9afd",
-        "order": 6,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "f573b49dd1d1839c",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "d4280360375e908f",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "9cd4cf554b1acffc",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "d4280360375e908f",
+        "id": "4fb4f9fb8478552a",
+        "type": "ui_group",
+        "name": "Session Details",
+        "tab": "c7722013df684059",
         "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "c0a9a5dbf8ebb91d",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "d4280360375e908f",
-        "order": 5,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "011f9cb17b078d4c",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "d4280360375e908f",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "e1e0538980881264",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "fa784fa1435d5307",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "25075d25e9f20aa9",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "fa784fa1435d5307",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "b934d2fefe3596e0",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "fa784fa1435d5307",
-        "order": 5,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "64e49afdc1bf8c14",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "fa784fa1435d5307",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "37d08444dce785f3",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "4ab2bea43a8779d2",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "e859de31efe107f6",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "4ab2bea43a8779d2",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "4dde27fd2120568d",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "4ab2bea43a8779d2",
-        "order": 5,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "1ea9d3deb5816855",
-        "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
-        "name": "spacer",
-        "group": "4ab2bea43a8779d2",
-        "order": 6,
-        "width": 3,
-        "height": 1
+        "disp": true,
+        "width": 22,
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "8a94a7e0c0e511ca",
@@ -461,7 +474,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 700,
+        "y": 680,
         "wires": [
             [
                 "ba0dfa59323016c3",
@@ -512,7 +525,7 @@
         "useDifferentColor": false,
         "className": "css-chart",
         "x": 1030,
-        "y": 760,
+        "y": 740,
         "wires": [
             []
         ]
@@ -522,7 +535,7 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "Location",
-        "func": "let sensor = msg.payload.Sensor || {};\nlet location = sensor[\"Location\"];   \n\nlet [lat, lon] = location.split(\",\").map(parseFloat);\n\nmsg.payload = {\n  name: \"Location\",\n  lat,\n  lon,\n  icon: \"fa-map-marker\",         \n  layer: \"Location_points\",\n  popup: `Lat: ${lat.toFixed(6)}, Lon: ${lon.toFixed(6)}`\n};\nreturn msg;\n",
+        "func": "let sensor = msg.payload.Sensor || {};\nlet location = sensor[\"Location\"];   \n\nif (!location) return null;\n\nlet [lat, lon] = location.split(\",\").map(parseFloat);\nlet key = `${lat.toFixed(6)},${lon.toFixed(6)}`;  \n\n\nlet locations = flow.get(\"locations\") || {};\n\nlocations[key] = {\n    name: \"Location\",\n    lat,\n    lon,\n    icon: \"fa-map-marker\",\n    layer: \"Location_points\",\n    popup: `Lat: ${lat.toFixed(6)}, Lon: ${lon.toFixed(6)}`,\n};\n\n\nflow.set(\"locations\", locations);\n\nmsg.payload = Object.values(locations);\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -530,7 +543,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 840,
+        "y": 820,
         "wires": [
             [
                 "d40efd55af2630a0",
@@ -555,7 +568,7 @@
         "font": "",
         "fontSize": "20",
         "color": "#6bd3ff",
-        "x": 920,
+        "x": 960,
         "y": 540,
         "wires": []
     },
@@ -572,7 +585,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 940,
+        "y": 920,
         "wires": [
             [
                 "d387d31dc5a24c56"
@@ -626,7 +639,7 @@
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 960,
+        "y": 940,
         "wires": []
     },
     {
@@ -643,14 +656,14 @@
         "outputs": 0,
         "cts": false,
         "x": 890,
-        "y": 920,
+        "y": 900,
         "wires": []
     },
     {
         "id": "2a0beba6d09f1b84",
         "type": "function",
         "z": "2395f6adbeb5589e",
-        "name": "Func chart",
+        "name": "Func chart Vibrate",
         "func": "msg.payload = Math.random() * 50\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -658,7 +671,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
+        "x": 710,
         "y": 500,
         "wires": [
             [
@@ -823,7 +836,7 @@
         "name": "",
         "group": "774ee64a3e4f9afd",
         "order": 1,
-        "width": 6,
+        "width": 7,
         "height": 4,
         "gtype": "gage",
         "title": "",
@@ -856,7 +869,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 690,
         "y": 440,
         "wires": [
             [
@@ -874,7 +887,7 @@
         "tooltip": "",
         "group": "a5662fc4e9abb539",
         "order": 10,
-        "width": 10,
+        "width": 11,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -891,7 +904,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 200,
+        "x": 160,
         "y": 1140,
         "wires": [
             [
@@ -911,7 +924,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 170,
+        "x": 130,
         "y": 1200,
         "wires": [
             [
@@ -924,7 +937,7 @@
         "type": "ui_text",
         "z": "2395f6adbeb5589e",
         "group": "774ee64a3e4f9afd",
-        "order": 4,
+        "order": 3,
         "width": 3,
         "height": 1,
         "name": "Text-Current Speed ",
@@ -948,7 +961,7 @@
         "label": "Car Speed ​Control",
         "tooltip": "",
         "group": "774ee64a3e4f9afd",
-        "order": 7,
+        "order": 6,
         "width": 0,
         "height": 0,
         "wrap": false,
@@ -999,7 +1012,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 690,
         "y": 340,
         "wires": [
             [
@@ -1019,7 +1032,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 920,
         "y": 500,
         "wires": [
             [
@@ -1045,7 +1058,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 870,
-        "y": 720,
+        "y": 700,
         "wires": []
     },
     {
@@ -1066,7 +1079,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 890,
-        "y": 620,
+        "y": 600,
         "wires": []
     },
     {
@@ -1074,7 +1087,7 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "ui_control ",
-        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -20,   \n          max: 20,\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 } },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: {\n          unit: 'second',\n          tooltipFormat: 'HH:mm:ss',\n          displayFormats: {\n            millisecond: 'HH:mm:ss',\n            second:      'HH:mm:ss',\n            minute:      'HH:mm',\n            hour:        'HH:mm'\n          }\n        },\n        ticks: {\n          autoSkip: true,         \n          maxTicksLimit: 6,      \n          maxRotation: 0,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -20,\n          max: 20,\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1082,7 +1095,7 @@
         "finalize": "",
         "libs": [],
         "x": 880,
-        "y": 760,
+        "y": 740,
         "wires": [
             [
                 "c2fdbefbfc9f93d7"
@@ -1126,7 +1139,7 @@
         "topicType": "msg",
         "splitLayout": false,
         "className": "",
-        "x": 910,
+        "x": 870,
         "y": 1260,
         "wires": [
             [
@@ -1143,7 +1156,7 @@
         "name": "Mongodb",
         "collection": "Tilt-Data",
         "operation": "find.toArray",
-        "x": 900,
+        "x": 860,
         "y": 1200,
         "wires": [
             [
@@ -1163,7 +1176,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
+        "x": 680,
         "y": 1200,
         "wires": [
             [
@@ -1183,7 +1196,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
+        "x": 1030,
         "y": 1200,
         "wires": [
             [
@@ -1254,7 +1267,7 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 1460,
+        "x": 1420,
         "y": 1200,
         "wires": []
     },
@@ -1270,7 +1283,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
+        "x": 1030,
         "y": 1260,
         "wires": [
             [
@@ -1301,8 +1314,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 560,
-        "y": 1280,
+        "x": 520,
+        "y": 1260,
         "wires": [
             [
                 "dab9ab345ca1aa4a"
@@ -1321,7 +1334,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
+        "x": 1220,
         "y": 1200,
         "wires": [
             [
@@ -1343,7 +1356,7 @@
         "finalize": "",
         "libs": [],
         "x": 700,
-        "y": 1020,
+        "y": 1000,
         "wires": [
             [
                 "05bbbe9c04888db4"
@@ -1360,7 +1373,7 @@
         "collection": "Tilt-Data",
         "operation": "insert",
         "x": 920,
-        "y": 1020,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -1388,19 +1401,19 @@
                 "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
             }
         ],
-        "x": 370,
+        "x": 350,
         "y": 620,
         "wires": [
             [
-                "96bec991166f6a66",
+                "4ec4c0b2faf669c9",
+                "a9ca1420f55fe390",
+                "8a55c164cea5cfcc",
+                "2a0beba6d09f1b84",
                 "8a94a7e0c0e511ca",
                 "766f3332cee93ef8",
                 "c2c8b72f44c91f03",
                 "3721c53a7f781a2c",
-                "2a0beba6d09f1b84",
-                "8a55c164cea5cfcc",
-                "a9ca1420f55fe390",
-                "4ec4c0b2faf669c9"
+                "96bec991166f6a66"
             ]
         ]
     },
@@ -1421,7 +1434,7 @@
         "repeat": "1",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "0.5",
         "topic": "",
         "payload": "",
         "payloadType": "date",
@@ -1529,7 +1542,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 690,
         "y": 180,
         "wires": [
             [
@@ -1558,7 +1571,7 @@
         "type": "function",
         "z": "2395f6adbeb5589e",
         "name": "ui_control ",
-        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -20,   \n          max: 20,\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 } },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: {\n          unit: 'second',\n          tooltipFormat: 'HH:mm:ss',\n          displayFormats: {\n            millisecond: 'HH:mm:ss',\n            second:      'HH:mm:ss',\n            minute:      'HH:mm',\n            hour:        'HH:mm'\n          }\n        },\n        ticks: {\n          autoSkip: true,         \n          maxTicksLimit: 6,      \n          maxRotation: 0,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -20,\n          max: 20,\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1566,7 +1579,7 @@
         "finalize": "",
         "libs": [],
         "x": 880,
-        "y": 660,
+        "y": 640,
         "wires": [
             [
                 "8108c2ef199cefad"
@@ -1612,7 +1625,7 @@
         "useDifferentColor": false,
         "className": "css-chart",
         "x": 1030,
-        "y": 660,
+        "y": 640,
         "wires": [
             []
         ]
@@ -1624,7 +1637,7 @@
         "group": "a5662fc4e9abb539",
         "name": "icon-buzzer",
         "order": 6,
-        "width": 2,
+        "width": 3,
         "height": 2,
         "format": "<div class=\"buzzer-wrap\" layout=\"row\" layout-align=\"center center\">\n  <i class=\"fa\"\n     ng-class=\"(+msg.payload===1) ? 'fa-volume-up on' : 'fa-volume-off off'\"></i>\n</div>\n\n<style>\n    .buzzer-wrap {\n      display: flex;\n      flex-direction: column;\n      align-items: center !important; \n      justify-content: flex-start !important;\n      text-align: center !important;\n  }\n  .buzzer-wrap i.fa {\n    transition: transform .2s ease, color .2s ease;\n  }\n  .buzzer-wrap i.on  { font-size: 40px; color: red;}\n  .buzzer-wrap i.off { font-size: 37px; color: #9e9e9e; }\n</style>\n",
         "storeOutMessages": true,
@@ -1644,7 +1657,7 @@
         "z": "2395f6adbeb5589e",
         "group": "a5662fc4e9abb539",
         "order": 3,
-        "width": 2,
+        "width": 3,
         "height": 1,
         "name": "Buzzer",
         "label": "<span class=\"label-small\">Buzzer</span>",
@@ -1710,7 +1723,7 @@
         "layer": "combined",
         "smooth": true,
         "x": 870,
-        "y": 820,
+        "y": 800,
         "wires": [
             [
                 "cf0cd28328db2831"
@@ -1750,7 +1763,7 @@
         "mapopt": "",
         "mapwms": false,
         "x": 880,
-        "y": 860,
+        "y": 840,
         "wires": []
     },
     {
@@ -1765,7 +1778,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1460,
+        "x": 1420,
         "y": 1260,
         "wires": [
             [
@@ -1788,7 +1801,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "download-box",
-        "x": 1670,
+        "x": 1630,
         "y": 1260,
         "wires": [
             []
@@ -1811,7 +1824,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 2,
-        "x": 360,
+        "x": 320,
         "y": 1200,
         "wires": [
             [
@@ -1834,7 +1847,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 510,
         "y": 1200,
         "wires": [
             [

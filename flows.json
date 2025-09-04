@@ -1,6 +1,6 @@
 [
     {
-        "id": "2395f6adbeb5589e",
+        "id": "e2dd1a4ff8f7c581",
         "type": "tab",
         "label": "Dashboard",
         "disabled": false,
@@ -53,6 +53,7 @@
     {
         "id": "774ee64a3e4f9afd",
         "type": "ui_group",
+        "d": true,
         "name": "Speed",
         "tab": "04e74bfb6596ce71",
         "order": 3,
@@ -89,7 +90,7 @@
         "tab": "c7722013df684059",
         "order": 2,
         "disp": false,
-        "width": 20,
+        "width": 21,
         "collapse": false,
         "className": ""
     },
@@ -204,7 +205,7 @@
         }
     },
     {
-        "id": "2f7b91658fa4b836",
+        "id": "de71322513f1e494",
         "type": "mongodb3",
         "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
         "name": "",
@@ -212,15 +213,7 @@
         "parallelism": -1
     },
     {
-        "id": "cba8999ae4809ff1",
-        "type": "mongodb3",
-        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
-        "name": "",
-        "options": "",
-        "parallelism": -1
-    },
-    {
-        "id": "a5662fc4e9abb539",
+        "id": "8809466081392c9a",
         "type": "ui_group",
         "name": "Detail",
         "tab": "04e74bfb6596ce71",
@@ -231,18 +224,256 @@
         "className": ""
     },
     {
-        "id": "4ab2bea43a8779d2",
+        "id": "2632484ee4d1ad56",
         "type": "ui_group",
         "name": "Tilt Left-Right Chart",
         "tab": "04e74bfb6596ce71",
-        "order": 7,
+        "order": 8,
         "disp": true,
         "width": 11,
         "collapse": false,
         "className": ""
     },
     {
-        "id": "df612a6a97515f89",
+        "id": "06582ec6de535407",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "4bb8d64bf7afc960",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#00af92",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#00af92",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#00af92",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#00fbd2",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#00af92",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 40,
+                "sy": 40,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 12,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "8babab2679484ed4",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "38e1f2142ea93e0e",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "9fdc2fc4a1f4eeda",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#00af92",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#00af92",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#00af92",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#00fbd2",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#00af92",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 40,
+                "sy": 40,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 12,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6c4b5cf5261c81d1",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "ea56edf3d92a6def",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://projectmongodb0:123456789zx@nodered-project.r8pijwm.mongodb.net/?retryWrites=true&w=majority&appName=Nodered-project",
+        "name": "",
+        "options": "",
+        "parallelism": -1
+    },
+    {
+        "id": "7a65b16e0996be6b",
         "type": "ui_group",
         "name": "Map",
         "tab": "c7722013df684059",
@@ -253,39 +484,49 @@
         "className": ""
     },
     {
-        "id": "c6a6b7d0e15f776b",
+        "id": "8fa39a7570d738d0",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
-        "group": "031a4b4761184c01",
+        "group": "",
         "order": 2,
-        "width": 14,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "61830de57da0d1ed",
+        "id": "3b305d1322f99987",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
-        "group": "a5662fc4e9abb539",
+        "group": "8809466081392c9a",
         "order": 8,
         "width": 4,
         "height": 1
     },
     {
-        "id": "9bdb474b0d166f3f",
+        "id": "8c4c6929f513d0b6",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
-        "group": "a5662fc4e9abb539",
+        "group": "8809466081392c9a",
         "order": 9,
         "width": 11,
         "height": 1
     },
     {
-        "id": "4389b5bfc2b5759d",
+        "id": "faec509f4bbc1ab3",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "spacer",
+        "group": "f3927f275c56e254",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3c0663abaa7635cb",
+        "type": "ui_spacer",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
         "order": 2,
@@ -293,9 +534,9 @@
         "height": 1
     },
     {
-        "id": "3d22f7769b4bc095",
+        "id": "8670453965d452ee",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
         "order": 4,
@@ -303,9 +544,9 @@
         "height": 1
     },
     {
-        "id": "0d3547e25a391a77",
+        "id": "918bd1bf92202977",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "774ee64a3e4f9afd",
         "order": 5,
@@ -313,9 +554,9 @@
         "height": 1
     },
     {
-        "id": "5e4c82b847ed563c",
+        "id": "ba07730f06e11fcb",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "d4280360375e908f",
         "order": 2,
@@ -323,9 +564,9 @@
         "height": 1
     },
     {
-        "id": "5450dbd2e4d8a6df",
+        "id": "83c991dad3810fd1",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "d4280360375e908f",
         "order": 4,
@@ -333,9 +574,9 @@
         "height": 1
     },
     {
-        "id": "b93d853846a9f232",
+        "id": "eae56af0621b7716",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "d4280360375e908f",
         "order": 5,
@@ -343,9 +584,9 @@
         "height": 1
     },
     {
-        "id": "2f93c0b0c1e21afb",
+        "id": "69f0ca50c4b9ddf6",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "d4280360375e908f",
         "order": 6,
@@ -353,9 +594,19 @@
         "height": 1
     },
     {
-        "id": "b6405fee1c31c1d3",
+        "id": "d4e45d3744bb5ff8",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "spacer",
+        "group": "52b1af9da22ea88d",
+        "order": 2,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "6f5f9c14642ff999",
+        "type": "ui_spacer",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "fa784fa1435d5307",
         "order": 2,
@@ -363,9 +614,9 @@
         "height": 1
     },
     {
-        "id": "94316549ab36c20e",
+        "id": "b085475c6177a7c0",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "fa784fa1435d5307",
         "order": 4,
@@ -373,9 +624,9 @@
         "height": 1
     },
     {
-        "id": "a48f236b434acd13",
+        "id": "b6c0dfd3a522b538",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "fa784fa1435d5307",
         "order": 5,
@@ -383,9 +634,9 @@
         "height": 1
     },
     {
-        "id": "7e3921fd40b96b63",
+        "id": "86e3081dc6c584ff",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
         "group": "fa784fa1435d5307",
         "order": 6,
@@ -393,51 +644,61 @@
         "height": 1
     },
     {
-        "id": "451962d7645bb894",
+        "id": "f63c2a64bee458b6",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
-        "group": "4ab2bea43a8779d2",
+        "group": "2632484ee4d1ad56",
         "order": 2,
         "width": 3,
         "height": 1
     },
     {
-        "id": "99512dec22aead1e",
+        "id": "071cd1bdd94bc0fb",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
-        "group": "4ab2bea43a8779d2",
+        "group": "2632484ee4d1ad56",
         "order": 4,
         "width": 3,
         "height": 1
     },
     {
-        "id": "35c7bfd74b064afa",
+        "id": "68328bb5a2a80d03",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
-        "group": "4ab2bea43a8779d2",
+        "group": "2632484ee4d1ad56",
         "order": 5,
         "width": 3,
         "height": 1
     },
     {
-        "id": "44b047612cb72309",
+        "id": "4787ceee3d6a5366",
         "type": "ui_spacer",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "spacer",
-        "group": "4ab2bea43a8779d2",
+        "group": "2632484ee4d1ad56",
         "order": 6,
         "width": 3,
         "height": 1
     },
     {
-        "id": "766f3332cee93ef8",
+        "id": "bca565c1955acd99",
+        "type": "ui_spacer",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "spacer",
+        "group": "031a4b4761184c01",
+        "order": 2,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "d4612ca4b6b4e1ef",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Func chart",
-        "func": "let sensor = msg.payload.Sensor;\n\nlet roll = sensor[\"Roll\"];\nlet tiltLeftRight = sensor[\"TiltLeftRight\"];\n\nreturn [\n    { payload: tiltLeftRight },\n    { payload: roll },\n];\n",
+        "func": "const FREEZE_MS = 30000;\n\nlet sensor = (msg.payload && msg.payload.Sensor) || {};\nlet roll = sensor[\"Roll\"];\nlet tiltLeftRight = sensor[\"TiltLeftRight\"];\nlet location = sensor[\"Location\"];\nlet hourTH = sensor[\"HourTH\"];\n\nlet prev = context.get(\"prev\") || {};\nlet dupStart = context.get(\"dupStart\") || null;\nlet frozen = context.get(\"frozen\") || false;\nlet sentFreezePoint = context.get(\"sentFreezePoint\") || false;\n\nfunction isSame(a, b) {\n  return a.roll === b.roll &&\n         a.tiltLeftRight === b.tiltLeftRight &&\n         a.location === b.location &&\n         a.hourTH === b.hourTH;\n}\n\nlet now = Date.now();\nlet cur = { roll, tiltLeftRight, location, hourTH };\nlet same = isSame(cur, prev);\n\n\nif (!same) {\n  dupStart = null;\n  frozen = false;\n  sentFreezePoint = false;\n  context.set(\"dupStart\", dupStart);\n  context.set(\"frozen\", frozen);\n  context.set(\"sentFreezePoint\", sentFreezePoint);\n  context.set(\"prev\", cur);\n\n  return [\n    { payload: tiltLeftRight, freeze: false },\n    { payload: roll,          freeze: false }\n  ];\n}\n\nif (!dupStart) {\n  dupStart = now;\n  context.set(\"dupStart\", dupStart);\n  context.set(\"prev\", cur);\n  return null;\n}\n\nlet elapsed = now - dupStart;\n\n\nif (elapsed < FREEZE_MS) {\n  context.set(\"prev\", cur);\n  return null; \n}\n\n\nfrozen = true;\ncontext.set(\"frozen\", frozen);\ncontext.set(\"prev\", cur);\n\n\nif (!sentFreezePoint) {\n  sentFreezePoint = true;\n  context.set(\"sentFreezePoint\", sentFreezePoint);\n  return [\n    { payload: 0, freeze: true, freezeInit: true },\n    { payload: 0, freeze: true, freezeInit: true }\n  ];\n}\n\nreturn null;",
         "outputs": 2,
         "timeout": 0,
         "noerr": 0,
@@ -448,19 +709,19 @@
         "y": 580,
         "wires": [
             [
-                "ba0dfa59323016c3",
-                "6cc787639fb4e267"
+                "b430f9361c2ad9b4",
+                "c4ed1e7b9d51d73a"
             ],
             [
-                "10d07cfead75daf4",
-                "f44a63ca88953723"
+                "f08622a59556ab13",
+                "27116fbfed1e611e"
             ]
         ]
     },
     {
-        "id": "c2fdbefbfc9f93d7",
+        "id": "fd11814b54137907",
         "type": "ui_chart",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "",
         "group": "fa784fa1435d5307",
         "order": 1,
@@ -495,19 +756,19 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "css-chart",
-        "x": 1010,
+        "x": 1170,
         "y": 640,
         "wires": [
             []
         ]
     },
     {
-        "id": "c2c8b72f44c91f03",
+        "id": "2bda38ff0da451ee",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Location",
-        "func": "let sensor = msg.payload.Sensor || {};\nlet location = sensor[\"Location\"];   \n\nif (!location) return null;\n\nlet [lat, lon] = location.split(\",\").map(parseFloat);\nlet key = `${lat.toFixed(6)},${lon.toFixed(6)}`;  \n\n\nlet locations = flow.get(\"locations\") || {};\n\nlocations[key] = {\n    name: \"Location\",\n    lat,\n    lon,\n    icon: \"fa-map-marker\",\n    layer: \"Location_points\",\n    popup: `Lat: ${lat.toFixed(6)}, Lon: ${lon.toFixed(6)}`,\n};\n\n\nflow.set(\"locations\", locations);\n\nmsg.payload = Object.values(locations);\nreturn msg;\n",
-        "outputs": 1,
+        "func": "const FREEZE_MS = 30000; \n\nlet sensor   = (msg.payload && msg.payload.Sensor) || {};\nlet location = sensor[\"Location\"];\n\n\nconst fingerprint = JSON.stringify(sensor || {});\nlet lastFP       = context.get(\"lastFP\");\nlet lastChangeAt = context.get(\"lastChangeAt\");\nconst now        = Date.now();\n\nlet frozen = false;\nif (lastFP === fingerprint) {\n  if (typeof lastChangeAt === \"number\" && (now - lastChangeAt) >= FREEZE_MS) {\n    frozen = true; \n  }\n} else {\n  context.set(\"lastFP\", fingerprint);\n  context.set(\"lastChangeAt\", now);\n}\n\n\nif (frozen) {\n  return [ null, { payload: \"Disconnected\" } ];\n}\n\n\nif (!location || typeof location !== \"string\") {\n  return [ null, { payload: \"Connecting\" } ];\n}\n\n\nlet [latRaw, lonRaw] = location.split(\",\");\nlet lat = parseFloat((latRaw || \"\").trim());\nlet lon = parseFloat((lonRaw || \"\").trim());\n\n\nconst isInvalid =\n  !isFinite(lat) || !isFinite(lon) ||\n  (Math.abs(lat) < 1e-6 && Math.abs(lon) < 1e-6);\n\nif (isInvalid) {\n  return [ null, { payload: \"Connecting\" } ];\n}\n\n\nfunction haversine(lat1, lon1, lat2, lon2) {\n  const R = 6371000; // m\n  const toRad = x => x * Math.PI / 180;\n  const dLat = toRad(lat2 - lat1);\n  const dLon = toRad(lon2 - lon1);\n  const a = Math.sin(dLat/2)**2 +\n            Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *\n            Math.sin(dLon/2)**2;\n  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));\n  return R * c;\n}\n\nlet prev = context.get(\"prev\");\nlet shouldUpdate = false;\n\nif (!prev) {\n  shouldUpdate = true;\n  prev = { lat, lon };\n  context.set(\"prev\", prev);\n} else {\n  const d = haversine(prev.lat, prev.lon, lat, lon);\n  if (d > 8.0) { \n    shouldUpdate = true;\n    prev = { lat, lon };\n    context.set(\"prev\", prev);\n  }\n}\n\n\nif (!shouldUpdate) {\n  return [ null, { payload: \"Connected\" } ];\n}\n\nconst mapMsg = {\n  payload: {\n    name: \"Location\",\n    lat: prev.lat,\n    lon: prev.lon,\n    icon: \"fa-map-marker\",\n    layer: \"Location_points\",\n    popup: `Lat: ${prev.lat.toFixed(6)}, Lon: ${prev.lon.toFixed(6)}`\n  }\n};\n\n\nflow.set(\"lastLatLon\", { lat: prev.lat, lon: prev.lon });\n\nconst statusMsg = { payload: \"Connected\" };\nreturn [ mapMsg, statusMsg ];\n",
+        "outputs": 2,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
@@ -517,15 +778,18 @@
         "y": 720,
         "wires": [
             [
-                "d40efd55af2630a0",
-                "cf0cd28328db2831"
+                "d0cd864ab41dc2bc",
+                "d47fca559d9141e6"
+            ],
+            [
+                "b7c6f2b1f0f54a2a"
             ]
         ]
     },
     {
-        "id": "42617033f5e92d2a",
+        "id": "f2f19f3f4b1528e7",
         "type": "ui_text",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "d4280360375e908f",
         "order": 3,
         "width": 3,
@@ -544,9 +808,9 @@
         "wires": []
     },
     {
-        "id": "3721c53a7f781a2c",
+        "id": "34cf8aebd16b0ee6",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Func table",
         "func": "let sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nlet tableData = flow.get(\"saveData\") || [];\n\ntableData.unshift({\n    \"timestamp\": new Date(time).toLocaleString(\"th-TH\", {\n            hour12: false\n        }),\n    \"Yaw(Z)\" : sensor[\"Yaw(Z)\"],\n    \"Location\" : sensor[\"Location\"]\n});\n\nif (tableData.length > 10) tableData.pop();\n\nflow.set(\"saveData\", tableData);\n\n\nreturn [\n    { payload: [] },           \n    { payload: tableData }     \n];",
         "outputs": 2,
@@ -559,17 +823,17 @@
         "y": 500,
         "wires": [
             [
-                "d387d31dc5a24c56"
+                "ba21b7ac186c5ec1"
             ],
             [
-                "e70bfd9508d50177"
+                "dc5667e4270dbdc7"
             ]
         ]
     },
     {
-        "id": "e70bfd9508d50177",
+        "id": "dc5667e4270dbdc7",
         "type": "ui_table",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "52b1af9da22ea88d",
         "name": "",
         "order": 1,
@@ -614,13 +878,13 @@
         "wires": []
     },
     {
-        "id": "d387d31dc5a24c56",
+        "id": "ba21b7ac186c5ec1",
         "type": "ui_table",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "d": true,
         "group": "52b1af9da22ea88d",
         "name": "",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "columns": [],
@@ -631,9 +895,9 @@
         "wires": []
     },
     {
-        "id": "2a0beba6d09f1b84",
+        "id": "9103274c44bab15e",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Func chart Vibrate",
         "func": "msg.payload = Math.random() * 50\nreturn msg;",
         "outputs": 1,
@@ -646,15 +910,15 @@
         "y": 220,
         "wires": [
             [
-                "42617033f5e92d2a",
-                "f33a16394158808a"
+                "f2f19f3f4b1528e7",
+                "aba0b2aa39d8fc56"
             ]
         ]
     },
     {
-        "id": "4e247153add37b1e",
+        "id": "f61ae028c2a92557",
         "type": "ui_chart",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Chart-Vibrate",
         "group": "d4280360375e908f",
         "order": 1,
@@ -696,9 +960,9 @@
         ]
     },
     {
-        "id": "741acc4dd15d9a81",
+        "id": "b25b18d20ed92e1e",
         "type": "ui_template",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "fa784fa1435d5307",
         "name": "CSS GOBAL",
         "order": 7,
@@ -717,12 +981,12 @@
         ]
     },
     {
-        "id": "3e6de543868748a0",
+        "id": "fd7f321d659db40d",
         "type": "ui_template",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "52b1af9da22ea88d",
         "name": "css-table",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n      .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    /* ข้อมูลในตาราง */\n    .tabulator .tabulator-row {\n        height: 40px !important;\n        border-bottom: 1px solid #ccc !important;\n        text-align: left !important;\n    }\n\n    /* ลูกษร */\n    .tabulator-arrow {\n    display: none !important;\n}\n    \n</style>\n\n",
@@ -738,12 +1002,12 @@
         ]
     },
     {
-        "id": "03da970188578956",
+        "id": "91eb93544d4ae173",
         "type": "ui_template",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "031a4b4761184c01",
         "name": "refresh-box",
-        "order": 7,
+        "order": 6,
         "width": 0,
         "height": 0,
         "format": "<style>\n.refresh-box button.md-button {\n\n    background-color: #00af92 !important; \n    margin-top: 5px;\n}\n\n.refresh-box button.md-button .fa{\n  font-size: 15px;\n  color: white !important;\n}\n\n.refresh-box button.md-button:hover {\n  filter:brightness(1.2); \n  transform: scale(1.02); \n}\n\n</style>\n",
@@ -759,12 +1023,12 @@
         ]
     },
     {
-        "id": "51e61dabb5a56bfa",
+        "id": "f884bf9b746c7a12",
         "type": "ui_template",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "031a4b4761184c01",
         "name": "download-box",
-        "order": 6,
+        "order": 7,
         "width": 0,
         "height": 0,
         "format": "<style>\n  #downloadCsv {\n    font-family: 'Jost' !important;\n    border-radius: 2px !important;\n    height: 65px !important;\n    border: none;\n    color: white !important;\n    background-color: #00af92 !important;\n    box-shadow: 0px 2px 3px rgba(1, 0, 0, 0.2) ;\n    transition: box-shadow 0.3s ease;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-top: 3px;\n  }\n\n  #downloadCsv .fa {\n    font-size: 15px;\n    color: white !important;\n  }\n\n</style>",
@@ -780,9 +1044,9 @@
         ]
     },
     {
-        "id": "41912d2603e6b1d9",
+        "id": "7beac6afbe5d79e7",
         "type": "ui_gauge",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "",
         "group": "774ee64a3e4f9afd",
         "order": 1,
@@ -803,14 +1067,14 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 850,
-        "y": 940,
+        "x": 1610,
+        "y": 600,
         "wires": []
     },
     {
-        "id": "8a55c164cea5cfcc",
+        "id": "bb1a9df84920d33b",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Func speed",
         "func": "",
         "outputs": 1,
@@ -819,74 +1083,20 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 630,
-        "y": 1020,
+        "x": 1390,
+        "y": 680,
         "wires": [
             [
-                "41912d2603e6b1d9",
-                "065935efd975e05e",
-                "1b57291f351725e7"
+                "7beac6afbe5d79e7",
+                "0b40c34788ab0911",
+                "9ac1a4556f0ba342"
             ]
         ]
     },
     {
-        "id": "933452d610af9d99",
-        "type": "ui_switch",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "label": "Save data to database",
-        "tooltip": "",
-        "group": "a5662fc4e9abb539",
-        "order": 10,
-        "width": 11,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 120,
-        "y": 1140,
-        "wires": [
-            [
-                "ecfefe40cfd2c208"
-            ]
-        ]
-    },
-    {
-        "id": "ecfefe40cfd2c208",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Func Switch",
-        "func": "flow.set(\"saveToDB\", msg.payload);\nif (msg.payload === true) {\n  return {};          \n}\nreturn { reset: true }; \n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 130,
-        "y": 1200,
-        "wires": [
-            [
-                "63ac52e6813141f7"
-            ]
-        ]
-    },
-    {
-        "id": "065935efd975e05e",
+        "id": "0b40c34788ab0911",
         "type": "ui_text",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "774ee64a3e4f9afd",
         "order": 3,
         "width": 3,
@@ -900,14 +1110,14 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 890,
-        "y": 980,
+        "x": 1650,
+        "y": 640,
         "wires": []
     },
     {
-        "id": "1b57291f351725e7",
+        "id": "9ac1a4556f0ba342",
         "type": "ui_numeric",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "",
         "label": "Car Speed ​Control",
         "tooltip": "",
@@ -924,17 +1134,17 @@
         "max": 10,
         "step": 1,
         "className": "",
-        "x": 890,
-        "y": 1020,
+        "x": 1650,
+        "y": 680,
         "wires": [
             []
         ]
     },
     {
-        "id": "caaf8b8dd7afb276",
+        "id": "643aff951583f323",
         "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
         "name": "css-detailt-text",
         "order": 11,
         "width": 0,
@@ -952,9 +1162,9 @@
         ]
     },
     {
-        "id": "f33a16394158808a",
+        "id": "aba0b2aa39d8fc56",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "ui_control ",
         "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 }  },\n\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: { displayFormats: { second: 'HH:mm:ss' }, tooltipFormat: 'HH:mm:ss' },\n          ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333',\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
         "outputs": 1,
@@ -967,14 +1177,14 @@
         "y": 220,
         "wires": [
             [
-                "4e247153add37b1e"
+                "f61ae028c2a92557"
             ]
         ]
     },
     {
-        "id": "10d07cfead75daf4",
+        "id": "f08622a59556ab13",
         "type": "ui_text",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "fa784fa1435d5307",
         "order": 3,
         "width": 3,
@@ -993,10 +1203,10 @@
         "wires": []
     },
     {
-        "id": "ba0dfa59323016c3",
+        "id": "b430f9361c2ad9b4",
         "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "4ab2bea43a8779d2",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "2632484ee4d1ad56",
         "order": 3,
         "width": 3,
         "height": 1,
@@ -1014,11 +1224,11 @@
         "wires": []
     },
     {
-        "id": "f44a63ca88953723",
+        "id": "27116fbfed1e611e",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "ui_control ",
-        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 } },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: {\n          unit: 'second',\n          tooltipFormat: 'HH:mm:ss',\n          displayFormats: {\n            millisecond: 'HH:mm:ss',\n            second:      'HH:mm:ss',\n            minute:      'HH:mm',\n            hour:        'HH:mm'\n          }\n        },\n        ticks: {\n          autoSkip: true,         \n          maxTicksLimit: 6,      \n          maxRotation: 0,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -20,\n          max: 20,\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 } },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: {\n          unit: 'second',\n          tooltipFormat: 'HH:mm:ss',\n          displayFormats: {\n            millisecond: 'HH:mm:ss',\n            second:      'HH:mm:ss',\n            minute:      'HH:mm',\n            hour:        'HH:mm'\n          }\n        },\n        ticks: {\n          autoSkip: true,         \n          maxTicksLimit: 6,      \n          maxRotation: 0,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -100,\n          max: 100,\n          stepSize: 25,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1029,14 +1239,826 @@
         "y": 640,
         "wires": [
             [
-                "c2fdbefbfc9f93d7"
+                "043a71fe0ae4029e"
             ]
         ]
     },
     {
-        "id": "d8946ec45b9a9d41",
+        "id": "a641de3807c3b3b9",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Func Database",
+        "func": "let saveToDB = flow.get(\"saveToDB\");\nlet sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nif (saveToDB === true) {\n    let date = `${sensor[\"Day\"]}/${sensor[\"Month\"]}/${sensor[\"Year\"]}`;\n\n    let prev = context.get(\"prevDB\") || {};\n\n\n    if (\n        prev.Roll === sensor[\"Roll\"] &&\n        prev.TiltLeftRight === sensor[\"TiltLeftRight\"] &&\n        prev.Location === sensor[\"Location\"] &&\n        prev.Time === sensor[\"HourTH\"] &&\n        prev.Date === date\n    ) {\n        return null;\n    }\n\n    context.set(\"prevDB\", {\n        Roll: sensor[\"Roll\"],\n        TiltLeftRight: sensor[\"TiltLeftRight\"],\n        Location: sensor[\"Location\"],\n        Time: sensor[\"HourTH\"],\n        Date: date\n    });\n\n    return {\n        payload: {\n            \"timestamp\": new Date(time).toLocaleString(\"th-TH\", { hour12: false }),\n            \"Date\": date,               \n            \"Time\": sensor[\"HourTH\"],\n            \"Roll\": sensor[\"Roll\"],\n            \"TiltLeftRight\": sensor[\"TiltLeftRight\"],\n            \"Location\": sensor[\"Location\"],\n        }\n    };\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1000,
+        "wires": [
+            [
+                "50b5c9e4a52147f1"
+            ]
+        ]
+    },
+    {
+        "id": "50b5c9e4a52147f1",
+        "type": "mongodb3 in",
+        "z": "e2dd1a4ff8f7c581",
+        "service": "_ext_",
+        "configNode": "06582ec6de535407",
+        "name": "PUT-Mongodb",
+        "collection": "Tilt-Data",
+        "operation": "insert",
+        "x": 880,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aaaf12135124f393",
+        "type": "http request",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "sensor",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://magellan.ais.co.th/asgardpullmessagesapis/api/listen/thing?Key=09B3860B3BE189AE6CDEA0FDA1AED696",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Authorization",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
+            }
+        ],
+        "x": 350,
+        "y": 720,
+        "wires": [
+            [
+                "d4612ca4b6b4e1ef",
+                "2bda38ff0da451ee",
+                "a641de3807c3b3b9"
+            ]
+        ]
+    },
+    {
+        "id": "40c2c1574ef72e8b",
+        "type": "inject",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 720,
+        "wires": [
+            [
+                "aaaf12135124f393"
+            ]
+        ]
+    },
+    {
+        "id": "3f5be9f0bd58e9d4",
+        "type": "ui_text",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "Date",
+        "label": "<span class=\"label-small\">Date</span>",
+        "format": "<span class=\"value\">{{msg.payload}}</span>",
+        "layout": "col-center",
+        "className": "css-detail-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 850,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c16f107d190450df",
+        "type": "ui_text",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "name": "Time",
+        "label": "<span class=\"label-small\">Time</span>",
+        "format": "<span class=\"value\">{{msg.payload}}</span>",
+        "layout": "col-center",
+        "className": "css-detail-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 850,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ea8fac32fb8ee4a1",
+        "type": "ui_text",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "name": "Total Distance",
+        "label": "<span class=\"label-small\">Total Distance</span>",
+        "format": "<span class=\"value\">{{msg.payload}} m</span>",
+        "layout": "col-center",
+        "className": "css-detail-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "3251f1c0fea03991",
+        "type": "ui_text",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "Satellite",
+        "label": "<span class=\"label-small\">Satellite</span>",
+        "format": "<span class=\"value\">{{msg.payload}}</span>",
+        "layout": "col-center",
+        "className": "css-detail-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 860,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f55a2e2cb63ad1c2",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Func Detail",
+        "func": "const FREEZE_MS = 30000;\n\nconst sensor = (msg.payload && msg.payload.Sensor) || {};\nlet buzzer        = sensor[\"Buzzer\"];\nlet totalDistance = sensor[\"TotalDistance\"];\nlet satellite     = sensor[\"Satellites\"];\nlet speed         = sensor[\"Speed\"];\n\n\nif (typeof satellite !== \"number\") satellite = Number(satellite) || 0;\nif (typeof speed !== \"number\")     speed     = Number(speed) || 0;\n\nif (speed < 1.0) speed = 0;\n\n\nconst fingerprint = JSON.stringify(sensor);\n\n\nlet lastFP      = context.get(\"lastFP\");\nlet lastChange  = context.get(\"lastChangeAt\"); \n\nconst now = Date.now();\nlet freeze = false;\n\nif (lastFP === fingerprint) {\n  if (typeof lastChange === \"number\" && (now - lastChange) >= FREEZE_MS) {\n    freeze = true;\n  }\n} else {\n  context.set(\"lastFP\", fingerprint);\n  context.set(\"lastChangeAt\", now);\n  freeze = false;\n}\n\n\nconst outSatellite = freeze ? 0 : satellite;\nconst outSpeed     = freeze ? 0 : speed;\nconst outBuzzer    = freeze ? 0 : buzzer;\n\n\nreturn [\n  { payload: outBuzzer },\n  { payload: totalDistance },\n  { payload: outSatellite },\n  { payload: outSpeed },\n];\n",
+        "outputs": 4,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 320,
+        "wires": [
+            [
+                "2b368ace0842dbf5",
+                "0a2614f6bf077f3f"
+            ],
+            [
+                "ea8fac32fb8ee4a1"
+            ],
+            [
+                "3251f1c0fea03991"
+            ],
+            [
+                "4b96c69bc4576857"
+            ]
+        ]
+    },
+    {
+        "id": "c4ed1e7b9d51d73a",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "ui_control ",
+        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 } },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: {\n          unit: 'second',\n          tooltipFormat: 'HH:mm:ss',\n          displayFormats: {\n            millisecond: 'HH:mm:ss',\n            second:      'HH:mm:ss',\n            minute:      'HH:mm',\n            hour:        'HH:mm'\n          }\n        },\n        ticks: {\n          autoSkip: true,         \n          maxTicksLimit: 6,      \n          maxRotation: 0,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -100,\n          max: 100,\n          stepSize: 25,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 540,
+        "wires": [
+            [
+                "0e48b641d1ed555f"
+            ]
+        ]
+    },
+    {
+        "id": "02acfc1f95c7899d",
+        "type": "ui_chart",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "",
+        "group": "2632484ee4d1ad56",
+        "order": 1,
+        "width": 8,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "-30",
+        "ymax": "30",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1aff5e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "css-chart",
+        "x": 1170,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b368ace0842dbf5",
+        "type": "ui_template",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "name": "icon-buzzer",
+        "order": 6,
+        "width": 3,
+        "height": 2,
+        "format": "<div class=\"buzzer-wrap\" layout=\"row\" layout-align=\"center center\">\n  <i class=\"fa\"\n     ng-class=\"(+msg.payload===1) ? 'fa-exclamation-triangle on' : 'fa-exclamation-triangle off'\"></i>\n</div>\n\n<style>\n    .buzzer-wrap {\n      display: flex;\n      flex-direction: column;\n      align-items: center !important; \n      justify-content: flex-start !important;\n      text-align: center !important;\n  }\n  .buzzer-wrap i.fa {\n    transition: transform .2s ease, color .2s ease;\n  }\n  .buzzer-wrap i.on  { font-size: 40px; color: red;}\n  .buzzer-wrap i.off { font-size: 37px; color: #00af92; }\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 870,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a2614f6bf077f3f",
+        "type": "ui_text",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "Buzzer",
+        "label": "<span class=\"label-small\">Buzzer</span>",
+        "format": "",
+        "layout": "col-center",
+        "className": "css-detailBuzzer-text",
+        "style": true,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 860,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a2557e16e5f0b48d",
+        "type": "ui_template",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "name": "css-detailBuzzer-text",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .css-detailBuzzer-text {\n        display: flex;\n        flex-direction: column;\n        align-items: center !important; \n        justify-content: flex-start !important;\n        text-align: center !important;\n\n    }\n\n    .css-detailBuzzer-text .label-small {\n        font-size: 14px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-detailBuzzer-text .value {\n        font-size: 15px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 800,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b96c69bc4576857",
+        "type": "ui_text",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "Speed",
+        "label": "<span class=\"label-small\">Speed</span>",
+        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} km/h</span>",
+        "layout": "col-center",
+        "className": "css-detail-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 850,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "d0cd864ab41dc2bc",
+        "type": "worldmap-tracks",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "",
+        "depth": "300",
+        "layer": "combined",
+        "smooth": true,
+        "x": 850,
+        "y": 740,
+        "wires": [
+            [
+                "d47fca559d9141e6"
+            ]
+        ]
+    },
+    {
+        "id": "d47fca559d9141e6",
+        "type": "ui_worldmap",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "f3927f275c56e254",
+        "order": 1,
+        "width": 11,
+        "height": 4,
+        "name": "Worldmap",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "true",
+        "path": "/worldmap",
+        "overlist": "",
+        "maplist": "OSMC,EsriS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 870,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "3e6efbac3ffc182d",
+        "type": "http request",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Detail",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://magellan.ais.co.th/asgardpullmessagesapis/api/listen/thing?Key=6C055D8D855F3A35220BE47636978487",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Authorization",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
+            }
+        ],
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "f55a2e2cb63ad1c2",
+                "ea8cdabd68a81d57"
+            ]
+        ]
+    },
+    {
+        "id": "c9c11fd945fee650",
+        "type": "inject",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "3e6efbac3ffc182d"
+            ]
+        ]
+    },
+    {
+        "id": "f1f0d7b6ac4c52b6",
+        "type": "ui_template",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "031a4b4761184c01",
+        "name": "css-tableReports",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n    .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    .tabulator .tabulator-row.tabulator-selected {\n    background-color: #E8FFF5 !important; \n    border-left: 4px solid #00AF92 !important;\n    }\n\n    .tabulator .tabulator-row.tabulator-selected .tabulator-cell {\n    color: #092621 !important;\n    font-weight: 600;\n    }\n\n    \n</style>\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0e48b641d1ed555f",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "freeze",
+        "func": "if (msg && msg.freezeInit === true) {\n  return msg;\n}\nif (msg && msg.freeze === true) {\n  return null;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 540,
+        "wires": [
+            [
+                "02acfc1f95c7899d"
+            ]
+        ]
+    },
+    {
+        "id": "043a71fe0ae4029e",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "freeze",
+        "func": "if (msg && msg.freezeInit === true) {\n  return msg;\n}\nif (msg && msg.freeze === true) {\n  return null;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 640,
+        "wires": [
+            [
+                "fd11814b54137907"
+            ]
+        ]
+    },
+    {
+        "id": "ea8cdabd68a81d57",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Func Datetime",
+        "func": "let sensor = (msg.payload && msg.payload.Sensor) || {};\n\nlet ts = sensor.timestamp ?? msg.payload?.timestamp ?? Date.now();\nif (typeof ts === \"number\" && ts < 10_000_000_000) ts = ts * 1000;\n\nconst tz = \"Asia/Bangkok\";\nconst now = new Date(ts);\n\nconst dateTH = now.toLocaleDateString(\"en-GB\", {\n  timeZone: tz,\n  year: \"numeric\",\n  month: \"numeric\",\n  day: \"numeric\",\n});\n\n\nconst timeTH = now.toLocaleTimeString(\"en-GB\", {\n  timeZone: tz,\n  hour12: false,\n  hour: \"2-digit\",\n  minute: \"2-digit\",\n  second: \"2-digit\",\n});\n\n\n\nreturn [\n  { payload: dateTH },\n  { payload: timeTH },\n];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 160,
+        "wires": [
+            [
+                "3f5be9f0bd58e9d4"
+            ],
+            [
+                "c16f107d190450df"
+            ]
+        ]
+    },
+    {
+        "id": "a50413448029bd0c",
+        "type": "ui_template",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "name": "css-switch",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n\n    .css-switch-text {\n        display: flex;\n        align-items: flex-start !important; \n        justify-content: flex-start !important;\n        text-align: left !important;\n    }\n\n    .css-switch .label-small {\n        font-size: 14px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 110,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7c6f2b1f0f54a2a",
+        "type": "ui_text",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "f3927f275c56e254",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "GPS Status",
+        "label": "<span class=\"label-small\">GPS Status </span>",
+        "format": "<span class=\"value\">{{msg.payload}}</span>",
+        "layout": "row-spread",
+        "className": "css-status-text",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 870,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "c553784c6477bcc2",
+        "type": "ui_template",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "8809466081392c9a",
+        "name": "css-status-text",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    /* .css-status-text {\n        display: flex;\n        align-items: flex-start !important;\n        justify-content: flex-start !important;\n        text-align: left !important;\n    } */\n\n\n    .css-status-text .label-small {\n        font-size: 14px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-detail-text .value {\n        font-size: 14px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "btn-clear-tracks",
+        "type": "ui_button",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Clear",
+        "group": "f3927f275c56e254",
+        "order": 5,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "Clear tracks",
+        "color": "",
+        "bgcolor": "",
+        "className": "clear",
+        "icon": "fa-trash",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 610,
+        "y": 820,
+        "wires": [
+            [
+                "fn-clear-tracks"
+            ]
+        ]
+    },
+    {
+        "id": "fn-clear-tracks",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Clear tracks + map",
+        "func": "const LAYERS_TO_CLEAR = [\"combined\", \"Location_points\"];\n\n\ncontext.set(\"prev\", null);\ncontext.set(\"lastFP\", null);\ncontext.set(\"lastChangeAt\", null);\nflow.set(\"lastLatLon\", null);\n\n\nconst cmd = {\n  payload: {\n    command: {\n      clearlayer: LAYERS_TO_CLEAR,  \n    }\n  }\n};\n\n/\nreturn [ cmd, cmd ];\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 1,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 780,
+        "wires": [
+            [
+                "d0cd864ab41dc2bc",
+                "d47fca559d9141e6"
+            ]
+        ]
+    },
+    {
+        "id": "css-clear-btn",
+        "type": "ui_template",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "f3927f275c56e254",
+        "name": "css-clear",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .clear button.md-button {\n        background-color: transparent !important;\n        box-shadow: none !important;\n        border: none !important;\n    }\n\n    .clear button.md-button .fa{\n        font-size: 18px;\n        color: #092621; !important; \n        opacity: 0.7;\n    }\n        \n    .clear button.md-button:hover{\n        filter: brightness(1.15);\n        transform: scale(1.08);\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d02f859707fa5b74",
+        "type": "ui_button",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Auto-Pan",
+        "group": "f3927f275c56e254",
+        "order": 4,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "clear",
+        "icon": "fa-location-arrow",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 620,
+        "y": 880,
+        "wires": [
+            [
+                "afcef3d3f7ebbc98"
+            ]
+        ]
+    },
+    {
+        "id": "afcef3d3f7ebbc98",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Pan",
+        "func": "const ll = flow.get(\"lastLatLon\") || {};\nconst cmd = { command: { panit: true } };   \n\n\nif (isFinite(ll.lat) && isFinite(ll.lon)) {\n  cmd.command.lat  = ll.lat;\n  cmd.command.lon  = ll.lon;\n  cmd.command.zoom = 15; \n}\n\nmsg.payload = cmd;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 880,
+        "wires": [
+            [
+                "d47fca559d9141e6"
+            ]
+        ]
+    },
+    {
+        "id": "6558d116e75f1863",
+        "type": "ui_template",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "f3927f275c56e254",
+        "name": "Overlay",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .leaflet-control-layers-overlays {\n        display: none !important;\n    }\n\n    .leaflet-control-layers-separator {\n        display: none !important;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 1160,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd12a92cec82a64f",
+        "type": "ui_switch",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "",
+        "label": "Save data to database",
+        "tooltip": "",
+        "group": "8809466081392c9a",
+        "order": 10,
+        "width": 11,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 140,
+        "y": 1100,
+        "wires": [
+            [
+                "4f057bacf717291a"
+            ]
+        ]
+    },
+    {
+        "id": "4f057bacf717291a",
+        "type": "function",
+        "z": "e2dd1a4ff8f7c581",
+        "name": "Func Switch",
+        "func": "flow.set(\"saveToDB\", msg.payload);\nif (msg.payload === true) {\n  return {};          \n}\nreturn { reset: true }; \n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 150,
+        "y": 1160,
+        "wires": [
+            [
+                "6dc71be55d8fc5e5"
+            ]
+        ]
+    },
+    {
+        "id": "f81585852f471cde",
         "type": "ui_form",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "",
         "label": "Filter",
         "group": "6293bb60cd5176bd",
@@ -1070,35 +2092,35 @@
         "topicType": "msg",
         "splitLayout": false,
         "className": "",
-        "x": 870,
-        "y": 1260,
+        "x": 890,
+        "y": 1220,
         "wires": [
             [
-                "5620f7bbd22ca008"
+                "f441a5f3807ce85f"
             ]
         ]
     },
     {
-        "id": "a083ef7c9408f11c",
+        "id": "897c3a308eba4715",
         "type": "mongodb3 in",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "service": "_ext_",
-        "configNode": "cba8999ae4809ff1",
+        "configNode": "ea56edf3d92a6def",
         "name": "Mongodb",
         "collection": "Tilt-Data",
         "operation": "find.toArray",
-        "x": 860,
-        "y": 1200,
+        "x": 880,
+        "y": 1160,
         "wires": [
             [
-                "68f88548a6877452"
+                "f024e3aacb08a507"
             ]
         ]
     },
     {
-        "id": "dab9ab345ca1aa4a",
+        "id": "93a74489b21b0aec",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Data func",
         "func": "msg.payload = {}; \nmsg.collection = \"Tilt-Data\"; \nreturn msg;\n",
         "outputs": 1,
@@ -1107,18 +2129,18 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 1200,
+        "x": 700,
+        "y": 1160,
         "wires": [
             [
-                "a083ef7c9408f11c"
+                "897c3a308eba4715"
             ]
         ]
     },
     {
-        "id": "68f88548a6877452",
+        "id": "f024e3aacb08a507",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Array func",
         "func": "function parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet obj = msg.payload;\nlet dataArray = Object.values(obj);\n\ndataArray = dataArray.filter(entry => {\n    let date = parseThaiDateTime(entry.timestamp);\n    return date !== null;\n});\n\ndataArray.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n    return dateB.getTime() - dateA.getTime(); \n});\n\nflow.set(\"allData\", dataArray);\n\nmsg.payload = dataArray;\nreturn msg;\n",
         "outputs": 1,
@@ -1127,23 +2149,23 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
-        "y": 1200,
+        "x": 1050,
+        "y": 1160,
         "wires": [
             [
-                "dca72730feaacec4"
+                "87c489db4df29e86"
             ]
         ]
     },
     {
-        "id": "3e70a53f659c1ce5",
+        "id": "065992e6cc89aaf0",
         "type": "ui_table",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "031a4b4761184c01",
         "name": "Table Reports",
         "order": 1,
-        "width": 20,
-        "height": 13,
+        "width": 21,
+        "height": 12,
         "columns": [
             {
                 "field": "Date",
@@ -1177,7 +2199,7 @@
             },
             {
                 "field": "TiltLeftRight",
-                "title": "TiltLeftRight",
+                "title": "Tilt LeftRight",
                 "width": "",
                 "align": "left",
                 "formatter": "plaintext",
@@ -1198,18 +2220,18 @@
         ],
         "outputs": 1,
         "cts": true,
-        "x": 1440,
-        "y": 1200,
+        "x": 1460,
+        "y": 1160,
         "wires": [
             [
-                "55d70c48bcaf1bb9"
+                "b96ea7978e277207"
             ]
         ]
     },
     {
-        "id": "5620f7bbd22ca008",
+        "id": "f441a5f3807ce85f",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Filter",
         "func": "let startDate = new Date(msg.payload.start_date);\nlet endDate = new Date(msg.payload.end_date);\nendDate.setHours(23, 59, 59, 999);\n\nflow.set(\"last_start_date\", msg.payload.start_date);\nflow.set(\"last_end_date\", msg.payload.end_date);\n\nlet allData = flow.get(\"allData\") || [];\n\nfunction parseThaiDateTime(datetimeStr) {\n    if (!datetimeStr) return null;\n    let parts = datetimeStr.split(\" \");\n    let datePart = parts[0];\n    let timePart = parts[1] || \"00:00:00\";\n\n    let [day, month, year] = datePart.split(\"/\").map(Number);\n    if (!day || !month || !year) return null;\n\n    year -= 543;\n    let date = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${timePart}`);\n    return isNaN(date) ? null : date;\n}\n\nlet filtered = allData.filter(entry => {\n    if (!entry.timestamp) return false;\n    let entryDate = parseThaiDateTime(entry.timestamp);\n    if (!entryDate) return false;\n\n    return entryDate >= startDate && entryDate <= endDate;\n});\n\nfiltered.sort((a, b) => {\n    let dateA = parseThaiDateTime(a.timestamp);\n    let dateB = parseThaiDateTime(b.timestamp);\n    if (!dateA || !dateB) return 0;\n    return dateA.getTime() - dateB.getTime(); \n});\n\n\nmsg.payload = filtered;\n\nlet lockDateMsg = {\n    payload: {\n        start_date: flow.get(\"last_start_date\"),\n        end_date: flow.get(\"last_end_date\")\n    }\n};\n\nreturn [msg, lockDateMsg];\n\n",
         "outputs": 2,
@@ -1218,21 +2240,21 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
-        "y": 1260,
+        "x": 1050,
+        "y": 1220,
         "wires": [
             [
-                "dca72730feaacec4"
+                "87c489db4df29e86"
             ],
             [
-                "d8946ec45b9a9d41"
+                "f81585852f471cde"
             ]
         ]
     },
     {
-        "id": "7626d1e79e08bd24",
+        "id": "aeda428eb31d10d3",
         "type": "ui_button",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "refresh",
         "group": "031a4b4761184c01",
         "order": 3,
@@ -1249,18 +2271,18 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 520,
-        "y": 1280,
+        "x": 540,
+        "y": 1240,
         "wires": [
             [
-                "dab9ab345ca1aa4a"
+                "93a74489b21b0aec"
             ]
         ]
     },
     {
-        "id": "dca72730feaacec4",
+        "id": "87c489db4df29e86",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "func data filter",
         "func": "return msg;",
         "outputs": 1,
@@ -1269,436 +2291,19 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
-        "y": 1200,
+        "x": 1240,
+        "y": 1160,
         "wires": [
             [
-                "f864df037fe70643",
-                "3e70a53f659c1ce5"
+                "0dbf1522726c997b",
+                "065992e6cc89aaf0"
             ]
         ]
     },
     {
-        "id": "96bec991166f6a66",
+        "id": "0dbf1522726c997b",
         "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Func Database",
-        "func": "let saveToDB = flow.get(\"saveToDB\");\n\nlet sensor = msg.payload.Sensor || {};\nlet time = msg.payload.timestamp || Date.now();\n\nif (saveToDB === true) {\n    let date = `${sensor[\"Day\"]}/${sensor[\"Month\"]}/${sensor[\"Year\"]}`;\n\n    return {\n        payload: {\n            \"timestamp\": new Date(time).toLocaleString(\"th-TH\", { hour12: false }),\n            \"Date\": date,               \n            \"Time\": sensor[\"HourTH\"],\n            \"Roll\": sensor[\"Roll\"],\n            \"TiltLeftRight\": sensor[\"TiltLeftRight\"],\n            \"Location\": sensor[\"Location\"],\n        }\n    };\n} else {\n    return null;\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 820,
-        "wires": [
-            [
-                "05bbbe9c04888db4"
-            ]
-        ]
-    },
-    {
-        "id": "05bbbe9c04888db4",
-        "type": "mongodb3 in",
-        "z": "2395f6adbeb5589e",
-        "service": "_ext_",
-        "configNode": "2f7b91658fa4b836",
-        "name": "PUT-Mongodb",
-        "collection": "Tilt-Data",
-        "operation": "insert",
-        "x": 880,
-        "y": 820,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cceee3556467f723",
-        "type": "http request",
-        "z": "2395f6adbeb5589e",
-        "name": "sensor",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "body",
-        "url": "https://magellan.ais.co.th/asgardpullmessagesapis/api/listen/thing?Key=6D456606226B9A9878B4A489AEBC9040",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [
-            {
-                "keyType": "Authorization",
-                "keyValue": "",
-                "valueType": "other",
-                "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
-            }
-        ],
-        "x": 350,
-        "y": 720,
-        "wires": [
-            [
-                "766f3332cee93ef8",
-                "c2c8b72f44c91f03",
-                "96bec991166f6a66"
-            ]
-        ]
-    },
-    {
-        "id": "c0b82201e3c321f2",
-        "type": "inject",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "2",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "0.5",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 190,
-        "y": 720,
-        "wires": [
-            [
-                "cceee3556467f723"
-            ]
-        ]
-    },
-    {
-        "id": "263bc3e0a6836f02",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "order": 1,
-        "width": 4,
-        "height": 1,
-        "name": "Date",
-        "label": "<span class=\"label-small\">Date</span>",
-        "format": "<span class=\"value\">{{msg.payload}}</span>",
-        "layout": "col-center",
-        "className": "css-detail-text",
-        "style": true,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 850,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "2e031f6b401d6727",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "order": 2,
-        "width": 4,
-        "height": 1,
-        "name": "Time",
-        "label": "<span class=\"label-small\">Time</span>",
-        "format": "<span class=\"value\">{{msg.payload}}</span>",
-        "layout": "col-center",
-        "className": "css-detail-text",
-        "style": true,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 850,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "8153b03ce7f8551a",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "order": 5,
-        "width": 4,
-        "height": 1,
-        "name": "Total Distance",
-        "label": "<span class=\"label-small\">Total Distance</span>",
-        "format": "<span class=\"value\">{{msg.payload}} m</span>",
-        "layout": "col-center",
-        "className": "css-detail-text",
-        "style": true,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 880,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "3fec69fe31818562",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "order": 4,
-        "width": 4,
-        "height": 1,
-        "name": "Satellite",
-        "label": "<span class=\"label-small\">Satellite</span>",
-        "format": "<span class=\"value\">{{msg.payload}}</span>",
-        "layout": "col-center",
-        "className": "css-detail-text",
-        "style": true,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 860,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "4ec4c0b2faf669c9",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "Func Detail",
-        "func": "let sensor = (msg.payload && msg.payload.Sensor) || {};\n\nlet buzzer        = sensor[\"Buzzer\"];\nlet totalDistance = sensor[\"TotalDistance\"];\nlet satellite     = sensor[\"Satellites\"];\nlet speed         = sensor[\"Speed\"];\n\n\nlet ts = sensor.timestamp ?? msg.payload?.timestamp ?? Date.now();\nif (typeof ts === \"number\" && ts < 10_000_000_000) ts = ts * 1000;\n\nconst tz = \"Asia/Bangkok\";\nconst now = new Date(ts);\n\nconst dateTH = now.toLocaleDateString(\"en-GB\", {\n  timeZone: tz,\n  year: \"numeric\",\n  month: \"numeric\",\n  day: \"numeric\",\n});\n\n\nconst timeTH = now.toLocaleTimeString(\"en-GB\", {\n  timeZone: tz,\n  hour12: false,\n  hour: \"2-digit\",\n  minute: \"2-digit\",\n  second: \"2-digit\",\n});\n\n\nreturn [\n  { payload: buzzer },\n  { payload: totalDistance },\n  { payload: satellite },\n  { payload: dateTH },\n  { payload: timeTH },\n  { payload: speed },\n];\n",
-        "outputs": 6,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 630,
-        "y": 280,
-        "wires": [
-            [
-                "56a6e369a6c64efb",
-                "0e5e12c05fc9eaf5"
-            ],
-            [
-                "8153b03ce7f8551a"
-            ],
-            [
-                "3fec69fe31818562"
-            ],
-            [
-                "263bc3e0a6836f02"
-            ],
-            [
-                "2e031f6b401d6727"
-            ],
-            [
-                "7f015f501de241cc"
-            ]
-        ]
-    },
-    {
-        "id": "6cc787639fb4e267",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
-        "name": "ui_control ",
-        "func": "msg.ui_control = {\n  options: {\n    legend: { display: false },\n    elements: { point: { radius: 3, hitRadius: 3, hoverRadius: 5 } },\n    scales: {\n      xAxes: [{\n        type: 'time',\n        time: {\n          unit: 'second',\n          tooltipFormat: 'HH:mm:ss',\n          displayFormats: {\n            millisecond: 'HH:mm:ss',\n            second:      'HH:mm:ss',\n            minute:      'HH:mm',\n            hour:        'HH:mm'\n          }\n        },\n        ticks: {\n          autoSkip: true,         \n          maxTicksLimit: 6,      \n          maxRotation: 0,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true, drawTicks: true }\n      }],\n      yAxes: [{\n        ticks: {\n          min: -20,\n          max: 20,\n          stepSize: 10,\n          fontSize: 10,\n          fontColor: '#333'\n        },\n        gridLines: { display: true }\n      }]\n    }\n  }\n};\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 540,
-        "wires": [
-            [
-                "8108c2ef199cefad"
-            ]
-        ]
-    },
-    {
-        "id": "8108c2ef199cefad",
-        "type": "ui_chart",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "group": "4ab2bea43a8779d2",
-        "order": 1,
-        "width": 8,
-        "height": 5,
-        "label": "",
-        "chartType": "line",
-        "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "bezier",
-        "nodata": "",
-        "dot": true,
-        "ymin": "-30",
-        "ymax": "30",
-        "removeOlder": "30",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "1",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1aff5e",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "css-chart",
-        "x": 1010,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0e5e12c05fc9eaf5",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "name": "icon-buzzer",
-        "order": 6,
-        "width": 3,
-        "height": 2,
-        "format": "<div class=\"buzzer-wrap\" layout=\"row\" layout-align=\"center center\">\n  <i class=\"fa\"\n     ng-class=\"(+msg.payload===1) ? 'fa-exclamation-triangle on' : 'fa-exclamation-triangle off'\"></i>\n</div>\n\n<style>\n    .buzzer-wrap {\n      display: flex;\n      flex-direction: column;\n      align-items: center !important; \n      justify-content: flex-start !important;\n      text-align: center !important;\n  }\n  .buzzer-wrap i.fa {\n    transition: transform .2s ease, color .2s ease;\n  }\n  .buzzer-wrap i.on  { font-size: 40px; color: red;}\n  .buzzer-wrap i.off { font-size: 37px; color: #00af92; }\n</style>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 870,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "56a6e369a6c64efb",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "name": "Buzzer",
-        "label": "<span class=\"label-small\">Buzzer</span>",
-        "format": "",
-        "layout": "col-center",
-        "className": "css-detailBuzzer-text",
-        "style": true,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 860,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "0b3ecef9f1534b84",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "name": "css-detailBuzzer-text",
-        "order": 12,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    .css-detailBuzzer-text {\n        display: flex;\n        flex-direction: column;\n        align-items: center !important; \n        justify-content: flex-start !important;\n        text-align: center !important;\n\n    }\n\n    .css-detailBuzzer-text .label-small {\n        font-size: 14px !important;\n        text-transform: uppercase;\n        color: #092621;\n        margin-bottom: 4px;\n        opacity: 0.7;\n    }\n\n    .css-detailBuzzer-text .value {\n        font-size: 15px !important;\n        font-weight: bold;\n        color: #092621;\n    }\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 800,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7f015f501de241cc",
-        "type": "ui_text",
-        "z": "2395f6adbeb5589e",
-        "group": "a5662fc4e9abb539",
-        "order": 7,
-        "width": 4,
-        "height": 1,
-        "name": "Speed",
-        "label": "<span class=\"label-small\">Speed</span>",
-        "format": "<span class=\"value\">{{msg.payload.toFixed(2)}} km/h</span>",
-        "layout": "col-center",
-        "className": "css-detail-text",
-        "style": true,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 850,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "d40efd55af2630a0",
-        "type": "worldmap-tracks",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "depth": "200",
-        "layer": "combined",
-        "smooth": true,
-        "x": 850,
-        "y": 700,
-        "wires": [
-            [
-                "cf0cd28328db2831"
-            ]
-        ]
-    },
-    {
-        "id": "cf0cd28328db2831",
-        "type": "ui_worldmap",
-        "z": "2395f6adbeb5589e",
-        "group": "f3927f275c56e254",
-        "order": 1,
-        "width": 11,
-        "height": 5,
-        "name": "",
-        "lat": "",
-        "lon": "",
-        "zoom": "",
-        "layer": "OSMC",
-        "cluster": "",
-        "maxage": "",
-        "usermenu": "show",
-        "layers": "show",
-        "panit": "false",
-        "panlock": "false",
-        "zoomlock": "false",
-        "hiderightclick": "true",
-        "coords": "none",
-        "showgrid": "false",
-        "showruler": "false",
-        "allowFileDrop": "true",
-        "path": "/worldmap",
-        "overlist": "",
-        "maplist": "OSMC,EsriS",
-        "mapname": "",
-        "mapurl": "",
-        "mapopt": "",
-        "mapwms": false,
-        "x": 860,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "f864df037fe70643",
-        "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Convert to Excel",
         "func": "const headers = [\"Date\",\"Time\",\"Roll\",\"TiltLeftRight\",\"Location\"];\n\nlet data = msg.payload;\nif(!Array.isArray(data)){\n  msg.rows = [];\n  msg.headers = headers;\n  return msg;\n}\nmsg.rows = data.map(r => {\n  const o = {};\n  headers.forEach(h => o[h] = (r && r[h] !== undefined && r[h] !== null) ? r[h] : \"\");\n  return o;\n});\nmsg.headers = headers;\nreturn msg;",
         "outputs": 1,
@@ -1707,18 +2312,18 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1420,
-        "y": 1260,
+        "x": 1440,
+        "y": 1220,
         "wires": [
             [
-                "1def7324d4e17105"
+                "3d638907ac93b8a8"
             ]
         ]
     },
     {
-        "id": "1def7324d4e17105",
+        "id": "3d638907ac93b8a8",
         "type": "ui_template",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "group": "031a4b4761184c01",
         "name": "Download Button",
         "order": 4,
@@ -1730,16 +2335,16 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "download-box",
-        "x": 1630,
-        "y": 1260,
+        "x": 1650,
+        "y": 1220,
         "wires": [
             []
         ]
     },
     {
-        "id": "63ac52e6813141f7",
+        "id": "6dc71be55d8fc5e5",
         "type": "trigger",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Trigger",
         "op1": "",
         "op2": "",
@@ -1753,21 +2358,21 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 2,
-        "x": 320,
-        "y": 1200,
+        "x": 340,
+        "y": 1160,
         "wires": [
             [
-                "2e53ca0ac0b77101"
+                "1ad297818f4b264d"
             ],
             [
-                "2e53ca0ac0b77101"
+                "1ad297818f4b264d"
             ]
         ]
     },
     {
-        "id": "2e53ca0ac0b77101",
+        "id": "1ad297818f4b264d",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "Fune Rearm",
         "func": "const on = flow.get(\"saveToDB\") === true;\n\nnode.send([msg, null]);\n\nif (on) {\n  return [null, {}];\n}\nreturn [null, null];\n",
         "outputs": 2,
@@ -1776,81 +2381,21 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
-        "y": 1200,
+        "x": 530,
+        "y": 1160,
         "wires": [
             [
-                "dab9ab345ca1aa4a"
+                "93a74489b21b0aec"
             ],
             [
-                "63ac52e6813141f7"
+                "6dc71be55d8fc5e5"
             ]
         ]
     },
     {
-        "id": "e17a85cc37a43c08",
-        "type": "http request",
-        "z": "2395f6adbeb5589e",
-        "name": "Detail",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "body",
-        "url": "https://magellan.ais.co.th/asgardpullmessagesapis/api/listen/thing?Key=8CEA3055C3ECD6C02A198958D05D87B2",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [
-            {
-                "keyType": "Authorization",
-                "keyValue": "",
-                "valueType": "other",
-                "valueValue": "Bearer fa3d5e0b-8bec-43b1-bb9d-3b7003e6b7c2"
-            }
-        ],
-        "x": 350,
-        "y": 280,
-        "wires": [
-            [
-                "4ec4c0b2faf669c9"
-            ]
-        ]
-    },
-    {
-        "id": "e4d6331b766d2e6a",
-        "type": "inject",
-        "z": "2395f6adbeb5589e",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "0.5",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 190,
-        "y": 280,
-        "wires": [
-            [
-                "e17a85cc37a43c08"
-            ]
-        ]
-    },
-    {
-        "id": "55d70c48bcaf1bb9",
+        "id": "b96ea7978e277207",
         "type": "function",
-        "z": "2395f6adbeb5589e",
+        "z": "e2dd1a4ff8f7c581",
         "name": "func map",
         "func": "// รับ row object จาก ui_table (ต้องเปิด \"Send msg on row click\")\nlet row = msg.payload || {};\nlet loc = (row.Location || \"\").toString().trim();\n\n// แยก lat,lon\nlet parts = loc.split(\",\").map(s => parseFloat(s));\nif (parts.length < 2 || isNaN(parts[0]) || isNaN(parts[1])) {\n    node.warn(\"Location ไม่ถูกต้อง: \" + loc);\n    return null;\n}\nlet lat = parts[0];\nlet lon = parts[1];\n\n// ลบหมุดเดิม (ถ้ามี)\nconst LAST_KEY = \"last_selected_marker\";\nlet lastName = flow.get(LAST_KEY);\nlet delMsg = null;\nif (lastName) {\n    delMsg = { payload: { name: lastName, delete: true } };\n}\n\n// ตั้งชื่อหมุดใหม่ให้คงที่ (จะลบได้ง่าย)\nlet markerName = \"Location\";\nflow.set(LAST_KEY, markerName);\n\n// หมุดใหม่\nlet markerMsg = {\n    payload: {\n        name: markerName,\n        lat: lat,\n        lon: lon,\n        icon: \"fa-map-marker\",   \n        layer: \"Selected\",\n        popup: `\n            <div style=\"font-family: 'Jost', sans-serif; font-size:16px; color:#222;\">\n              <b style=\"font-size:14px; color:#00af92;\">${row.Date || \"\"} ${row.Time || \"\"}</b><br>\n              <span style=\"font-size:14px; color:#555;\">Roll: ${row.Roll ?? \"\"}</span><br>\n              <span style=\"font-size:14px; color:#555;\">Tilt LeftRight: ${row.TiltLeftRight ?? \"\"}</span><br>\n              <span style=\"font-size:14px; color:#555;\">Lat: ${lat.toFixed(6)}, Lon: ${lon.toFixed(6)}</span>\n            </div>\n          `\n        }\n};\n\n\nlet centerMsg = { payload: { command: { lat: lat, lon: lon, zoom: 16 } } };\n\nreturn [delMsg, markerMsg, centerMsg];\n",
         "outputs": 3,
@@ -1859,25 +2404,25 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1600,
-        "y": 1200,
+        "x": 1620,
+        "y": 1160,
         "wires": [
             [
-                "d39ad60551dd10d9"
+                "3194d30899b2566b"
             ],
             [
-                "d39ad60551dd10d9"
+                "3194d30899b2566b"
             ],
             [
-                "d39ad60551dd10d9"
+                "3194d30899b2566b"
             ]
         ]
     },
     {
-        "id": "d39ad60551dd10d9",
+        "id": "3194d30899b2566b",
         "type": "ui_worldmap",
-        "z": "2395f6adbeb5589e",
-        "group": "df612a6a97515f89",
+        "z": "e2dd1a4ff8f7c581",
+        "group": "7a65b16e0996be6b",
         "order": 1,
         "width": 9,
         "height": 6,
@@ -1905,29 +2450,8 @@
         "mapurl": "",
         "mapopt": "",
         "mapwms": false,
-        "x": 1770,
-        "y": 1200,
+        "x": 1790,
+        "y": 1160,
         "wires": []
-    },
-    {
-        "id": "c1c7c7aa8264eb20",
-        "type": "ui_template",
-        "z": "2395f6adbeb5589e",
-        "group": "031a4b4761184c01",
-        "name": "css-tableReports",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    /* หัวตาราง */\n    .tabulator .tabulator-col {\n        background-color: #FFFFFF !important;\n        border-right: none !important;\n        height: 40px !important;\n        font-size: 16px !important;\n        padding: 10px 10px 10px 5px;\n        border-bottom: none !important;\n    }\n  \n    .tabulator .tabulator-cell {\n        font-size: 15px !important;\n        padding: 10px;\n        border-right: none !important;  /* เส้นแนวตั้ง */\n    }\n\n    .tabulator .tabulator-row.tabulator-selected {\n    background-color: #E8FFF5 !important; \n    border-left: 4px solid #00AF92 !important;\n    }\n\n    .tabulator .tabulator-row.tabulator-selected .tabulator-cell {\n    color: #092621 !important;\n    font-weight: 600;\n    }\n\n    \n</style>\n\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            []
-        ]
     }
 ]

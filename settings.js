@@ -10,5 +10,9 @@ module.exports = {
 
   editorTheme: {
     projects: { enabled: false }
-  }
+  },
+
+functionGlobalContext: {
+  ObjectId: require('mongodb').ObjectId
+}
 };

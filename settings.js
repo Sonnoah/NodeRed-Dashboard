@@ -12,7 +12,5 @@ module.exports = {
     projects: { enabled: false }
   },
 
-functionGlobalContext: {
-  ObjectId: require('mongodb').ObjectId
-}
+
 };

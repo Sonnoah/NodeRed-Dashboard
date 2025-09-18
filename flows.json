@@ -2280,29 +2280,7 @@
         "x": 1130,
         "y": 140,
         "wires": [
-            [
-                "4e3309a119ecd487"
-            ]
-        ]
-    },
-    {
-        "id": "4e3309a119ecd487",
-        "type": "function",
-        "z": "e2dd1a4ff8f7c581",
-        "name": "func-reset",
-        "func": "const KEY   = \"6C055D8D855F3A35220BE47636978487\";\nconst TOKEN = \"Bearer 9cfe067d-5fda-4ad3-a77c-7e0f9fce5fbf\";\n\nmsg.method = \"POST\";\nmsg.url = \"https://magellan.ais.co.th/asgardpullmessagesapis/api/send/thing\";\n\nmsg.headers = {\n  \"Content-Type\": \"application/json\",\n  \"Authorization\": TOKEN\n};\nmsg.payload = { Key: KEY, Message: \"r\" };\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1320,
-        "y": 140,
-        "wires": [
-            [
-                "e56465f35e865b55"
-            ]
+            []
         ]
     },
     {
@@ -2322,66 +2300,6 @@
         "className": "",
         "x": 1410,
         "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e56465f35e865b55",
-        "type": "http request",
-        "z": "e2dd1a4ff8f7c581",
-        "name": "",
-        "method": "use",
-        "ret": "obj",
-        "paytoqs": "body",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 1490,
-        "y": 140,
-        "wires": [
-            [
-                "040378872284f26f",
-                "1903922f4df81c9c"
-            ]
-        ]
-    },
-    {
-        "id": "040378872284f26f",
-        "type": "debug",
-        "z": "e2dd1a4ff8f7c581",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1660,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "1903922f4df81c9c",
-        "type": "function",
-        "z": "e2dd1a4ff8f7c581",
-        "name": "func",
-        "func": "const b = msg.payload || {};\nconst op = b.OperationStatus || {};\nmsg.payload = {\n  ok: op.IsSuccess ?? op.Success ?? (op.Code === \"20000\"),\n  code: op.Code ?? null,\n  desc: op.Description ?? op.DeveloperMessage ?? \"\",\n  sensor: b.Sensor || null   \n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1650,
-        "y": 100,
         "wires": [
             []
         ]

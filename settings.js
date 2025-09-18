@@ -4,7 +4,7 @@ module.exports = {
 
   disableEditor: false,
 
-  httpAdminRoot: "/red",
+  httpAdminRoot: "/edit",
 
 
   ui: { path: "/ui" },

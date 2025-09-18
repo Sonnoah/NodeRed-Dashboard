@@ -7,4 +7,5 @@ RUN npm install --unsafe-perm \
     node-red-contrib-web-worldmap
 
 COPY settings.js /data/
+COPY public      /data/public
 COPY flows.json  /data/
